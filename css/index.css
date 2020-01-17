@@ -361,6 +361,13 @@ canvas,
   -ms-animation: scroll-down-effect 1.5s infinite;
   animation: scroll-down-effect 1.5s infinite;
 }
+.avatar-img {
+  -webkit-animation: avatar_turn_around 2s linear infinite;
+  -moz-animation: avatar_turn_around 2s linear infinite;
+  -o-animation: avatar_turn_around 2s linear infinite;
+  -ms-animation: avatar_turn_around 2s linear infinite;
+  animation: avatar_turn_around 2s linear infinite;
+}
 .reward-main {
   -webkit-animation: donate_effcet 0.3s 0.1s ease both;
   -moz-animation: donate_effcet 0.3s 0.1s ease both;
@@ -1230,8 +1237,8 @@ canvas,
   overflow: auto;
   margin: 0 0 1rem;
   padding: 0;
-  background: #f6f8fa;
-  color: #90a4ae;
+  background: #0f111a;
+  color: #8f93a2;
   font-size: 14px;
   line-height: 20px;
 }
@@ -1280,12 +1287,13 @@ blockquote footer cite:before {
 .article-container pre code {
   padding: 0;
   background: none;
-  color: #90a4ae;
+  color: #8f93a2;
   text-shadow: none;
 }
 .article-container .highlight {
   position: relative;
   border-radius: 1px;
+  display: none;
 }
 .article-container .highlight pre {
   margin: 0;
@@ -1293,11 +1301,11 @@ blockquote footer cite:before {
   border: none;
 }
 .article-container .highlight .line::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container .highlight .line.marked {
-  background-color: rgba(128,203,196,0.251);
+  background-color: rgba(113,124,180,0.314);
 }
 .article-container .highlight table {
   position: relative;
@@ -1317,7 +1325,7 @@ blockquote footer cite:before {
   padding: 0.2rem 0 0.2rem 0.7rem;
   width: 100%;
   height: 1.4em;
-  color: #90a4ae;
+  color: #8f93a2;
   font-size: 1em;
   line-height: 1em;
 }
@@ -1340,10 +1348,10 @@ blockquote footer cite:before {
 .article-container .highlight figcaption a {
   float: right;
   padding-right: 10px;
-  color: #90a4ae;
+  color: #8f93a2;
 }
 .article-container .highlight figcaption a:hover {
-  border-bottom-color: #90a4ae;
+  border-bottom-color: #8f93a2;
 }
 .article-container .highlight figcaption+table {
   margin-top: 1.1rem;
@@ -1357,15 +1365,15 @@ blockquote footer cite:before {
 .article-container .highlight .gutter pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  background-color: #f6f8fa;
-  color: #cfd8dc;
+  background-color: #0f111a;
+  color: rgba(59,63,81,0.502);
   text-align: right;
 }
 .article-container .highlight .code pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   width: 100%;
-  background-color: #f6f8fa;
+  background-color: #0f111a;
 }
 .article-container .highlight .line {
   height: 1rem;
@@ -1386,20 +1394,20 @@ blockquote footer cite:before {
   border: none;
 }
 .article-container pre .deletion {
-  background: #fdd;
+  background: #008000;
 }
 .article-container pre .addition {
-  background: #dfd;
+  background: #800000;
 }
 .article-container pre .meta {
-  color: #7c4dff;
+  color: #c792ea;
 }
 .article-container pre .comment {
-  color: rgba(144,164,174,0.565);
+  color: #464b5d;
 }
 .article-container pre .comment::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .variable,
 .article-container pre .attribute,
@@ -1413,7 +1421,7 @@ blockquote footer cite:before {
 .article-container pre .tag .name,
 .article-container pre .css .class,
 .article-container pre .css .pseudo {
-  color: #e53935;
+  color: #ff5370;
 }
 .article-container pre .variable::selection,
 .article-container pre .attribute::selection,
@@ -1427,15 +1435,15 @@ blockquote footer cite:before {
 .article-container pre .tag .name::selection,
 .article-container pre .css .class::selection,
 .article-container pre .css .pseudo::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .tag {
-  color: #39adb5;
+  color: #89ddff;
 }
 .article-container pre .tag::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .number,
 .article-container pre .preprocessor,
@@ -1443,7 +1451,7 @@ blockquote footer cite:before {
 .article-container pre .params,
 .article-container pre .constant,
 .article-container pre .command {
-  color: #f76d47;
+  color: #f78c6c;
 }
 .article-container pre .number::selection,
 .article-container pre .preprocessor::selection,
@@ -1451,15 +1459,15 @@ blockquote footer cite:before {
 .article-container pre .params::selection,
 .article-container pre .constant::selection,
 .article-container pre .command::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .built_in {
-  color: #ffb62c;
+  color: #ffcb6b;
 }
 .article-container pre .built_in::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .ruby .class .title,
 .article-container pre .css .rules .attribute,
@@ -1472,7 +1480,7 @@ blockquote footer cite:before {
 .article-container pre .special,
 .article-container pre .number,
 .article-container pre .formula {
-  color: #91b859;
+  color: #c3e88d;
 }
 .article-container pre .ruby .class .title::selection,
 .article-container pre .css .rules .attribute::selection,
@@ -1485,19 +1493,19 @@ blockquote footer cite:before {
 .article-container pre .special::selection,
 .article-container pre .number::selection,
 .article-container pre .formula::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .keyword,
 .article-container pre .title,
 .article-container pre .css .hexcolor {
-  color: #39adb5;
+  color: #89ddff;
 }
 .article-container pre .keyword::selection,
 .article-container pre .title::selection,
 .article-container pre .css .hexcolor::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .function,
 .article-container pre .python .decorator,
@@ -1507,7 +1515,7 @@ blockquote footer cite:before {
 .article-container pre .perl .sub,
 .article-container pre .javascript .title,
 .article-container pre .coffeescript .title {
-  color: #6182b8;
+  color: #82aaff;
 }
 .article-container pre .function::selection,
 .article-container pre .python .decorator::selection,
@@ -1517,24 +1525,24 @@ blockquote footer cite:before {
 .article-container pre .perl .sub::selection,
 .article-container pre .javascript .title::selection,
 .article-container pre .coffeescript .title::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .article-container pre .tag .attr,
 .article-container pre .javascript .function {
-  color: #7c4dff;
+  color: #c792ea;
 }
 .article-container pre .tag .attr::selection,
 .article-container pre .javascript .function::selection {
-  background: rgba(128,203,196,0.251);
-  color: #90a4ae;
+  background: rgba(113,124,180,0.314);
+  color: #8f93a2;
 }
 .highlight-tools {
   position: relative;
   width: 100%;
   height: 1.4rem;
-  background: #e6ebf1;
-  color: #90a4ae;
+  background: #06060a;
+  color: #8f93a2;
   font-size: 14px;
 }
 .highlight-tools + figure {
@@ -1820,7 +1828,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside_content .card-widget {
-    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 .category-content ol,
@@ -2094,6 +2102,15 @@ blockquote footer cite:before {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+#footer:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  content: '';
 }
 #footer-wrap {
   position: relative;
@@ -2575,9 +2592,8 @@ header {
   position: relative;
   margin: 0 0 1rem;
   padding: 15px;
-  border: initial;
-  border-left: 5px solid #eee;
-  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-left-width: 5px;
   border-radius: 3px;
 }
 .note h2,
@@ -2585,7 +2601,7 @@ header {
 .note h4,
 .note h5,
 .note h6 {
-  margin-top: 3px;
+  margin-top: 0;
   margin-bottom: 0;
   padding-top: 0 !important;
   border-bottom: initial;
@@ -2608,18 +2624,7 @@ header {
 .note img:last-child {
   margin-bottom: 0 !important;
 }
-.note:not(.no-icon) {
-  padding-left: 45px;
-}
-.note:not(.no-icon)::before {
-  position: absolute;
-  top: 13px;
-  left: 15px;
-  font-size: larger;
-  font-family: 'FontAwesome';
-}
 .note.default {
-  background-color: #f7f7f7;
   border-left-color: #777;
 }
 .note.default h2,
@@ -2629,12 +2634,7 @@ header {
 .note.default h6 {
   color: #777;
 }
-.note.default:not(.no-icon)::before {
-  content: "\f0a9";
-  color: #777;
-}
 .note.primary {
-  background-color: #f5f0fa;
   border-left-color: #6f42c1;
 }
 .note.primary h2,
@@ -2644,12 +2644,7 @@ header {
 .note.primary h6 {
   color: #6f42c1;
 }
-.note.primary:not(.no-icon)::before {
-  content: "\f055";
-  color: #6f42c1;
-}
 .note.info {
-  background-color: #eef7fa;
   border-left-color: #428bca;
 }
 .note.info h2,
@@ -2659,12 +2654,7 @@ header {
 .note.info h6 {
   color: #428bca;
 }
-.note.info:not(.no-icon)::before {
-  content: "\f05a";
-  color: #428bca;
-}
 .note.success {
-  background-color: #eff8f0;
   border-left-color: #5cb85c;
 }
 .note.success h2,
@@ -2674,12 +2664,7 @@ header {
 .note.success h6 {
   color: #5cb85c;
 }
-.note.success:not(.no-icon)::before {
-  content: "\f058";
-  color: #5cb85c;
-}
 .note.warning {
-  background-color: #fdf8ea;
   border-left-color: #f0ad4e;
 }
 .note.warning h2,
@@ -2689,12 +2674,7 @@ header {
 .note.warning h6 {
   color: #f0ad4e;
 }
-.note.warning:not(.no-icon)::before {
-  content: "\f06a";
-  color: #f0ad4e;
-}
 .note.danger {
-  background-color: #fcf1f2;
   border-left-color: #d9534f;
 }
 .note.danger h2,
@@ -2702,10 +2682,6 @@ header {
 .note.danger h4,
 .note.danger h5,
 .note.danger h6 {
-  color: #d9534f;
-}
-.note.danger:not(.no-icon)::before {
-  content: "\f056";
   color: #d9534f;
 }
 .layout_page {
@@ -3161,6 +3137,23 @@ header {
     margin: 0;
   }
 }
+@media screen and (min-width: 900px) {
+  #recent-posts,
+  #page,
+  .category-content,
+  #archive,
+  .tag-cloud,
+  .flink,
+  #tag,
+  #category {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+}
 @media screen and (max-width: 900px) {
   #page,
   .category-content,
@@ -3358,9 +3351,137 @@ header {
 #top-container > #post-info #post-meta .post-meta-pv-cv {
   display: inline-block;
 }
+#post-content h1,
+#post-content h2,
+#post-content h3,
+#post-content h4,
+#post-content h5,
+#post-content h6 {
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#post-content h1:before,
+#post-content h2:before,
+#post-content h3:before,
+#post-content h4:before,
+#post-content h5:before,
+#post-content h6:before {
+  position: absolute;
+  top: calc(50% - 0.35rem);
+  left: 0;
+  color: #f47466;
+  content: '\f0c1';
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 0.8rem;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#post-content h1:hover,
+#post-content h2:hover,
+#post-content h3:hover,
+#post-content h4:hover,
+#post-content h5:hover,
+#post-content h6:hover {
+  padding-left: 1.1rem;
+}
+#post-content h1:hover:before,
+#post-content h2:hover:before,
+#post-content h3:hover:before,
+#post-content h4:hover:before,
+#post-content h5:hover:before,
+#post-content h6:hover:before {
+  color: #49b1f5;
+}
+#post-content h1 {
+  padding-left: 1.3rem;
+}
+#post-content h1 code {
+  font-size: 1rem;
+}
+#post-content h1:before {
+  top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
+  font-size: 1rem;
+}
+#post-content h1:hover {
+  padding-left: 1.2rem;
+}
+#post-content h2 {
+  padding-left: 1.2rem;
+}
+#post-content h2 code {
+  font-size: 0.9rem;
+}
+#post-content h2:before {
+  top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
+  font-size: 0.9rem;
+}
+#post-content h2:hover {
+  padding-left: 1.1rem;
+}
+#post-content h3 {
+  padding-left: 1.1rem;
+}
+#post-content h3 code {
+  font-size: 0.8rem;
+}
+#post-content h3:before {
+  top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
+  font-size: 0.8rem;
+}
+#post-content h3:hover {
+  padding-left: 1rem;
+}
+#post-content h4 {
+  padding-left: 1rem;
+}
+#post-content h4 code {
+  font-size: 0.7rem;
+}
+#post-content h4:before {
+  top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
+  font-size: 0.7rem;
+}
+#post-content h4:hover {
+  padding-left: 0.9rem;
+}
+#post-content h5 {
+  padding-left: 0.9rem;
+}
+#post-content h5 code {
+  font-size: 0.6rem;
+}
+#post-content h5:before {
+  top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
+  font-size: 0.6rem;
+}
+#post-content h5:hover {
+  padding-left: 0.8rem;
+}
+#post-content h6 {
+  padding-left: 0.9rem;
+}
+#post-content h6 code {
+  font-size: 0.6rem;
+}
+#post-content h6:before {
+  top: calc(50% - unit(fontsize / 2 - 0.05, 'rem'));
+  font-size: 0.6rem;
+}
+#post-content h6:hover {
+  padding-left: 0.8rem;
+}
 #post-content ol,
 #post-content ul {
   margin-top: 0.4rem;
+  padding: 0 0 0 0.8rem;
+  list-style: none;
   counter-reset: li;
 }
 #post-content ol p,
@@ -3376,8 +3497,55 @@ header {
 #post-content ol li,
 #post-content ul li {
   position: relative;
-  margin: 0.3rem 0;
-  padding-left: 0.3rem;
+  margin: 0.2rem 0;
+  padding: 0.1rem 0.5rem 0.1rem 1.5rem;
+}
+#post-content ol li:hover:before,
+#post-content ul li:hover:before {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#post-content ol li:before,
+#post-content ul li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #49b1f5;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#post-content ol > li:before {
+  margin-top: 0.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+  content: counter(li);
+  counter-increment: li;
+  text-align: center;
+  font-size: 0.6rem;
+  line-height: 1.2rem;
+}
+#post-content ul > li:hover:before {
+  border-color: #ff7242;
+}
+#post-content ul > li:before {
+  top: 10px;
+  margin-left: 0.45rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  border: 0.15rem solid #49b1f5;
+  border-radius: 0.3rem;
+  background: #fff;
+  content: '';
+  line-height: 0.3rem;
 }
 a {
   color: #99a9bf;
@@ -3420,7 +3588,7 @@ img {
   top: 0;
   z-index: 1;
   padding: 7px 10px;
-  color: #90a4ae;
+  color: #8f93a2;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -3452,7 +3620,7 @@ img {
   position: absolute;
   left: 15px;
   z-index: 1;
-  color: #90a4ae;
+  color: #8f93a2;
   text-transform: capitalize;
   font-weight: bold;
   font-size: 0.8rem;
@@ -3464,8 +3632,8 @@ img {
   top: 0;
   right: 0;
   z-index: 1;
-  background: #e6ebf1;
-  color: #39adb5;
+  background: #06060a;
+  color: #89ddff;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -3475,7 +3643,7 @@ img {
   top: 0.4rem;
   right: 10px;
   z-index: 1;
-  color: #39adb5;
+  color: #89ddff;
   cursor: pointer;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -3484,7 +3652,7 @@ img {
   transition: color 0.2s;
 }
 .highlight-tools .fa-clipboard:hover {
-  color: #2e8a91;
+  color: #3bc6ff;
 }
 @media screen and (min-width: 1300px) {
   .layout_post {
@@ -4422,10 +4590,6 @@ img {
 }
 [data-theme='dark'] #mobile-sidebar #mobile-sidebar-toc a {
   color: rgba(255,255,255,0.6) !important;
-}
-[data-theme='dark'] .note {
-  filter: brightness(0.7);
-  color: #4c4948;
 }
 [data-theme='dark'] #hexo-blog-encrypt label,
 [data-theme='dark'] #hexo-blog-encrypt input {
