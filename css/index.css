@@ -1293,7 +1293,6 @@ blockquote footer cite:before {
 .article-container .highlight {
   position: relative;
   border-radius: 1px;
-  display: none;
 }
 .article-container .highlight pre {
   margin: 0;
