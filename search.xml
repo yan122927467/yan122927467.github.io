@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>My Daily Life Jan 20th</title>
+      <link href="/2020/01/20/DailyLife--Jan--20th/"/>
+      <url>/2020/01/20/DailyLife--Jan--20th/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><pre><code>没错今天非常的浑浑噩噩，上午基本没干什么，除了下载了一下vim编辑markdown文件的插件后，然后还非常的作。。。诶，具体的就不说了。好不容易坚持了一段时间，突然又放弃了。下午貌似捣鼓网页捣鼓了半天，貌似却没啥成果。然后睡了一觉。有些疲惫。晚上也捣鼓了一些东西。貌似收获也不大。。明天再写一篇文章记录一下假期任务和完成情况吧。每天锻炼的项目只能多不能少。十点半前必须睡觉。今天除了安装了一些必要插件外，令需要记得就是有关vim的快捷方式：</code></pre><table><thead><tr><th>markdown命令</th><th>功能</th></tr></thead><tbody><tr><td>zr</td><td>降低整个缓冲区的折叠级别</td></tr><tr><td>zR</td><td>打开所有折叠</td></tr><tr><td>zm</td><td>增加整个缓冲区的折叠级别</td></tr><tr><td>zM</td><td>折叠所有内容</td></tr><tr><td>za</td><td>打开光标所在的折叠</td></tr><tr><td>zA</td><td>递归打开一个折痕</td></tr><tr><td>zc</td><td>关闭光标所在的折痕</td></tr><tr><td>zC</td><td>递归关闭光标所在的位置</td></tr></tbody></table><h3 id="Adobe账号"><a href="#Adobe账号" class="headerlink" title="Adobe账号"></a>Adobe账号</h3><p>还有一个 Adobe账号：<a href="mailto:3jkxtqhtq4@privaterelay.appleid.com">3jkxtqhtq4@privaterelay.appleid.com</a></p><p>这搁谁谁能记得住阿</p><p>   现在是22:30 准备去睡觉，多的就先不说了，每天早起规划第二天的任务，晚上打卡，完成情况。</p><h2 id="就先这样吧-晚安"><a href="#就先这样吧-晚安" class="headerlink" title="就先这样吧 晚安"></a>就先这样吧 晚安</h2></body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> My Daily Life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>20th</title>
+      <link href="/2020/01/20/20th/"/>
+      <url>/2020/01/20/20th/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body></body></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于C指针----和指针的第一次亲密接触</title>
       <link href="/2020/01/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
       <url>/2020/01/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
