@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>寒假计划与每日进度（总章程）</title>
+      <link href="/2020/01/21/%E5%AF%92%E5%81%87%E8%AE%A1%E5%88%92%E4%B8%8E%E6%AF%8F%E6%97%A5%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5/"/>
+      <url>/2020/01/21/%E5%AF%92%E5%81%87%E8%AE%A1%E5%88%92%E4%B8%8E%E6%AF%8F%E6%97%A5%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><h1 id="学习上"><a href="#学习上" class="headerlink" title="学习上"></a>学习上</h1><h2 id="寒假需要掌握的技能："><a href="#寒假需要掌握的技能：" class="headerlink" title="寒假需要掌握的技能："></a>寒假需要掌握的技能：</h2><table><thead><tr><th>序号</th><th>技能</th><th>当前掌握程度</th><th>距离开学还有</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>熟练掌握vim使用技巧</td><td>百分之二十有余</td><td>25天</td><td>每天比练，必学</td></tr><tr><td>2</td><td>markdown技巧熟记</td><td>百分之二十有余</td><td>25天</td><td>每天博客坚持打卡</td></tr><tr><td>3</td><td>学会理财</td><td>百分之零</td><td>25天</td><td>利用碎片时间</td></tr><tr><td>4</td><td>完全驾驭自己的博客网站，设置全部成功！</td><td>百分之五十</td><td>25天</td><td>学累了可以干这个</td></tr></tbody></table><h3 id="以上未完待续。。"><a href="#以上未完待续。。" class="headerlink" title="以上未完待续。。"></a>以上未完待续。。</h3><h2 id="寒假任务："><a href="#寒假任务：" class="headerlink" title="寒假任务："></a>寒假任务：</h2><table><thead><tr><th>序号</th><th>任务</th><th>当前进度</th><th>距离开学还有</th><th>备注</th></tr></thead><tbody><tr><td>1</td><td>试衣APP</td><td>百分之十</td><td>25天</td><td>赶紧的干起来</td></tr><tr><td>2</td><td>征服C指针</td><td>百分之五</td><td>25天</td><td>每天必看</td></tr><tr><td>3</td><td>swift项目书籍</td><td>百分之零</td><td>25天</td><td>每天必看</td></tr><tr><td>4</td><td>算法分析与计组原理</td><td>百分之零</td><td>25天</td><td>尽量看</td></tr><tr><td>5</td><td>英语学习每日45分钟</td><td>百分之零</td><td>25天</td><td>赶紧安排上日程</td></tr></tbody></table><h2 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h2><p>1.博客每日必写，养成习惯，不要求写多少，但一定用心</p><hr><p>2.可以的话学习一下word，Excel，ps技能，剪视频等</p><hr><p>3.</p><h1 id="生活上"><a href="#生活上" class="headerlink" title="生活上"></a>生活上</h1><h2 id="作息时间表"><a href="#作息时间表" class="headerlink" title="作息时间表"></a>作息时间表</h2><table><thead><tr><th>时间</th><th>事项</th></tr></thead><tbody><tr><td>7:00</td><td>起床</td></tr><tr><td>7:00–8:00</td><td>晨练，洗漱，看书</td></tr><tr><td>8:00–8:30</td><td>早饭</td></tr><tr><td>8:30-9:00</td><td>看书，规划一天的To Do List</td></tr></tbody></table></body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> My Daily Life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 寒假终极计划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>My Daily Life Jan 20th</title>
       <link href="/2020/01/20/DailyLife--Jan--20th/"/>
       <url>/2020/01/20/DailyLife--Jan--20th/</url>
       
-        <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><pre><code>没错今天非常的浑浑噩噩，上午基本没干什么，除了下载了一下vim编辑markdown文件的插件后，然后还非常的作。。。诶，具体的就不说了。好不容易坚持了一段时间，突然又放弃了。下午貌似捣鼓网页捣鼓了半天，貌似却没啥成果。然后睡了一觉。有些疲惫。晚上也捣鼓了一些东西。貌似收获也不大。。明天再写一篇文章记录一下假期任务和完成情况吧。每天锻炼的项目只能多不能少。十点半前必须睡觉。今天除了安装了一些必要插件外，令需要记得就是有关vim的快捷方式：</code></pre><table><thead><tr><th>markdown命令</th><th>功能</th></tr></thead><tbody><tr><td>zr</td><td>降低整个缓冲区的折叠级别</td></tr><tr><td>zR</td><td>打开所有折叠</td></tr><tr><td>zm</td><td>增加整个缓冲区的折叠级别</td></tr><tr><td>zM</td><td>折叠所有内容</td></tr><tr><td>za</td><td>打开光标所在的折叠</td></tr><tr><td>zA</td><td>递归打开一个折痕</td></tr><tr><td>zc</td><td>关闭光标所在的折痕</td></tr><tr><td>zC</td><td>递归关闭光标所在的位置</td></tr></tbody></table><h3 id="Adobe账号"><a href="#Adobe账号" class="headerlink" title="Adobe账号"></a>Adobe账号</h3><p>还有一个 Adobe账号：<a href="mailto:3jkxtqhtq4@privaterelay.appleid.com">3jkxtqhtq4@privaterelay.appleid.com</a></p><p>这搁谁谁能记得住阿</p><p>   现在是22:30 准备去睡觉，多的就先不说了，每天早起规划第二天的任务，晚上打卡，完成情况。</p><h2 id="就先这样吧-晚安"><a href="#就先这样吧-晚安" class="headerlink" title="就先这样吧 晚安"></a>就先这样吧 晚安</h2></body></html>]]></content>
+        <content type="html"><![CDATA[<html><head></head><body><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>   没错今天非常的浑浑噩噩，上午基本没干什么，除了下载了一下vim编辑markdown文件的插件后，然后还非常的作。。。诶，具体的就不说了。好不容易坚持了一段时间，突然又放弃了。<br>    下午貌似捣鼓网页捣鼓了半天，貌似却没啥成果。然后睡了一觉。有些疲惫。晚上也捣鼓了一些东西。貌似收获也不大。。</p><p>   明天再写一篇文章记录一下假期任务和完成情况吧。</p><p>   每天锻炼的项目只能多不能少。十点半前必须睡觉。</p><p>   今天除了安装了一些必要插件外，令需要记得就是有关vim的快捷方式：</p><table><thead><tr><th>markdown命令</th><th>功能</th></tr></thead><tbody><tr><td>zr</td><td>降低整个缓冲区的折叠级别</td></tr><tr><td>zR</td><td>打开所有折叠</td></tr><tr><td>zm</td><td>增加整个缓冲区的折叠级别</td></tr><tr><td>zM</td><td>折叠所有内容</td></tr><tr><td>za</td><td>打开光标所在的折叠</td></tr><tr><td>zA</td><td>递归打开一个折痕</td></tr><tr><td>zc</td><td>关闭光标所在的折痕</td></tr><tr><td>zC</td><td>递归关闭光标所在的位置</td></tr></tbody></table><h3 id="Adobe账号"><a href="#Adobe账号" class="headerlink" title="Adobe账号"></a>Adobe账号</h3><p>还有一个 Adobe账号：<a href="mailto:3jkxtqhtq4@privaterelay.appleid.com">3jkxtqhtq4@privaterelay.appleid.com</a></p><p>这搁谁谁能记得住阿</p><p>   现在是22:30 准备去睡觉，多的就先不说了，每天早起规划第二天的任务，晚上打卡，完成情况。</p><h2 id="就先这样吧-晚安"><a href="#就先这样吧-晚安" class="headerlink" title="就先这样吧 晚安"></a>就先这样吧 晚安</h2></body></html>]]></content>
       
       
       <categories>
