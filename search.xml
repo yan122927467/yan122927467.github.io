@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/02/08/hello-world/</url>
+    <title>Mac修改键盘之 将 caps lock修改为esc</title>
+    <url>/2020/02/05/Mac%E4%BF%AE%E6%94%B9%E9%94%AE%E7%9B%98%E4%B9%8B%E5%B0%86%E5%A4%A7%E5%B0%8F%E5%86%99%E9%94%81%E5%AE%9A%E4%BF%AE%E6%94%B9esc/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h3 id="想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。"><a href="#想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。" class="headerlink" title="想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。"></a>想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。</h3><h3 id="大多数的人都是将caps-lock-修改为esc。"><a href="#大多数的人都是将caps-lock-修改为esc。" class="headerlink" title="大多数的人都是将caps lock 修改为esc。"></a>大多数的人都是将caps lock 修改为esc。</h3><p>因为caps lock 处在了最重要的位置却几乎不怎么使用他，如果用大写直接按住shift就可以了。</p>
+<h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><p>之前在网上查到了关于此类的问题，说需要下载一个第三方软件，我推荐一个非常简单的方法，就在mac的设置里：</p>
+<h4 id="找到系统偏好设置——-gt-键盘——-gt-左下角有一个修饰键"><a href="#找到系统偏好设置——-gt-键盘——-gt-左下角有一个修饰键" class="headerlink" title="找到系统偏好设置——>键盘——->左下角有一个修饰键"></a>找到系统偏好设置——>键盘——->左下角有一个修饰键</h4><p><a href="https://img-blog.csdnimg.cn/20200119094846166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119094846166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a><br>把第一个改成Escape就好啦</p>
+<h1 id="后记："><a href="#后记：" class="headerlink" title="后记："></a>后记：</h1><p>实际上如图所示，mac已经提供了部分功能的修改，如果还想修改别的键，直接修改就好了</p>
+</body></html>]]></content>
+      <categories>
+        <category>Mac骚操作</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 博客基础命令</title>
+    <url>/2020/02/04/hello-world/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure></div>
 
@@ -17,6 +32,203 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 </body></html>]]></content>
+      <categories>
+        <category>Hexo博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vim 基础操作 + 配置文件设置 基础版 for mac</title>
+    <url>/2020/02/03/vim%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C+%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AE%BE%E7%BD%AE/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h1><h2 id="vim-模式"><a href="#vim-模式" class="headerlink" title="vim 模式"></a>vim 模式</h2><h3 id="1-normal模式"><a href="#1-normal模式" class="headerlink" title="1.normal模式"></a>1.normal模式</h3><p>当我们用vim创建或者打开一个文件的时候，就是normal模式，然后我们可以输入一些指令，更加方便的操作文件。</p>
+<h3 id="2-insert模式"><a href="#2-insert模式" class="headerlink" title="2.insert模式"></a>2.insert模式</h3><p>顾名思义就是可以进行编辑自己的文件内容了，从normal模式到insert模式有很多种快捷键，稍后一一说明。但是从insert模式到normal模式需要按esc键，没错，当我们常用到vim进行编辑的时候，会非常频繁的使用esc，但是他的位置却不是很让我们提高效率，在这里我们可以吧caps lock 修改为esc ，毕竟caps lock 真的没什么用，却处于一个非常方便的位置。</p>
+<p>==具体修改可以看这篇博客，这里不再赘述==</p>
+<p><a href="https://blog.csdn.net/VistorsYan/article/details/104036840" target="_blank" rel="noopener">Mac修改键盘之 将 caps lock修改为esc</a></p>
+<h2 id="基本操作命令（增删改查-保存退出）"><a href="#基本操作命令（增删改查-保存退出）" class="headerlink" title="基本操作命令（增删改查+保存退出）"></a>基本操作命令（增删改查+保存退出）</h2><table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>i</td>
+<td>在光标前写入</td>
+</tr>
+<tr>
+<td>a</td>
+<td>在光标后插入</td>
+</tr>
+<tr>
+<td>o</td>
+<td>在光标所在行下一行插入一新行</td>
+</tr>
+<tr>
+<td>O</td>
+<td>在光标所在行上一行插入一新行</td>
+</tr>
+<tr>
+<td>shift+i</td>
+<td>行前插入</td>
+</tr>
+<tr>
+<td>shift + a</td>
+<td>行尾插入</td>
+</tr>
+<tr>
+<td>h j k l</td>
+<td>光标移动：←↓↑→   上下左右键也可移动</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>操作符</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>x</td>
+<td>删除当前光标所在的字符</td>
+</tr>
+<tr>
+<td>:wq然后回车</td>
+<td>保存并退出</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>剪切当前行</td>
+</tr>
+<tr>
+<td>p/P</td>
+<td>粘贴 前者是在光标之前，后者是在光标之后</td>
+</tr>
+<tr>
+<td>yy</td>
+<td>拷贝当前行</td>
+</tr>
+<tr>
+<td>/+要输入的字符串</td>
+<td>在文本中查找改字符串</td>
+</tr>
+</tbody></table>
+<h1 id="配置文件设置"><a href="#配置文件设置" class="headerlink" title="配置文件设置"></a>配置文件设置</h1><h2 id="创建vim配置文件"><a href="#创建vim配置文件" class="headerlink" title="创建vim配置文件"></a>创建vim配置文件</h2><h3 id="在根目录下找到-vim文件夹并打开"><a href="#在根目录下找到-vim文件夹并打开" class="headerlink" title="在根目录下找到 .vim文件夹并打开"></a>在根目录下找到 .vim文件夹并打开</h3><p>注：如果没有就新建一个.vim文件夹并打开即可。</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/</span><br><span class="line"><span class="built_in">cd</span> .vim</span><br></pre></td></tr></tbody></table></figure></div>
+<h3 id="然后-在当前路径下："><a href="#然后-在当前路径下：" class="headerlink" title="然后 在当前路径下："></a>然后 在当前路径下：</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">vim vimrc</span><br></pre></td></tr></tbody></table></figure></div>
+<p>这样就有打开了一个新的文件，这就是配置文件，你可以在这里进行“肆意的”修改</p>
+<h2 id="键位修改"><a href="#键位修改" class="headerlink" title="键位修改"></a>键位修改</h2><p>有时vim的一些快捷键很不合你的口味，比如方向键，所以可以把方向键的位置改为符合方向的键。</p>
+<h4 id="举例："><a href="#举例：" class="headerlink" title="举例："></a>举例：</h4><p>我想把h 键改为 i：（直接在vimrc里面写）</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">noremap i h</span><br></pre></td></tr></tbody></table></figure></div>
+<p>此时i键有着和h一样的功能，但是i键本来是有功能的（插入），因此==切记==不要忘了把i给改为别的键，如果你还想用这个功能的话。</p>
+<h2 id="指令快捷化"><a href="#指令快捷化" class="headerlink" title="指令快捷化"></a>指令快捷化</h2><p>vim 保存命令是在normal模式下输入 :w 然后回车，虽然很方便了，但是可以更快：</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">map</span> S :<span class="keyword">w</span><span class="symbol"><cr></cr></span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>现在直接用S即可保存，（w后的不用我说也清楚是回车的意思）<br>以此类推：举几个常用的例子</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">map</span> s <span class="symbol"><nop></nop></span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>nop(no operation) ==取消s的功能==</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">map</span> Q :q<span class="symbol"><cr></cr></span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>退出</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">map</span> R :<span class="keyword">source</span> $MYVIMRC<span class="symbol"><cr></cr></span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>刷新（应用的意思）<br>注：这些都需要保存退出以后才能生效，如果刷新，即刻生效</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line">synatx <span class="keyword">on</span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>代码高亮</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> <span class="keyword">number</span></span><br><span class="line"><span class="keyword">set</span> cursorline</span><br><span class="line"><span class="keyword">set</span> wrap</span><br><span class="line"><span class="keyword">set</span> wildmenu</span><br></pre></td></tr></tbody></table></figure></div>
+<p>打开行号<br>添加下划线<br>如果该行已满 自动换行<br>命令自动补全 tab 同bash</p>
+<h4 id="有关查找的指令"><a href="#有关查找的指令" class="headerlink" title="有关查找的指令"></a>有关查找的指令</h4><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> hlsearch</span><br><span class="line"><span class="keyword">set</span> incsearch</span><br><span class="line">exec <span class="string">"nohlsearch"</span></span><br><span class="line"><span class="keyword">set</span> ignorecase</span><br><span class="line"><span class="keyword">set</span> smartcase</span><br></pre></td></tr></tbody></table></figure></div>
+<p>查找时高亮显示<br>边输入边高亮<br>当再次进入文件时不显示高亮，否则还会显示上次查找的高亮<br>忽视高亮<br>忽略大小写<br>智能大小写</p>
+<p>==注：查找完后会依然显示高亮，去除高亮的命令是==</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line">:<span class="keyword">nohlsearch</span><span class="symbol"><cr></cr></span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>可以根据自己的意愿，按上边的方式修改一下快捷键去除查找后的高亮</p>
+<p>以上仅提供了一些基础常用的设置，还不是全部。。。。<br>有什么更好的指令欢迎下方留言，嘻嘻😬</p>
+</body></html>]]></content>
+      <categories>
+        <category>Mac骚操作</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C指针问题之不同类型指针之间的区别</title>
+    <url>/2020/02/02/C%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98%E4%B9%8B%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E6%8C%87%E9%92%88%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1 id="会想这样的一个问题："><a href="#会想这样的一个问题：" class="headerlink" title="会想这样的一个问题："></a>会想这样的一个问题：</h1><h3 id="指针就是地址吧，那么指向int-的指针也好，指向double的指针也好，他们有什么不同么"><a href="#指针就是地址吧，那么指向int-的指针也好，指向double的指针也好，他们有什么不同么" class="headerlink" title="== 指针就是地址吧，那么指向int 的指针也好，指向double的指针也好，他们有什么不同么=="></a>== 指针就是地址吧，那么指向int 的指针也好，指向double的指针也好，他们有什么不同么==</h3><p>emmmm<br>貌似也有一定道理。</p>
+<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>既然我们无法从正面解释，那我们就先设定一个“万能指针”<br>看我接下来这段操作：</p>
+<p><a href="https://img-blog.csdnimg.cn/20200119212651514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119212651514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload" title="在这里插入图片描述"></a></p>
+<p>在这里我创建了一个“可以指向任何类型的指针类型”——void*类型</p>
+<p>但是当我运行的时候，出现了一个错误：</p>
+<p><a href="https://img-blog.csdnimg.cn/20200119212816978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119212816978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload" title="在这里插入图片描述"></a></p>
+<p>仔细想一下，如果仅仅知道了地址，但是不知道保存的数据类型，也是无法取出值的。<br>也就是说，上边的错误和下边的错误是一样的</p>
+<p><a href="https://img-blog.csdnimg.cn/20200119213119242.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119213119242.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload" title="在这里插入图片描述"></a></p>
+<p>也会报同样的错误。</p>
+<p>如果我们把第一个做法中printf函数稍作更改</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">"%d\n"</span>,*(<span class="keyword">int</span>*)hoge_p);</span><br></pre></td></tr></tbody></table></figure></div>
+<p>成功！</p>
+<p>因此，与其写成这样，还不如刚开始就定义他的类型</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> *hoge_p;</span><br></pre></td></tr></tbody></table></figure></div>
+<p>这样编译器会记住 hoge_p是指向int的指针<br>这也就是为什么指针要定义他的类型。</p>
+<p>关于这一点，还有一个地方需要用到他的类型：<br>==指针运算==</p>
+<h2 id="指针运算"><a href="#指针运算" class="headerlink" title="指针运算"></a>指针运算</h2><p>书写如下代码：</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>{</span><br><span class="line">	<span class="keyword">int</span> hoge;</span><br><span class="line">	<span class="keyword">int</span>* hoge_p;</span><br><span class="line">	hoge_p = &hoge;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hoge_p 的初始地址为：%p\n"</span>,hoge_p);</span><br><span class="line">	hoge_p++;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hoge_p 加一后：%p\n"</span>,hoge_p);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hoge_p 加一之后再加三后：%p\n"</span>,hoge_p + <span class="number">3</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
+<p>发现运行结果：</p>
+<p><a href="https://img-blog.csdnimg.cn/20200119214650997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119214650997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload" title="在这里插入图片描述"></a></p>
+<p>我们知道c语言地址是以16进制的方式存储的。</p>
+<p>发现：</p>
+<h4 id="第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12"><a href="#第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12" class="headerlink" title="第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12."></a>第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12.</h4><p>不难看出：：</p>
+<h2 id="对指针加N，指针前进“当前指针指向的数据类型的长度×N”"><a href="#对指针加N，指针前进“当前指针指向的数据类型的长度×N”" class="headerlink" title="对指针加N，指针前进“当前指针指向的数据类型的长度×N”"></a>对指针加N，指针前进“当前指针指向的数据类型的长度×N”</h2></body></html>]]></content>
+      <categories>
+        <category>征服C指针</category>
+      </categories>
+      <tags>
+        <tag>C指针</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mac上自定义各个应用快捷键</title>
+    <url>/2020/02/01/Mac%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E4%B8%AA%E5%BA%94%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1 id="进入系统偏好设置"><a href="#进入系统偏好设置" class="headerlink" title="进入系统偏好设置"></a>进入系统偏好设置</h1><h2 id="键盘选项"><a href="#键盘选项" class="headerlink" title="键盘选项"></a>键盘选项</h2><h3 id="快捷键："><a href="#快捷键：" class="headerlink" title="快捷键："></a>快捷键：</h3><p><a href="https://img-blog.csdnimg.cn/20200121123450810.png" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200121123450810.png" class="lazyload" title="在这里插入图片描述"></a></p>
+<h3 id="选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。"><a href="#选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。" class="headerlink" title="选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。"></a>选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。</h3><p><a href="https://img-blog.csdnimg.cn/20200121123525851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200121123525851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload" title="在这里插入图片描述"></a></p>
+<p>点击添加，完成！</p>
+</body></html>]]></content>
+      <categories>
+        <category>Mac骚操作</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于C指针——和指针的第一次亲密接触</title>
+    <url>/2020/01/30/%E5%85%B3%E4%BA%8EC%E6%8C%87%E9%92%88%E2%80%94%E2%80%94%E5%92%8C%E6%8C%87%E9%92%88%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BA%B2%E5%AF%86%E6%8E%A5%E8%A7%A6/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="先看代码："><a href="#先看代码：" class="headerlink" title="先看代码："></a>先看代码：</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">cpp</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span>{</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> *c;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//输出每个变量的地址</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a的地址是 %p\n"</span>,&a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b的地址是 %p\n"</span>,&b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c的地址是 %p\n"</span>,&c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/*将a的地址赋予c*/</span></span><br><span class="line">    c = &a;<span class="comment">//此处需用到  ”&“来得到a的地址</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c修改后的地址为 %p\n"</span>,c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/* 通过c输出a的内容*/</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"*c ---->%d\n"</span>,*c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/* 通过c修改a的内容*/</span></span><br><span class="line">    *c = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a---->%d\n"</span>,a);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
+
+<h2 id="然后我们看运行结果"><a href="#然后我们看运行结果" class="headerlink" title="然后我们看运行结果"></a>然后我们看运行结果</h2><p><a href="https://img-blog.csdnimg.cn/20200115085336718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115085336718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<h2 id="我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c"><a href="#我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c" class="headerlink" title="我们首先声明了int型变量 a,b 然后声明了”指向int 的指针“类型的变量c"></a>我们首先声明了int型变量 a,b 然后声明了”指向int 的指针“类型的变量c</h2><p>==我们暂且先将c理解为指向int 的指针==</p>
+<h2 id="再看初始化完后内存中保存的样子"><a href="#再看初始化完后内存中保存的样子" class="headerlink" title="再看初始化完后内存中保存的样子"></a>再看初始化完后内存中保存的样子<a href="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2><p>在c语言中，会存在 int类型，double类型，等。。同样，c语言中也存在指针类型这样的类型。<br>指针类型并不是单独存在的，而是由其他类型派生出来的。。</p>
+<p>==由引用类型T派生的指针类型有时候称为’（指向）T的指针‘==</p>
+<p>因为指针类型是类型，所以他也像其他类型一样，有“指针类型的值和指针类型变量”，但有时，我们将“指针类型”，“指针类型变量”，“指针类型的值”简单统称为—指针</p>
+<p>因此 c就是一个指针类型变量—–指向int的指针，但此时并为对它赋值。</p>
+<p>接下来我们将a的地址赋予了c，此时c的值就是a的地址<a href="https://img-blog.csdnimg.cn/2020011509233464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/2020011509233464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<h2 id="接下来："><a href="#接下来：" class="headerlink" title="接下来："></a>接下来：</h2><p>在指针前面加<em>，可以表示指针指向的变量，因为现在c指向a，所以</em>c就等同于a。同理，修改*c就相当于修改了a的值。</p>
+<p>==这是对后两行输出做的解释==</p>
+<h2 id="补充："><a href="#补充：" class="headerlink" title="补充："></a>补充：</h2><p>如果说c是 指向int的指针，但我们声明变量时一般要遵循：</p>
+<h2 id="类型-变量名"><a href="#类型-变量名" class="headerlink" title="类型 变量名"></a>类型 变量名</h2><p>因此，我们似乎声明了一个名为*c的变量。</p>
+<p>所以我们可以写成 ==int* c==的形式。这样更符合  ==类型 变量名==  的形式。</p>
+<p>但之后就会出现问题：<br>数组也是C语言的一种类型。。如果按上述所说的话。<br>C语言声明数组时应该是：</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] <span class="built_in">array</span>;</span><br></pre></td></tr></tbody></table></figure></div>
+<p>很明显，会报错。这就产生了矛盾。。</p>
+<p>反而，Java中可以这么写，但是Java为了让C程序员更好的转向Java。也兼容了c语言定义数组的写法。。</p>
+<p>在这里需要插一句：</p>
+<h2 id="C语言的语法本来就是不自然的，奇怪的而又变态的。"><a href="#C语言的语法本来就是不自然的，奇怪的而又变态的。" class="headerlink" title="C语言的语法本来就是不自然的，奇怪的而又变态的。"></a>C语言的语法本来就是不自然的，奇怪的而又变态的。</h2><p>之后我会出一篇关于C语法的博客专门研究这“变态的”c语法。。。</p>
+<p>欢迎吐槽评论</p>
+</body></html>]]></content>
+      <categories>
+        <category>征服C指针</category>
+      </categories>
+      <tags>
+        <tag>C指针</tag>
+      </tags>
   </entry>
   <entry>
     <title>寒假计划与每日进度（总章程）</title>
