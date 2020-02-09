@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Codeblocks中文乱码解决方法</title>
+    <url>/2020/02/07/Codeblocks%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><p>Codeblocks中文乱码解决方法：</p>
+<p>特别提示：出现中文乱码情况才执行以下操作，未出现请勿随意修改！！！！</p>
+<p>打开Codeblocks -> 设置 -> 编辑器：</p>
+<p><a href="https://img-blog.csdnimg.cn/20191205172416635.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20191205172416635.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<p>然后点击 Encoding settings -> 选择编码 -> 选择UTF-8 -> 确定：</p>
+<p><a href="https://img-blog.csdnimg.cn/20191205172454640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20191205172454640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<p><a href="https://img-blog.csdnimg.cn/20191205172512827.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20191205172512827.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<p>点击设置 -> 编译器：</p>
+<p><a href="https://img-blog.csdnimg.cn/20191205172528406.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20191205172528406.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<p>点击Other compiler options->在空白处输入</p>
+<p> -finput-charset=UTF-8</p>
+<p>-fexec-charset=GBK</p>
+<p>点击确定 -> 随意修改下代码 ->重新生成。</p>
+<p><a href="https://img-blog.csdnimg.cn/2019120517254235.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/2019120517254235.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
+<p>即可解决乱码问题。</p>
+</body></html>]]></content>
+      <categories>
+        <category>Mac骚操作</category>
+      </categories>
+      <tags>
+        <tag>mac与windows兼容性</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Mac修改键盘之 将 caps lock修改为esc</title>
     <url>/2020/02/05/Mac%E4%BF%AE%E6%94%B9%E9%94%AE%E7%9B%98%E4%B9%8B%E5%B0%86%E5%A4%A7%E5%B0%8F%E5%86%99%E9%94%81%E5%AE%9A%E4%BF%AE%E6%94%B9esc/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h3 id="想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。"><a href="#想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。" class="headerlink" title="想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。"></a>想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。</h3><h3 id="大多数的人都是将caps-lock-修改为esc。"><a href="#大多数的人都是将caps-lock-修改为esc。" class="headerlink" title="大多数的人都是将caps lock 修改为esc。"></a>大多数的人都是将caps lock 修改为esc。</h3><p>因为caps lock 处在了最重要的位置却几乎不怎么使用他，如果用大写直接按住shift就可以了。</p>
