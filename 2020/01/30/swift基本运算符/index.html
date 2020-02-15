@@ -65,7 +65,7 @@ function activateLightMode(){
   medium_zoom: false,
   fancybox: true,
   Snackbar: {"bookmark":{"title":"Snackbar.bookmark.title","message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#2d3035","position":"bottom-left"},
-  baiduPush: false,
+  baiduPush: true,
   isHome: false,
   isPost: true
   
@@ -76,7 +76,7 @@ function activateLightMode(){
 
 
 
-<h1 id="关于-与-重点"><a href="#关于-与-重点" class="headerlink" title="关于 ? 与 !  //重点"></a>关于 ? 与 !  //重点</h1><p>swift语言中，如果不对变量进行初始化是不会自动给他一个初值的<a href="https://img-blog.csdnimg.cn/20200112143559495.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="此处报错" class="fancybox"><img alt="此处报错" data-src="https://img-blog.csdnimg.cn/20200112143559495.png" class="lazyload" title="此处报错"></a><br>此处报错的原因就是未初始化number就对他进行了使用</p>
+<h1 id="关于-与-重点"><a href="#关于-与-重点" class="headerlink" title="关于 ? 与 !  //重点"></a>关于 ? 与 !  //重点</h1><p>swift语言中，如果不对变量进行初始化是不会自动给他一个初值的<a href="https://img-blog.csdnimg.cn/20200112143559495.png" target="_blank" rel="noopener" data-fancybox="group" data-caption="此处报错" class="fancybox"><img alt="此处报错" title="此处报错" data-src="https://img-blog.csdnimg.cn/20200112143559495.png" class="lazyload"></a><br>此处报错的原因就是未初始化number就对他进行了使用</p>
 <p>swift中有一种可选类型。（Optionals）</p>
 <h4 id="？"><a href="#？" class="headerlink" title="？"></a>？</h4><p>在定义变量时添加一个问号。以为此变量为可选类型，如果后面，给该变量赋值x。那么他就是x，如果没有赋值，他就是nil。</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">// 此时结果是nil</span></span><br></pre></td></tr></tbody></table></figure></div>
