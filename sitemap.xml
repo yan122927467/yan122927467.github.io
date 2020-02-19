@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.charlesyan.cn/movies/index.html</loc>
+    
+    <lastmod>2020-02-19T09:07:35.852Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.charlesyan.cn/2020/02/19/markdown%E8%AF%AD%E6%B3%95/</loc>
     
     <lastmod>2020-02-19T01:58:46.656Z</lastmod>
@@ -208,13 +215,6 @@
     <loc>https://www.charlesyan.cn/2020/02/01/Mac%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E4%B8%AA%E5%BA%94%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     
     <lastmod>2020-02-09T09:05:45.181Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.charlesyan.cn/movies/index.html</loc>
-    
-    <lastmod>2020-02-08T03:17:37.753Z</lastmod>
     
   </url>
   
