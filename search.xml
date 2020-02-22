@@ -5,26 +5,26 @@
     <url>/2020/02/19/markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>一、markdown简介</h1>
 <p>（注：如果对markdown有一定了解。可以略过此处，第一章主要对markdown基础知识做个补充,摘自菜鸟教程<a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener">此处原文档</a> ）</p>
-<h2 id="1-1-markdown背景"><a class="header-anchor" href="#1-1-markdown背景">¶</a>1.1 markdown背景</h2>
-<h3 id="1-markdown是一种轻量级标记语言，她与徐人们使用易读易写的纯文本格式编写文档。"><a class="header-anchor" href="#1-markdown是一种轻量级标记语言，她与徐人们使用易读易写的纯文本格式编写文档。">¶</a>1. markdown是一种轻量级标记语言，她与徐人们使用易读易写的纯文本格式编写文档。</h3>
-<h3 id="2-Markdown-语言在-2004-由约翰·格鲁伯（英语：John-Gruber）创建。"><a class="header-anchor" href="#2-Markdown-语言在-2004-由约翰·格鲁伯（英语：John-Gruber）创建。">¶</a>2. Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</h3>
-<h3 id="3-Markdown-编写的文档可以导出-HTML-、Word、图像、PDF、Epub-等多种格式的文档。"><a class="header-anchor" href="#3-Markdown-编写的文档可以导出-HTML-、Word、图像、PDF、Epub-等多种格式的文档。">¶</a>3. Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</h3>
-<h3 id="4-Markdown-编写的文档后缀为-md-markdown。"><a class="header-anchor" href="#4-Markdown-编写的文档后缀为-md-markdown。">¶</a>4. Markdown 编写的文档后缀为 .md, .markdown。</h3>
-<h2 id="1-2-markdown应用"><a class="header-anchor" href="#1-2-markdown应用">¶</a>1.2 markdown应用</h2>
-<h3 id="Markdown-能被使用来撰写电子书，如：Gitbook。"><a class="header-anchor" href="#Markdown-能被使用来撰写电子书，如：Gitbook。">¶</a>Markdown 能被使用来撰写电子书，如：Gitbook。</h3>
-<h3 id="当前许多网站都广泛使用-Markdown-来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack-Exchange、OpenStreetMap-、SourceForge等。"><a class="header-anchor" href="#当前许多网站都广泛使用-Markdown-来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack-Exchange、OpenStreetMap-、SourceForge等。">¶</a>当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等。</h3>
-<h2 id="1-3-编辑器"><a class="header-anchor" href="#1-3-编辑器">¶</a>1.3 编辑器</h2>
-<h3 id="编辑器有很多种，基本各大编辑器都可以编辑markdown格式文档。"><a class="header-anchor" href="#编辑器有很多种，基本各大编辑器都可以编辑markdown格式文档。">¶</a>编辑器有很多种，基本各大编辑器都可以编辑markdown格式文档。</h3>
-<h3 id="比如：Typora，sublime-Text-coderunner-印象笔记，vim等等等。具体的可以百度，都非常好用。"><a class="header-anchor" href="#比如：Typora，sublime-Text-coderunner-印象笔记，vim等等等。具体的可以百度，都非常好用。">¶</a>比如：Typora，sublime Text, coderunner,印象笔记，vim等等等。具体的可以百度，都非常好用。</h3>
+<h2 id="1-1-markdown背景">1.1 markdown背景</h2>
+<h3 id="1-markdown是一种轻量级标记语言，她与徐人们使用易读易写的纯文本格式编写文档。">1. markdown是一种轻量级标记语言，她与徐人们使用易读易写的纯文本格式编写文档。</h3>
+<h3 id="2-Markdown-语言在-2004-由约翰·格鲁伯（英语：John-Gruber）创建。">2. Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</h3>
+<h3 id="3-Markdown-编写的文档可以导出-HTML-、Word、图像、PDF、Epub-等多种格式的文档。">3. Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</h3>
+<h3 id="4-Markdown-编写的文档后缀为-md-markdown。">4. Markdown 编写的文档后缀为 .md, .markdown。</h3>
+<h2 id="1-2-markdown应用">1.2 markdown应用</h2>
+<h3 id="Markdown-能被使用来撰写电子书，如：Gitbook。">Markdown 能被使用来撰写电子书，如：Gitbook。</h3>
+<h3 id="当前许多网站都广泛使用-Markdown-来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack-Exchange、OpenStreetMap-、SourceForge等。">当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等。</h3>
+<h2 id="1-3-编辑器">1.3 编辑器</h2>
+<h3 id="编辑器有很多种，基本各大编辑器都可以编辑markdown格式文档。">编辑器有很多种，基本各大编辑器都可以编辑markdown格式文档。</h3>
+<h3 id="比如：Typora，sublime-Text-coderunner-印象笔记，vim等等等。具体的可以百度，都非常好用。">比如：Typora，sublime Text, coderunner,印象笔记，vim等等等。具体的可以百度，都非常好用。</h3>
 <hr>
 <h1>二、markdown基本操作</h1>
-<h2 id="1-标题"><a class="header-anchor" href="#1-标题">¶</a>1.标题</h2>
+<h2 id="1-标题">1.标题</h2>
 <p>使用#号标记，可以表示1-6级标题，随#个数递增。如：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">markdown</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></tbody></table></figure></div>
 <p>注：最后一个#与文字间一定要有一个空格。</p>
 <p>显示效果：</p>
 <p><a href="https://i.loli.net/2020/02/17/wIWVKahMtmTLu4n.png" data-fancybox="group" data-caption="显示效果" class="fancybox"><img alt="显示效果" title="显示效果" data-src="https://i.loli.net/2020/02/17/wIWVKahMtmTLu4n.png" class="lazyload"></a></p>
-<h2 id="2-换行"><a class="header-anchor" href="#2-换行">¶</a>2.换行</h2>
+<h2 id="2-换行">2.换行</h2>
 <p>markdown换行方式有很多种</p>
 <ul>
 <li>直接在一句话后面敲两个空格</li>
@@ -33,22 +33,22 @@
 </ul>
 <p><a href="https://i.loli.net/2020/02/18/UrtqpfeOPlDW5VT.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" title="image.png" data-src="https://i.loli.net/2020/02/18/UrtqpfeOPlDW5VT.png" class="lazyload"></a></p>
 <p>此点是我想在表格里换行时get到的，也很实用,后面讲到表格我会展示。</p>
-<h2 id="3-字体"><a class="header-anchor" href="#3-字体">¶</a>3.字体</h2>
+<h2 id="3-字体">3.字体</h2>
 <p>markdown支持几种字体：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">markdown</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="emphasis">*斜体文本*</span></span><br><span class="line"><span class="emphasis">_斜体文本_</span></span><br><span class="line"><span class="strong">**粗体文本**</span></span><br><span class="line"><span class="strong">__粗体文本__</span></span><br><span class="line"><span class="strong">***粗斜体文本**</span>*</span><br><span class="line"><span class="strong">___粗斜体文本__</span>_</span><br></pre></td></tr></tbody></table></figure></div>
 <p>把你想修改的字段直接放在中间即可。显示效果如下：</p>
 <p><a href="https://i.loli.net/2020/02/18/JNMP7tG4KdXaxoj.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" title="image.png" data-src="https://i.loli.net/2020/02/18/JNMP7tG4KdXaxoj.png" class="lazyload"></a></p>
-<h2 id="4-分割线"><a class="header-anchor" href="#4-分割线">¶</a>4.分割线</h2>
+<h2 id="4-分割线">4.分割线</h2>
 <p>markdown中分割线，能是你的文章结构更加清楚</p>
 <p>几种分割线的写法：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">markdown</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="emphasis">***</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">* </span><span class="emphasis">* *</span></span><br><span class="line"></span><br><span class="line"><span class="strong">*****</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">- </span>- -</span><br><span class="line"></span><br><span class="line">----------</span><br></pre></td></tr></tbody></table></figure></div>
 <p>这些都可以是分割线。如果你在你自己的博客网站加上美化，他可以看着更舒服哈哈哈。</p>
-<h2 id="5-删除线，下划线。"><a class="header-anchor" href="#5-删除线，下划线。">¶</a>5.删除线，下划线。</h2>
+<h2 id="5-删除线，下划线。">5.删除线，下划线。</h2>
 <p>写法如下：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">markdown</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">~~删除线~~</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag"><<span class="name">u</span>></span></span>下划线<span class="xml"><span class="tag"><!--<span class="name"-->u</span>></span></span><br></pre></td></tr></tbody></table></figure></div>
 <p>显示效果：</p>
 <p><a href="https://i.loli.net/2020/02/18/O5K2AyjdYMRsLqN.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" title="image.png" data-src="https://i.loli.net/2020/02/18/O5K2AyjdYMRsLqN.png" class="lazyload"></a></p>
-<h2 id="6-分点条列"><a class="header-anchor" href="#6-分点条列">¶</a>6.分点条列</h2>
+<h2 id="6-分点条列">6.分点条列</h2>
 <ol>
 <li>无序</li>
 </ol>
@@ -67,7 +67,7 @@
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">markdown</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line">1.第一行</span><br><span class="line"><span class="bullet">  - </span>第一点</span><br><span class="line"><span class="bullet">  - </span>第二点</span><br></pre></td></tr></tbody></table></figure></div>
 <p>效果：</p>
 <p><a href="https://i.loli.net/2020/02/18/wg6JV1rRxzoEvAi.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" title="image.png" data-src="https://i.loli.net/2020/02/18/wg6JV1rRxzoEvAi.png" class="lazyload"></a></p>
-<h2 id="7-区块"><a class="header-anchor" href="#7-区块">¶</a>7.区块</h2>
+<h2 id="7-区块">7.区块</h2>
 <p>markdown区块是在段落开头使用 “>”，依然是紧跟空格</p>
 <p>写法如下：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">markdown</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight markdown"><table><tbody><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="quote">> markdown</span></span><br><span class="line"><span class="quote">> 基础</span></span><br><span class="line"><span class="quote">> 区块引用</span></span><br></pre></td></tr></tbody></table></figure></div>
@@ -126,7 +126,7 @@
     <title>笔记————电路与电子技术第五版（主编：张虹)</title>
     <url>/2020/02/18/%E7%94%B5%E8%B7%AF%E4%B8%8E%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>第一章电路基本概念</h1>
-<h2 id="文章内容提要"><a class="header-anchor" href="#文章内容提要">¶</a>文章内容提要</h2>
+<h2 id="文章内容提要">文章内容提要</h2>
 <ul>
 <li>电路理论基础</li>
 <li>电流的参考方向和典雅的参考极性</li>
@@ -135,74 +135,74 @@
 <li>受控源与独立源的异同</li>
 </ul>
 <hr>
-<h2 id="重点"><a class="header-anchor" href="#重点">¶</a>重点</h2>
+<h2 id="重点">重点</h2>
 <ul>
 <li>
-<h3 id="电路模型的概念及科学建模："><a class="header-anchor" href="#电路模型的概念及科学建模：">¶</a>电路模型的概念及科学建模：</h3>
+<h3 id="电路模型的概念及科学建模：">电路模型的概念及科学建模：</h3>
 </li>
 </ul>
-<h3 id="1-电路"><a class="header-anchor" href="#1-电路">¶</a>1.电路</h3>
-<h4 id="（1）电路的分类"><a class="header-anchor" href="#（1）电路的分类">¶</a>（1）电路的分类</h4>
+<h3 id="1-电路">1.电路</h3>
+<h4 id="（1）电路的分类">（1）电路的分类</h4>
 <p>其一，集总参数电路和分布参数电路：将实际电路的几何尺寸d与其中的工信号波长λ比较，满族d<<λ的称为集总参数电路，不满足的成为分布参数电路。</p>
 <p>几何尺寸：电路板的最大长度，比如你研究教室里照明电路时，电路的尺寸大小就是教室的大小。</p>
 <p>工信号波长：</p>
 <p>其二，线性电路和非线性电路：若描述电路特征的所有方程都是线性代数方程或先行为记分方程，则称为线性电路，否则非线性电路。可以理解，但是还不清楚方程是啥样。</p>
 <p>其三，时不变电路和时变电路：食不点电路中元件参数不随时间变化，描述其电路的方程式常系数的代数方程或常系数的微积分方程，而时变电路是由变系数的代数方程或微积分方程描述的电路。</p>
-<h4 id="（2）电路的功能"><a class="header-anchor" href="#（2）电路的功能">¶</a>（2）电路的功能</h4>
+<h4 id="（2）电路的功能">（2）电路的功能</h4>
 <p>电路的异种功能室实现电能的传输和转换。</p>
 <p>电路的另一种功能是实现电信号的传输、处理和存储。</p>
-<h4 id="（3）电路的定义"><a class="header-anchor" href="#（3）电路的定义">¶</a>（3）电路的定义</h4>
+<h4 id="（3）电路的定义">（3）电路的定义</h4>
 <p>所有的实际电路是由电气设备和元器件按照一定的方式连接起来，为电流的流通提供路径的总体，也称网络。</p>
-<h3 id="2-电路模型"><a class="header-anchor" href="#2-电路模型">¶</a>2.电路模型</h3>
-<h4 id="（1）理想元件"><a class="header-anchor" href="#（1）理想元件">¶</a>（1）理想元件</h4>
+<h3 id="2-电路模型">2.电路模型</h3>
+<h4 id="（1）理想元件">（1）理想元件</h4>
 <p>了便于对实际电路进行分析，通常是将实际电路器件理想化（或称模型化），即在一定条件下，突出其主要的电磁性质，忽略其次要因素，将其近似地看做理想电路元件（简称“理想元件”），并用规定的图形符号表示。</p>
 <p>这个可以理解。忽略次要因素。</p>
-<h4 id="（2）电路模型"><a class="header-anchor" href="#（2）电路模型">¶</a>（2）电路模型</h4>
+<h4 id="（2）电路模型">（2）电路模型</h4>
 <p>由理想元件组成的电路，就称为实际电路的电路模型。图1-1（b）即为图（a）的电路模型。</p>
-<p><a href="https://i.loli.net/2020/02/17/dViKRzFxucYqE95.png" data-fancybox="group" data-caption="此处加入图片" class="fancybox"><img alt="此处加入图片" data-src="https://i.loli.net/2020/02/17/dViKRzFxucYqE95.png" class="lazyload" title="此处加入图片"></a></p>
-<h4 id="（3）建模"><a class="header-anchor" href="#（3）建模">¶</a>（3）建模</h4>
+<p><a href="https://i.loli.net/2020/02/17/dViKRzFxucYqE95.png" data-fancybox="group" data-caption="此处加入图片" class="fancybox"><img alt="此处加入图片" title="此处加入图片" data-src="https://i.loli.net/2020/02/17/dViKRzFxucYqE95.png" class="lazyload"></a></p>
+<h4 id="（3）建模">（3）建模</h4>
 <p>以上用</p>
-<h2 id="1-2-电路基本物理量"><a class="header-anchor" href="#1-2-电路基本物理量">¶</a>1.2 电路基本物理量</h2>
-<h3 id="1-2-1-电流"><a class="header-anchor" href="#1-2-1-电流">¶</a>1.2.1 电流</h3>
-<h4 id="（1）定义"><a class="header-anchor" href="#（1）定义">¶</a>（1）定义</h4>
+<h2 id="1-2-电路基本物理量">1.2 电路基本物理量</h2>
+<h3 id="1-2-1-电流">1.2.1 电流</h3>
+<h4 id="（1）定义">（1）定义</h4>
 <p>电荷的定向运动形成电流。</p>
-<h4 id="（2）大小"><a class="header-anchor" href="#（2）大小">¶</a>（2）大小</h4>
+<h4 id="（2）大小">（2）大小</h4>
 <p>电流的大小用电流强度衡量</p>
-<p><a href="https://i.loli.net/2020/02/17/GWeLCM38hotbAyK.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="https://i.loli.net/2020/02/17/GWeLCM38hotbAyK.png" class="lazyload" title></a></p>
-<h4 id="（3）实际方向"><a class="header-anchor" href="#（3）实际方向">¶</a>（3）实际方向</h4>
+<p><a href="https://i.loli.net/2020/02/17/GWeLCM38hotbAyK.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.loli.net/2020/02/17/GWeLCM38hotbAyK.png" class="lazyload"></a></p>
+<h4 id="（3）实际方向">（3）实际方向</h4>
 <p>正电荷的运动方向</p>
-<h4 id="（4）分类"><a class="header-anchor" href="#（4）分类">¶</a>（4）分类</h4>
+<h4 id="（4）分类">（4）分类</h4>
 <p>恒定电流（直流DC）和 时变电流，分别用l和i表示。交流（AC）是时变电流的特例，周期性变化，电流平均值为0.</p>
-<h4 id="（5）参考方向"><a class="header-anchor" href="#（5）参考方向">¶</a>（5）参考方向</h4>
+<h4 id="（5）参考方向">（5）参考方向</h4>
 <p>参考方向具有任意性，参考方向为实线，实际方向为虚线，实际方向与参考方向相同，电流值大于零，反之亦然。</p>
-<h4 id="（4）关联参考方向"><a class="header-anchor" href="#（4）关联参考方向">¶</a>（4）关联参考方向</h4>
+<h4 id="（4）关联参考方向">（4）关联参考方向</h4>
 <p>即将电流的参考方向由电压的+指向-。这样为关联参考方向，反之不是。</p>
-<h3 id="1-2-2-电压"><a class="header-anchor" href="#1-2-2-电压">¶</a>1.2.2 电压</h3>
-<h4 id="（1）大小描述"><a class="header-anchor" href="#（1）大小描述">¶</a>（1）大小描述</h4>
+<h3 id="1-2-2-电压">1.2.2 电压</h3>
+<h4 id="（1）大小描述">（1）大小描述</h4>
 <p>在数值上，电路中任意a,b两点之间的电压等于电场力由a点移动单位正电荷到b点所做的功</p>
-<p><a href="https://i.loli.net/2020/02/17/a2C6zDwVUsTZdIH.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" data-src="https://i.loli.net/2020/02/17/a2C6zDwVUsTZdIH.png" class="lazyload" title="image.png"></a></p>
-<h4 id="（2）-电位"><a class="header-anchor" href="#（2）-电位">¶</a>（2） 电位</h4>
+<p><a href="https://i.loli.net/2020/02/17/a2C6zDwVUsTZdIH.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" title="image.png" data-src="https://i.loli.net/2020/02/17/a2C6zDwVUsTZdIH.png" class="lazyload"></a></p>
+<h4 id="（2）-电位">（2） 电位</h4>
 <p>电路中任选一点作为参考点，则其他各点到参考点的电压叫做该点的电位。</p>
 <p>用符号V表示 且有关系：</p>
 <ul>
 <li>​    U*ab = <em>V</em>a - <em>V</em>b</li>
 </ul>
-<h4 id="（3）电压参考极性"><a class="header-anchor" href="#（3）电压参考极性">¶</a>（3）电压参考极性</h4>
+<h4 id="（3）电压参考极性">（3）电压参考极性</h4>
 <p>同电流。</p>
-<h4 id="（4）关联参考方向-v2"><a class="header-anchor" href="#（4）关联参考方向-v2">¶</a>（4）关联参考方向</h4>
+<h4 id="（4）关联参考方向-v2">（4）关联参考方向</h4>
 <p>即将电流的参考方向由电压的+指向-。这样为关联参考方向，反之不是。</p>
-<h3 id="1-2-3-功率与能量"><a class="header-anchor" href="#1-2-3-功率与能量">¶</a>1.2.3 功率与能量</h3>
-<h4 id="（1）功率的定义"><a class="header-anchor" href="#（1）功率的定义">¶</a>（1）功率的定义</h4>
+<h3 id="1-2-3-功率与能量">1.2.3 功率与能量</h3>
+<h4 id="（1）功率的定义">（1）功率的定义</h4>
 <p>单位是W（瓦）</p>
-<p><a href="https://i.loli.net/2020/02/17/JAgvhQbnUOyIHMC.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" data-src="https://i.loli.net/2020/02/17/JAgvhQbnUOyIHMC.png" class="lazyload" title="image.png"></a></p>
-<h4 id="（2）功率的计算"><a class="header-anchor" href="#（2）功率的计算">¶</a>（2）功率的计算</h4>
+<p><a href="https://i.loli.net/2020/02/17/JAgvhQbnUOyIHMC.png" data-fancybox="group" data-caption="image.png" class="fancybox"><img alt="image.png" title="image.png" data-src="https://i.loli.net/2020/02/17/JAgvhQbnUOyIHMC.png" class="lazyload"></a></p>
+<h4 id="（2）功率的计算">（2）功率的计算</h4>
 <p>首先需要判断u，i 的参考方向是否为关联方向。</p>
 <p>如果关联，则p = ui；否则 p = -ui。</p>
 <p>结果若大于0则为实际消耗功率，反之为实际发出功率。</p>
 <p>注：吸收功率等于发出功率</p>
-<h4 id="（3）能量"><a class="header-anchor" href="#（3）能量">¶</a>（3）能量</h4>
+<h4 id="（3）能量">（3）能量</h4>
 <p>能量是功率表对时间的积累，其表达式可写：</p>
-<p><a href="https://i.loli.net/2020/02/17/OteYfTc9BdvF4AH.png" data-fancybox="group" data-caption class="fancybox"><img alt data-src="https://i.loli.net/2020/02/17/OteYfTc9BdvF4AH.png" class="lazyload" title></a></p>
+<p><a href="https://i.loli.net/2020/02/17/OteYfTc9BdvF4AH.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://i.loli.net/2020/02/17/OteYfTc9BdvF4AH.png" class="lazyload"></a></p>
 <p>硬件理论体系支撑</p>
 <p>​</p>
 </body></html>]]></content>
@@ -237,11 +237,11 @@
   <entry>
     <title>word中如何加入带√的□ ?</title>
     <url>/2020/02/12/word%E4%B8%AD%E5%A6%82%E4%BD%95%E5%8A%A0%E5%85%A5%E5%B8%A6%E2%88%9A%E7%9A%84%E5%B0%8F%E6%96%B9%E5%9D%97/</url>
-    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="打出有勾的方括号"><a class="header-anchor" href="#打出有勾的方括号">¶</a>打出有勾的方括号</h2>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="打出有勾的方括号">打出有勾的方括号</h2>
 <p>输入一个大写R，之后选中，把字体改为：wingdings 2 就OK了，然后自己试了试在这个字体下输入了一些别的字，发现有许多图形，还很不错。</p>
 <hr>
 <p>于是就百度了一下对照表</p>
-<h2 id="如下："><a class="header-anchor" href="#如下：">¶</a>如下：</h2>
+<h2 id="如下：">如下：</h2>
 <p><a href="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1176238582,3363171188&fm=26&gp=0.jpg" data-fancybox="group" data-caption="对照表" class="fancybox"><img alt="对照表" title="对照表" data-src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1176238582,3363171188&fm=26&gp=0.jpg" class="lazyload"></a></p>
 <p>在这个字体下，对应输入，就会有这么些不同的图标，不错不错，长知识。</p>
 </body></html>]]></content>
@@ -298,16 +298,16 @@
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>UIKit与swiftUI 交互</h1>
 <p>运用swiftUI写界面非常迅速且酷炫。大大减少了曾经在UIKit中的代码量。<br>
 不过有时候可能你还会需要用到UIKit，但是你又想用swiftUI做界面，此时就考虑到二者交互的问题了。</p>
-<h2 id="UIViewControllerRepresentable"><a class="header-anchor" href="#UIViewControllerRepresentable">¶</a>UIViewControllerRepresentable</h2>
+<h2 id="UIViewControllerRepresentable">UIViewControllerRepresentable</h2>
 <p><strong>在swiftUI中提供了一个UIViewControllerRepresentable协议</strong><br>
 <strong>我们可以用它作为UIKit 与swiftUI的桥接</strong><br>
 <a href="https://img-blog.csdnimg.cn/20200113121716232.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200113121716232.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
 <h1>第一步：</h1>
-<h2 id="你依然可以像往常一样，新建一个swift文件，把他命名为viewController-然后导入UiKit-，然后再让它继承UIViewController-重写父类的viewDidLoad-方法，你也可以往里面随便添点东西，为后面验证做准备，just-like-this…在这里插入图片描述"><a class="header-anchor" href="#你依然可以像往常一样，新建一个swift文件，把他命名为viewController-然后导入UiKit-，然后再让它继承UIViewController-重写父类的viewDidLoad-方法，你也可以往里面随便添点东西，为后面验证做准备，just-like-this…在这里插入图片描述">¶</a>你依然可以像往常一样，新建一个swift文件，把他命名为viewController 然后导入UiKit ，然后再让它继承UIViewController 重写父类的viewDidLoad()方法，你也可以往里面随便添点东西，为后面验证做准备，just like this…<a href="https://img-blog.csdnimg.cn/20200113122152672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200113122152672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
+<h2 id="你依然可以像往常一样，新建一个swift文件，把他命名为viewController-然后导入UiKit-，然后再让它继承UIViewController-重写父类的viewDidLoad-方法，你也可以往里面随便添点东西，为后面验证做准备，just-like-this…在这里插入图片描述">你依然可以像往常一样，新建一个swift文件，把他命名为viewController 然后导入UiKit ，然后再让它继承UIViewController 重写父类的viewDidLoad()方法，你也可以往里面随便添点东西，为后面验证做准备，just like this…<a href="https://img-blog.csdnimg.cn/20200113122152672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200113122152672.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
 <h1>第二步 桥接</h1>
-<h2 id="第二步就是在你的swiftUI文件中写一个结构体连接你刚创建的viewController-他需要遵循并实现UIViewControllerRepresentable这个协议"><a class="header-anchor" href="#第二步就是在你的swiftUI文件中写一个结构体连接你刚创建的viewController-他需要遵循并实现UIViewControllerRepresentable这个协议">¶</a>第二步就是在你的swiftUI文件中写一个结构体连接你刚创建的viewController 他需要遵循并实现UIViewControllerRepresentable这个协议</h2>
+<h2 id="第二步就是在你的swiftUI文件中写一个结构体连接你刚创建的viewController-他需要遵循并实现UIViewControllerRepresentable这个协议">第二步就是在你的swiftUI文件中写一个结构体连接你刚创建的viewController 他需要遵循并实现UIViewControllerRepresentable这个协议</h2>
 <h1>第三步 应用</h1>
-<h2 id="接下来直接在你swiftUI中结构体中调用第二步的结构体就OK了第二步与第三步"><a class="header-anchor" href="#接下来直接在你swiftUI中结构体中调用第二步的结构体就OK了第二步与第三步">¶</a>接下来直接在你swiftUI中结构体中调用第二步的结构体就OK了<a href="https://img-blog.csdnimg.cn/20200113125213490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="第二步与第三步" class="fancybox"><img alt="第二步与第三步" title="第二步与第三步" data-src="https://img-blog.csdnimg.cn/20200113125213490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
+<h2 id="接下来直接在你swiftUI中结构体中调用第二步的结构体就OK了第二步与第三步">接下来直接在你swiftUI中结构体中调用第二步的结构体就OK了<a href="https://img-blog.csdnimg.cn/20200113125213490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="第二步与第三步" class="fancybox"><img alt="第二步与第三步" title="第二步与第三步" data-src="https://img-blog.csdnimg.cn/20200113125213490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
 <h1>显示效果如图</h1>
 <p><a href="https://img-blog.csdnimg.cn/20200113130421611.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200113130421611.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
 <h1>代码如下：</h1>
@@ -315,7 +315,7 @@
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="keyword">import</span> UIKit</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">viewController</span>: <span class="title">UIViewController</span></span>{</span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">viewDidLoad</span><span class="params">()</span></span> {</span><br><span class="line">        <span class="keyword">super</span>.viewDidLoad()</span><br><span class="line">        <span class="keyword">self</span>.view.backgroundColor = .brown</span><br><span class="line">        <span class="keyword">let</span> viewDemo = <span class="type">UIView</span>(frame: <span class="type">CGRect</span>(x: <span class="number">100</span>, y: <span class="number">100</span>, width: <span class="number">100</span>, height: <span class="number">100</span>))</span><br><span class="line">        viewDemo.backgroundColor = .green</span><br><span class="line">        <span class="keyword">self</span>.view.addSubview(viewDemo)</span><br><span class="line"></span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
 <p>ConventView.swift 文件中</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//UIKit 桥接</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">UIBridging</span>: <span class="title">UIViewControllerRepresentable</span> </span>{</span><br><span class="line">    <span class="comment">//这个UIViewControllerType你要接哪个就是哪个，在这里就是viewController</span></span><br><span class="line">    <span class="keyword">typealias</span> <span class="type">UIViewControllerType</span> = viewController</span><br><span class="line">    <span class="comment">//必须实现的方法，当swiftUI要显示view时，会调用这个方法。返回值就是当前需要显示的类</span></span><br><span class="line">    <span class="function"><span class="keyword">func</span> <span class="title">makeUIViewController</span><span class="params">(context: UIViewControllerRepresentableContext<uibridging>)</uibridging></span></span> -> <span class="type">UIBridging</span>.<span class="type">UIViewControllerType</span> {</span><br><span class="line">        <span class="keyword">return</span> viewController()</span><br><span class="line">    }</span><br><span class="line">    <span class="comment">//更新UIViewController时会调用此方法</span></span><br><span class="line">    <span class="function"><span class="keyword">func</span> <span class="title">updateUIViewController</span><span class="params">(<span class="number">_</span> uiViewController: viewController, context: UIViewControllerRepresentableContext<uibridging>)</uibridging></span></span> {</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">ContentView</span>: <span class="title">View</span></span>{</span><br><span class="line">    <span class="keyword">var</span> body: some <span class="type">View</span> {</span><br><span class="line">        <span class="type">UIBridging</span>()</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">ContentView_Previews</span>: <span class="title">PreviewProvider</span> </span>{</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">var</span> previews: some <span class="type">View</span> {</span><br><span class="line">        <span class="type">ContentView</span>()</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
-<h2 id="注：你也可以写在一个文件中，但后期为了看着方便，简洁，还是分开写比较好一些"><a class="header-anchor" href="#注：你也可以写在一个文件中，但后期为了看着方便，简洁，还是分开写比较好一些">¶</a>注：你也可以写在一个文件中，但后期为了看着方便，简洁，还是分开写比较好一些</h2>
+<h2 id="注：你也可以写在一个文件中，但后期为了看着方便，简洁，还是分开写比较好一些">注：你也可以写在一个文件中，但后期为了看着方便，简洁，还是分开写比较好一些</h2>
 </body></html>]]></content>
       <categories>
         <category>IOS开发</category>
@@ -355,12 +355,12 @@
     <title>Mac修改键盘之 将 caps lock修改为esc</title>
     <url>/2020/02/05/Mac%E4%BF%AE%E6%94%B9%E9%94%AE%E7%9B%98%E4%B9%8B%E5%B0%86%E5%A4%A7%E5%B0%8F%E5%86%99%E9%94%81%E5%AE%9A%E4%BF%AE%E6%94%B9esc/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>前言</h1>
-<h3 id="想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。"><a class="header-anchor" href="#想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。">¶</a>想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。</h3>
-<h3 id="大多数的人都是将caps-lock-修改为esc。"><a class="header-anchor" href="#大多数的人都是将caps-lock-修改为esc。">¶</a>大多数的人都是将caps lock 修改为esc。</h3>
+<h3 id="想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。">想必进来的都是vim重度患者了，在vim里需要经常使用esc键。而他的位置真的事提高效率一大绊脚石之一。</h3>
+<h3 id="大多数的人都是将caps-lock-修改为esc。">大多数的人都是将caps lock 修改为esc。</h3>
 <p>因为caps lock 处在了最重要的位置却几乎不怎么使用他，如果用大写直接按住shift就可以了。</p>
 <h1>方法</h1>
 <p>之前在网上查到了关于此类的问题，说需要下载一个第三方软件，我推荐一个非常简单的方法，就在mac的设置里：</p>
-<h4 id="找到系统偏好设置-键盘-左下角有一个修饰键"><a class="header-anchor" href="#找到系统偏好设置-键盘-左下角有一个修饰键">¶</a>找到系统偏好设置------>键盘------->左下角有一个修饰键</h4>
+<h4 id="找到系统偏好设置-键盘-左下角有一个修饰键">找到系统偏好设置------>键盘------->左下角有一个修饰键</h4>
 <p><a href="https://img-blog.csdnimg.cn/20200119094846166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119094846166.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a><br>
 把第一个改成Escape就好啦</p>
 <h1>后记：</h1>
@@ -377,17 +377,17 @@
     <title>Hexo 博客基础命令</title>
     <url>/2020/02/04/hello-world/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2>
-<h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure></div>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3>
+<h3 id="Run-server">Run server</h3>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure></div>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3>
+<h3 id="Generate-static-files">Generate static files</h3>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure></div>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure></div>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 </body></html>]]></content>
@@ -402,14 +402,14 @@
     <title>vim 基础操作 + 配置文件设置 基础版 for mac</title>
     <url>/2020/02/03/vim%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C+%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AE%BE%E7%BD%AE/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>基础操作</h1>
-<h2 id="vim-模式"><a class="header-anchor" href="#vim-模式">¶</a>vim 模式</h2>
-<h3 id="1-normal模式"><a class="header-anchor" href="#1-normal模式">¶</a>1.normal模式</h3>
+<h2 id="vim-模式">vim 模式</h2>
+<h3 id="1-normal模式">1.normal模式</h3>
 <p>当我们用vim创建或者打开一个文件的时候，就是normal模式，然后我们可以输入一些指令，更加方便的操作文件。</p>
-<h3 id="2-insert模式"><a class="header-anchor" href="#2-insert模式">¶</a>2.insert模式</h3>
+<h3 id="2-insert模式">2.insert模式</h3>
 <p>顾名思义就是可以进行编辑自己的文件内容了，从normal模式到insert模式有很多种快捷键，稍后一一说明。但是从insert模式到normal模式需要按esc键，没错，当我们常用到vim进行编辑的时候，会非常频繁的使用esc，但是他的位置却不是很让我们提高效率，在这里我们可以吧caps lock 修改为esc ，毕竟caps lock 真的没什么用，却处于一个非常方便的位置。</p>
 <p>==具体修改可以看这篇博客，这里不再赘述==</p>
 <p><a href="https://blog.csdn.net/VistorsYan/article/details/104036840" target="_blank" rel="noopener">Mac修改键盘之 将 caps lock修改为esc</a></p>
-<h2 id="基本操作命令（增删改查-保存退出）"><a class="header-anchor" href="#基本操作命令（增删改查-保存退出）">¶</a>基本操作命令（增删改查+保存退出）</h2>
+<h2 id="基本操作命令（增删改查-保存退出）">基本操作命令（增删改查+保存退出）</h2>
 <table>
 <thead>
 <tr>
@@ -483,20 +483,20 @@
 </tbody>
 </table>
 <h1>配置文件设置</h1>
-<h2 id="创建vim配置文件"><a class="header-anchor" href="#创建vim配置文件">¶</a>创建vim配置文件</h2>
-<h3 id="在根目录下找到-vim文件夹并打开"><a class="header-anchor" href="#在根目录下找到-vim文件夹并打开">¶</a>在根目录下找到 .vim文件夹并打开</h3>
+<h2 id="创建vim配置文件">创建vim配置文件</h2>
+<h3 id="在根目录下找到-vim文件夹并打开">在根目录下找到 .vim文件夹并打开</h3>
 <p>注：如果没有就新建一个.vim文件夹并打开即可。</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/</span><br><span class="line"><span class="built_in">cd</span> .vim</span><br></pre></td></tr></tbody></table></figure></div>
-<h3 id="然后-在当前路径下："><a class="header-anchor" href="#然后-在当前路径下：">¶</a>然后 在当前路径下：</h3>
+<h3 id="然后-在当前路径下：">然后 在当前路径下：</h3>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">vim vimrc</span><br></pre></td></tr></tbody></table></figure></div>
 <p>这样就有打开了一个新的文件，这就是配置文件，你可以在这里进行“肆意的”修改</p>
-<h2 id="键位修改"><a class="header-anchor" href="#键位修改">¶</a>键位修改</h2>
+<h2 id="键位修改">键位修改</h2>
 <p>有时vim的一些快捷键很不合你的口味，比如方向键，所以可以把方向键的位置改为符合方向的键。</p>
-<h4 id="举例："><a class="header-anchor" href="#举例：">¶</a>举例：</h4>
+<h4 id="举例：">举例：</h4>
 <p>我想把h 键改为 i：（直接在vimrc里面写）</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">noremap i h</span><br></pre></td></tr></tbody></table></figure></div>
 <p>此时i键有着和h一样的功能，但是i键本来是有功能的（插入），因此==切记==不要忘了把i给改为别的键，如果你还想用这个功能的话。</p>
-<h2 id="指令快捷化"><a class="header-anchor" href="#指令快捷化">¶</a>指令快捷化</h2>
+<h2 id="指令快捷化">指令快捷化</h2>
 <p>vim 保存命令是在normal模式下输入 :w 然后回车，虽然很方便了，但是可以更快：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">map</span> S :<span class="keyword">w</span><span class="symbol"><cr></cr></span></span><br></pre></td></tr></tbody></table></figure></div>
 <p>现在直接用S即可保存，（w后的不用我说也清楚是回车的意思）<br>
@@ -515,7 +515,7 @@
 添加下划线<br>
 如果该行已满 自动换行<br>
 命令自动补全 tab 同bash</p>
-<h4 id="有关查找的指令"><a class="header-anchor" href="#有关查找的指令">¶</a>有关查找的指令</h4>
+<h4 id="有关查找的指令">有关查找的指令</h4>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">vim</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight vim"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">set</span> hlsearch</span><br><span class="line"><span class="keyword">set</span> incsearch</span><br><span class="line">exec <span class="string">"nohlsearch"</span></span><br><span class="line"><span class="keyword">set</span> ignorecase</span><br><span class="line"><span class="keyword">set</span> smartcase</span><br></pre></td></tr></tbody></table></figure></div>
 <p>查找时高亮显示<br>
 边输入边高亮<br>
@@ -541,10 +541,10 @@
     <title>C指针问题之不同类型指针之间的区别</title>
     <url>/2020/02/02/C%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98%E4%B9%8B%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E6%8C%87%E9%92%88%E4%B9%8B%E9%97%B4%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>会想这样的一个问题：</h1>
-<h3 id="指针就是地址吧，那么指向int-的指针也好，指向double的指针也好，他们有什么不同么"><a class="header-anchor" href="#指针就是地址吧，那么指向int-的指针也好，指向double的指针也好，他们有什么不同么">¶</a>== 指针就是地址吧，那么指向int 的指针也好，指向double的指针也好，他们有什么不同么==</h3>
+<h3 id="指针就是地址吧，那么指向int-的指针也好，指向double的指针也好，他们有什么不同么">== 指针就是地址吧，那么指向int 的指针也好，指向double的指针也好，他们有什么不同么==</h3>
 <p>emmmm<br>
 貌似也有一定道理。</p>
-<h2 id="Solution"><a class="header-anchor" href="#Solution">¶</a>Solution</h2>
+<h2 id="Solution">Solution</h2>
 <p>既然我们无法从正面解释，那我们就先设定一个“万能指针”<br>
 看我接下来这段操作：</p>
 <p><a href="https://img-blog.csdnimg.cn/20200119212651514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119212651514.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
@@ -564,16 +564,16 @@
 这也就是为什么指针要定义他的类型。</p>
 <p>关于这一点，还有一个地方需要用到他的类型：<br>
 ==指针运算==</p>
-<h2 id="指针运算"><a class="header-anchor" href="#指针运算">¶</a>指针运算</h2>
+<h2 id="指针运算">指针运算</h2>
 <p>书写如下代码：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>{</span><br><span class="line">	<span class="keyword">int</span> hoge;</span><br><span class="line">	<span class="keyword">int</span>* hoge_p;</span><br><span class="line">	hoge_p = &hoge;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hoge_p 的初始地址为：%p\n"</span>,hoge_p);</span><br><span class="line">	hoge_p++;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hoge_p 加一后：%p\n"</span>,hoge_p);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hoge_p 加一之后再加三后：%p\n"</span>,hoge_p + <span class="number">3</span>);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
 <p>发现运行结果：</p>
 <p><a href="https://img-blog.csdnimg.cn/20200119214650997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200119214650997.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
 <p>我们知道c语言地址是以16进制的方式存储的。</p>
 <p>发现：</p>
-<h4 id="第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12"><a class="header-anchor" href="#第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12">¶</a>第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12.</h4>
+<h4 id="第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12">第一个地址与第二个地址的值相差4，第二个与第三个地址的值相差12.</h4>
 <p>不难看出：：</p>
-<h2 id="对指针加N，指针前进“当前指针指向的数据类型的长度×N”"><a class="header-anchor" href="#对指针加N，指针前进“当前指针指向的数据类型的长度×N”">¶</a>对指针加N，指针前进“当前指针指向的数据类型的长度×N”</h2>
+<h2 id="对指针加N，指针前进“当前指针指向的数据类型的长度×N”">对指针加N，指针前进“当前指针指向的数据类型的长度×N”</h2>
 </body></html>]]></content>
       <categories>
         <category>征服C指针</category>
@@ -586,10 +586,10 @@
     <title>Mac上自定义各个应用快捷键</title>
     <url>/2020/02/01/Mac%E8%87%AA%E5%AE%9A%E4%B9%89%E5%90%84%E4%B8%AA%E5%BA%94%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>进入系统偏好设置</h1>
-<h2 id="键盘选项"><a class="header-anchor" href="#键盘选项">¶</a>键盘选项</h2>
-<h3 id="快捷键："><a class="header-anchor" href="#快捷键：">¶</a>快捷键：</h3>
+<h2 id="键盘选项">键盘选项</h2>
+<h3 id="快捷键：">快捷键：</h3>
 <p><a href="https://img-blog.csdnimg.cn/20200121123450810.png" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200121123450810.png" class="lazyload"></a></p>
-<h3 id="选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。"><a class="header-anchor" href="#选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。">¶</a>选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。</h3>
+<h3 id="选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。">选择自己要添加的应用，在选择要改的功能名称，然后输入自己想要的快捷键。</h3>
 <p><a href="https://img-blog.csdnimg.cn/20200121123525851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200121123525851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
 <p>点击添加，完成！</p>
 </body></html>]]></content>
@@ -603,25 +603,25 @@
   <entry>
     <title>关于C指针——和指针的第一次亲密接触</title>
     <url>/2020/01/30/%E5%85%B3%E4%BA%8EC%E6%8C%87%E9%92%88%E2%80%94%E2%80%94%E5%92%8C%E6%8C%87%E9%92%88%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BA%B2%E5%AF%86%E6%8E%A5%E8%A7%A6/</url>
-    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="先看代码："><a class="header-anchor" href="#先看代码：">¶</a>先看代码：</h2>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="先看代码：">先看代码：</h2>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">cpp</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span>{</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> *c;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//输出每个变量的地址</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a的地址是 %p\n"</span>,&a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b的地址是 %p\n"</span>,&b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c的地址是 %p\n"</span>,&c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/*将a的地址赋予c*/</span></span><br><span class="line">    c = &a;<span class="comment">//此处需用到  ”&“来得到a的地址</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c修改后的地址为 %p\n"</span>,c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/* 通过c输出a的内容*/</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"*c ---->%d\n"</span>,*c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/* 通过c修改a的内容*/</span></span><br><span class="line">    *c = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a---->%d\n"</span>,a);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
-<h2 id="然后我们看运行结果"><a class="header-anchor" href="#然后我们看运行结果">¶</a>然后我们看运行结果</h2>
+<h2 id="然后我们看运行结果">然后我们看运行结果</h2>
 <p><a href="https://img-blog.csdnimg.cn/20200115085336718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115085336718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
-<h2 id="我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c"><a class="header-anchor" href="#我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c">¶</a>我们首先声明了int型变量 a,b 然后声明了”指向int 的指针“类型的变量c</h2>
+<h2 id="我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c">我们首先声明了int型变量 a,b 然后声明了”指向int 的指针“类型的变量c</h2>
 <p>==我们暂且先将c理解为指向int 的指针==</p>
-<h2 id="再看初始化完后内存中保存的样子在这里插入图片描述"><a class="header-anchor" href="#再看初始化完后内存中保存的样子在这里插入图片描述">¶</a>再看初始化完后内存中保存的样子<a href="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
+<h2 id="再看初始化完后内存中保存的样子在这里插入图片描述">再看初始化完后内存中保存的样子<a href="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
 <p>在c语言中，会存在 int类型，double类型，等。。同样，c语言中也存在指针类型这样的类型。<br>
 指针类型并不是单独存在的，而是由其他类型派生出来的。。</p>
 <p>==由引用类型T派生的指针类型有时候称为’（指向）T的指针‘==</p>
 <p>因为指针类型是类型，所以他也像其他类型一样，有“指针类型的值和指针类型变量”，但有时，我们将“指针类型”，“指针类型变量”，“指针类型的值”简单统称为—指针</p>
 <p>因此 c就是一个指针类型变量-----指向int的指针，但此时并为对它赋值。</p>
 <p>接下来我们将a的地址赋予了c，此时c的值就是a的地址<a href="https://img-blog.csdnimg.cn/2020011509233464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/2020011509233464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
-<h2 id="接下来："><a class="header-anchor" href="#接下来：">¶</a>接下来：</h2>
+<h2 id="接下来：">接下来：</h2>
 <p>在指针前面加*，可以表示指针指向的变量，因为现在c指向a，所以<em>c就等同于a。同理，修改</em>c就相当于修改了a的值。</p>
 <p>==这是对后两行输出做的解释==</p>
-<h2 id="补充："><a class="header-anchor" href="#补充：">¶</a>补充：</h2>
+<h2 id="补充：">补充：</h2>
 <p>如果说c是 指向int的指针，但我们声明变量时一般要遵循：</p>
-<h2 id="类型-变量名"><a class="header-anchor" href="#类型-变量名">¶</a>类型 变量名</h2>
+<h2 id="类型-变量名">类型 变量名</h2>
 <p>因此，我们似乎声明了一个名为*c的变量。</p>
 <p>所以我们可以写成 ==int* c==的形式。这样更符合  ==类型 变量名==  的形式。</p>
 <p>但之后就会出现问题：<br>
@@ -631,7 +631,7 @@ C语言声明数组时应该是：</p>
 <p>很明显，会报错。这就产生了矛盾。。</p>
 <p>反而，Java中可以这么写，但是Java为了让C程序员更好的转向Java。也兼容了c语言定义数组的写法。。</p>
 <p>在这里需要插一句：</p>
-<h2 id="C语言的语法本来就是不自然的，奇怪的而又变态的。"><a class="header-anchor" href="#C语言的语法本来就是不自然的，奇怪的而又变态的。">¶</a>C语言的语法本来就是不自然的，奇怪的而又变态的。</h2>
+<h2 id="C语言的语法本来就是不自然的，奇怪的而又变态的。">C语言的语法本来就是不自然的，奇怪的而又变态的。</h2>
 <p>之后我会出一篇关于C语法的博客专门研究这“变态的”c语法。。。</p>
 <p>欢迎吐槽评论</p>
 </body></html>]]></content>
@@ -640,6 +640,41 @@ C语言声明数组时应该是：</p>
       </categories>
       <tags>
         <tag>C指针</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>swift之基本运算符</title>
+    <url>/2020/01/30/swift%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="本章大致介绍一些swift特别的运算符"><em><strong>本章大致介绍一些swift特别的运算符</strong></em></h2>
+<h1>元组比较</h1>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">元组比较：</span></span><br><span class="line"><span class="comment">1.从左到右比较，一旦比出结果，即大于或小于，就是整体的比较结果</span></span><br><span class="line"><span class="comment">2.如果每个对应的元祖相等，则整体的结果就是相等</span></span><br><span class="line"><span class="comment">3.要比较7个或者更多的元素的元祖，必须实现比较运算符</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">if</span> (<span class="number">1</span>,<span class="string">"zebra"</span>)<(<span class="number">2</span>,<span class="string">"apple"</span>){</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">"the second win"</span>)</span><br><span class="line">}</span><br><span class="line"><span class="keyword">if</span>(<span class="number">3</span>,<span class="string">"apple"</span>)<(<span class="number">3</span>,<span class="string">"bird"</span>){</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">"the second win"</span>)</span><br><span class="line">}</span><br><span class="line"><span class="keyword">if</span>(<span class="number">4</span>,<span class="string">"dog"</span>) == (<span class="number">4</span>,<span class="string">"dog"</span>){</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">"sample"</span>)</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
+<h1>三元条件运算符</h1>
+<p>与C语言中差不太多，直接上例子：</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//三元条件运算符</span></span><br><span class="line"><span class="keyword">let</span> contentHeight = <span class="number">40</span></span><br><span class="line"><span class="keyword">let</span> hasHeader = <span class="literal">true</span></span><br><span class="line"><span class="keyword">let</span> rowHeight = contentHeight + (hasHeader ? <span class="number">50</span> : <span class="number">20</span>)</span><br><span class="line"><span class="built_in">print</span>(rowHeight)</span><br></pre></td></tr></tbody></table></figure></div>
+<h1>关于 ? 与 !  //重点</h1>
+<p>swift语言中，如果不对变量进行初始化是不会自动给他一个初值的<a href="https://img-blog.csdnimg.cn/20200112143559495.png" data-fancybox="group" data-caption="此处报错" class="fancybox"><img alt="此处报错" title="此处报错" data-src="https://img-blog.csdnimg.cn/20200112143559495.png" class="lazyload"></a><br>
+此处报错的原因就是未初始化number就对他进行了使用</p>
+<p>swift中有一种可选类型。（Optionals）</p>
+<h4 id="？">？</h4>
+<p>在定义变量时添加一个问号。以为此变量为可选类型，如果后面，给该变量赋值x。那么他就是x，如果没有赋值，他就是nil。</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">// 此时结果是nil</span></span><br></pre></td></tr></tbody></table></figure></div>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line">optionalInt = <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">//此时输出是Optional(1)</span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>但是现在会出现警告，就是虽然现在有值，（不管是不是nil都认为有值）。但是她现在是可选类型，应给他确定类型。</p>
+<h4 id>!</h4>
+<p>此时 ！就是用来强制解析：</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line">optionalInt = <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt!)</span><br><span class="line"><span class="comment">//此时输出是1</span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>此时optionalInt 是Int 类型。<br>
+所以有时候我们可以直接这么写：</p>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int!</span></span><br><span class="line">optionalInt = <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">//此时输出是1</span></span><br></pre></td></tr></tbody></table></figure></div>
+<p>==注：使用!来获取一个不存在的可选值会导致运行时错误。使用!来强制解析值之前，一定要确定可选包含一个非nil的值。==<br>
+也就是说如果没有第二句赋值，此程序会崩掉。<br>
+所以使用！时要注意这点</p>
+</body></html>]]></content>
+      <categories>
+        <category>IOS开发</category>
+      </categories>
+      <tags>
+        <tag>swift</tag>
       </tags>
   </entry>
   <entry>
@@ -701,7 +736,7 @@ DFS from 5: 5 1 3 0 2 4 6<br>
 单位: 浙江大学<br>
 时间限制: 400 ms<br>
 内存限制: 64 MB</p>
-<h2 id="很明显这个用递归就可以了"><a class="header-anchor" href="#很明显这个用递归就可以了">¶</a>很明显这个用递归就可以了</h2>
+<h2 id="很明显这个用递归就可以了">很明显这个用递归就可以了</h2>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">DFS</span><span class="params">( MGraph Graph, Vertex V, <span class="keyword">void</span> (*Visit)(Vertex) )</span></span>{</span><br><span class="line">    Visited[V] = <span class="literal">true</span>;</span><br><span class="line">    Visit(V);</span><br><span class="line">    <span class="comment">//递归</span></span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i<maxvertexnum; i++) {< span><br><span class="line">        <span class="keyword">if</span> (Graph->G[V][i] == <span class="number">1</span> && !Visited[i]) {</span><br><span class="line">            DFS(Graph,i,Visit);</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">}</span><br></maxvertexnum;></span></pre></td></tr></tbody></table></figure></div>
 <p>根据提要求访问过的节点需要true<br>
 所以在此访问还应判断该节点是不是false</p>
@@ -716,41 +751,6 @@ DFS from 5: 5 1 3 0 2 4 6<br>
       </tags>
   </entry>
   <entry>
-    <title>swift之基本运算符</title>
-    <url>/2020/01/30/swift%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%AE%97%E7%AC%A6/</url>
-    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="本章大致介绍一些swift特别的运算符"><a class="header-anchor" href="#本章大致介绍一些swift特别的运算符">¶</a><em><strong>本章大致介绍一些swift特别的运算符</strong></em></h2>
-<h1>元组比较</h1>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">元组比较：</span></span><br><span class="line"><span class="comment">1.从左到右比较，一旦比出结果，即大于或小于，就是整体的比较结果</span></span><br><span class="line"><span class="comment">2.如果每个对应的元祖相等，则整体的结果就是相等</span></span><br><span class="line"><span class="comment">3.要比较7个或者更多的元素的元祖，必须实现比较运算符</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">if</span> (<span class="number">1</span>,<span class="string">"zebra"</span>)<(<span class="number">2</span>,<span class="string">"apple"</span>){</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">"the second win"</span>)</span><br><span class="line">}</span><br><span class="line"><span class="keyword">if</span>(<span class="number">3</span>,<span class="string">"apple"</span>)<(<span class="number">3</span>,<span class="string">"bird"</span>){</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">"the second win"</span>)</span><br><span class="line">}</span><br><span class="line"><span class="keyword">if</span>(<span class="number">4</span>,<span class="string">"dog"</span>) == (<span class="number">4</span>,<span class="string">"dog"</span>){</span><br><span class="line">	<span class="built_in">print</span>(<span class="string">"sample"</span>)</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
-<h1>三元条件运算符</h1>
-<p>与C语言中差不太多，直接上例子：</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">//三元条件运算符</span></span><br><span class="line"><span class="keyword">let</span> contentHeight = <span class="number">40</span></span><br><span class="line"><span class="keyword">let</span> hasHeader = <span class="literal">true</span></span><br><span class="line"><span class="keyword">let</span> rowHeight = contentHeight + (hasHeader ? <span class="number">50</span> : <span class="number">20</span>)</span><br><span class="line"><span class="built_in">print</span>(rowHeight)</span><br></pre></td></tr></tbody></table></figure></div>
-<h1>关于 ? 与 !  //重点</h1>
-<p>swift语言中，如果不对变量进行初始化是不会自动给他一个初值的<a href="https://img-blog.csdnimg.cn/20200112143559495.png" data-fancybox="group" data-caption="此处报错" class="fancybox"><img alt="此处报错" title="此处报错" data-src="https://img-blog.csdnimg.cn/20200112143559495.png" class="lazyload"></a><br>
-此处报错的原因就是未初始化number就对他进行了使用</p>
-<p>swift中有一种可选类型。（Optionals）</p>
-<h4 id="？"><a class="header-anchor" href="#？">¶</a>？</h4>
-<p>在定义变量时添加一个问号。以为此变量为可选类型，如果后面，给该变量赋值x。那么他就是x，如果没有赋值，他就是nil。</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">// 此时结果是nil</span></span><br></pre></td></tr></tbody></table></figure></div>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line">optionalInt = <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">//此时输出是Optional(1)</span></span><br></pre></td></tr></tbody></table></figure></div>
-<p>但是现在会出现警告，就是虽然现在有值，（不管是不是nil都认为有值）。但是她现在是可选类型，应给他确定类型。</p>
-<h4 id><a class="header-anchor" href="#">¶</a>!</h4>
-<p>此时 ！就是用来强制解析：</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int?</span></span><br><span class="line">optionalInt = <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt!)</span><br><span class="line"><span class="comment">//此时输出是1</span></span><br></pre></td></tr></tbody></table></figure></div>
-<p>此时optionalInt 是Int 类型。<br>
-所以有时候我们可以直接这么写：</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">swift</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight swift"><table><tbody><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> optionalInt : <span class="type">Int!</span></span><br><span class="line">optionalInt = <span class="number">1</span></span><br><span class="line"><span class="built_in">print</span>(optionalInt)</span><br><span class="line"><span class="comment">//此时输出是1</span></span><br></pre></td></tr></tbody></table></figure></div>
-<p>==注：使用!来获取一个不存在的可选值会导致运行时错误。使用!来强制解析值之前，一定要确定可选包含一个非nil的值。==<br>
-也就是说如果没有第二句赋值，此程序会崩掉。<br>
-所以使用！时要注意这点</p>
-</body></html>]]></content>
-      <categories>
-        <category>IOS开发</category>
-      </categories>
-      <tags>
-        <tag>swift</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>寒假计划与每日进度（总章程）</title>
     <url>/2020/01/21/%E5%AF%92%E5%81%87%E8%AE%A1%E5%88%92%E4%B8%8E%E6%AF%8F%E6%97%A5%E5%AE%8C%E6%88%90%E6%83%85%E5%86%B5/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -759,7 +759,7 @@ DFS from 5: 5 1 3 0 2 4 6<br>
     <label for="hbePass">您好，请输入密码</label>
     <div class="bottom-line"></div>
   </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="0f601635d4c0e5c3309bd4d091d2957abaaf9e331c2b5123584fb5e2bb00d519">ba7233cb4492a779478ef44e61ef447c28141d18b1231ef6bbffa250b7c0f66f24db462cc1261ba70150ff3ac99f766c1f94890d60773646e2115b802c8b3a09db38fb51734a671df187131ec5d06cdb4e9cec757c91a89496f2dcca128ea3002b4daf37332a0a787c27bf74f71ff4ac29afa9804c123bd9854ddcb2ef037ba7934bcb6c5304027e68bb26674f5885b6e2a5b1e6aa76feffc847dbf54cd67550ad0fea75204ba84daf46ed589f24e794739b848736141324c5e96679ac8754ea67ce0aefc9f856b605b9fef5c6339da2779d72002db303a22ed327b682b9841b128dd482cd48333a37d8546a1cbfbc1c6808745196a829718459107716358b5a9da558b86067d208e4eb5905f277f94622ff2fd5a7fb19dd60b76e0ea1ea93452b4ffee1fab52d6fd0faed4b6304732256e3467dc21af6cd4c8cbab17ddab3aef7636612ea845399d4900c76e8b7446be175019dc98c65796f2a99185a61607244bd939dc91ee1a9ffe053a2bdb2a65d333e3934ba8813013efec3c372bd5a19f53ef564582a49fefda593f08f477115a7898e4d7f7da4e8cc724cc5ba40960792f7def8e8be83c332f6fa2ca4583d5c0db0ae5803e114c40de54a8c733b4c53c75f5ab6e55cc3011739d067c4febf7cba413efeb34ac07b73b06d9a1858766a5ebfd1da6f59e2385f68d8d1abfe39a7a09335246eb5f0cec872fb5fd6e5116cacbb4d42d5a7ea30b9bef6c56bdcbb48ca55dae54faac6ffdd2a5085693774bd099c432e6a3eea1ace037c6933cd0e29ea68c5c4200d0a795d21d728ce6a9820937e29ea1e1d63e3df26baff57a1bb4cc5de3198c75def46c06dc26f7f7af9b9e521d986d7789416ae553d24db59eeb29a843579a501b023630d3b6caee0d87f21ddab8fa0af6134e09b7944a8837423c317cc7a09a477653a3f8f6c338d64eda5106c1ae6db1b9554f3b57e84f757a15e31b278979dd215e90879da0180769543ffcbe5a9dfe6562f36dbf01be8a6fb710514305e00215500803a053400df18a048dd8d9e873517e69128132cf0b9de53c80bbe892be3a5f0f2e0d35df44a730d0af5a8da7e5d1e348a93e5ce722cdbdd63889ec6ae67227da17915106438cb0b505cb2785d4e6a57401d2d66f41c2d1c8cef170b482127bdcf87df1b89efbaec7ab030edfec601b11996c4df324c51358d8ad23d1a724976994e801740b907c2e91d99fc8a5fbc9059e9b50ec83a7f40da1f71d1b686f599a4ce9bf9eb4583138b61ab5bdd37f6c23b114cd47f5282ecebc57e7ba1ff241103e97a2ad397b97dc2600a4966b9b590f26435435224d3e5fdae5b9c8cd13b95e01ff5fca9dccc290d03b93457d42f324c50ab2792679d4c4e35a6ece9c52befa16fd04814031995d476b0919cd9c18a68a721f9b827e8031c9f41d8a063cad6a14169f08f81219c72a8af50bdf34ad6bbbbd75a243db76a461d18da62dcc289939b2e9518726725969aa81811329e4a947cdf9c4185af6c8f21f55e1b254c4534246048338cd5cc0f65f28c9168ad78b282992950dfa36934da68b384f7b804ec3d8bfa6eab2b75214ac4a7bc85e8079ed4ddedc31ac33fdafc8ef6d67111db0f44811d7c17f6226e90e3d04da56046459dcaed73e0d67266a095ed959090b3cae41ddc09920eab7d75d427643343fbb2c52bb4d5cebe3d8e34b7d16686971fdb832dbfb9bb5f9ec75142388651c93e08f26f70ade65c8fcd00db8173ad71bc46f0e300e803fab251977c56b183f8fff63ab6238d83449db56f6fcf663c4ba5c67a82dc7739e917e8c981eb3765ab1f86487ceb89af55a0a5c6a6dd6cec7425f671ed6db922841116522dc6c7a57fd7d6b9e2c81afefac1c55b3c07dc85f8f01f05b2240354dc95bad55d994b49fcda4f225118ac15fceb3b0ed9419848dbb8ec0961ae07094eefa6352e284a966f2c0685933940a6ef0c5225959ac6442ad7e8f67f856dc3a08e1f7603447e6bdee7b996c5f1c61db5035468879301d6624735cda838bde7422d3d0c08eab243ef27bb5b1df6999dde60c5d7dbf82d9622e4adbbe8e43cd62f134fbbe909f6c84b9b252931c169cf974eadac79dc1c0680f5678dd7fc872eb6b228793ff31c12f30246f48f3efaec87fe1d316a5c01831e6ed3644415a2eff9d078f36c0e979630f92766a5eb01076da6cff63db74c0e2b1f7e7e6fc0bb620ad6b9260f703a57be208b65b7008b97f315becf95ad54e3ddb44279b71ac86ac42e6578b0f119d8bd0b8ff52683a7bbff7c03fca3755267ccf2cae23b9573ae7712b3f4561ec48492de55ec9bc01170e9598ce8d98ede5a7886d3dfa9a099218d25bc57efa9b07e685db7afd6d43a716d1deb4d97343e777964d18693f358c71b023946b915941c78cbbdb5a2c4cee8e66247baeb3331b35c4e4341c245d6e3bb97e7bb668e090202b75efc7a8eb28f31294fd6a9ebcefbd2b3c17c8e8005d60423ca628c93371bc20f03eaa203e3a617474ecb5b75e9d8cab14d12de8e768fa2710a4b465ba24ac0d63b824b13b2fc3cd28d9f484f48b0aab8ebfb31c4a761c42fa8ea672f41c3e22e2516fb8f175cd4f6f80ce851014c8f87f030167dd96c11153a1ac156c927c35ec271a0547495cb9181a234d07fa766c86293ab11d801d55a8fa90398cbcf9349cafe75c4a4bfddaa0219de209664487801669a4085df544dcea23bc6997a218e1c061d2a7800bac92d8ef587147d8b4293aada43a5ca378548c1ac08e4c746f4fa68b2c1407f5dc8365216a6067e1e895d5b9692352df0daf1633c4d170696b1770de1604bcbba9c39cb675ce385986802078d1e500ce7b9eb99ac3ccdaeaf5e721526b13d37b809bf78936b7093f6e8cba93a676f29b06623d7c7d2a3d9673f2212cbc298059a8026c8a51419f3a03df545b3f76f763f0e49f5334ac641110bdb506c90a5d9c5bff9b2c845db26054687ea7da30186041214af629099baa1f90711b44e113da8af62bde91d59e162f5085cc9ed73f9a71cbfd8c48836ea1fff3980ebcd68b6deac8c87775d570cb0561a40fe57f5809ddfbee7e5423c842abfeb08cb48998dfd559ab2203d9114f506b24ffec832003209bb59935a2c374f5af47a79262ecb59d7ed600ea354562873f0acdb47b427cc3a17b336459ec621788dfc56193c0daa8bd9bd6cc5b9360143122406ad8bdceeea1e97f7f4f74354aa26116c919245a2e57504b45001a1d3533f1c7bbe545d5a25989c5867a8086c031453e14677b3c801378c61a82134da5f0e6ea3a9c68f807b9e7b0937c0ed0ec0cf777efd9729c18d473319e931e55b5d05865dd65210d2bcc36635f45874301bb9327e41125c8c70981404adf166acc9b277037ea6f5092dfb469beeed40b6b1eebf5755675aabd4aa0361c5b79b220f16e5231f02d157d5d5591bc99406388f9764be682a5fd0e9e80ddcb2594067ef161a7e6c2055d87ad77e26d2ac8c6df66cdcd9f38165833c76ab2a427ef77520ad1d95afa93a2fa7d561c986dc96e9cd9929e714c61ca0566667bb4b23583ba32f0ab600ddc85cbbab3ec91ce91058090685b476500c1c56a7f49bb581f483ae26253f9296cce1ca5c34e66c97d5785f52650dd7bd3f97e2e788a43dbbb95b62353d9113c6d9b6830d85e20757515f6a5bba99a2a950eb84440dfd7fcb8844a5e64c65f102b46b70b9168c65e2ccc857c79091a51189cf25ec5e0ff9507fea803c5579b2ee42b3a240d7c08f5452135b5f45d8b3182e9665782ba083bfe4340addf89280bdceb06903e76faf821e0b04e01aa106cc2b05060cb538c3fb3b2510e8a26d5107a98a185821a24c6fe857de587e0403b40feeaa701aeee544c38c812a915534b996efa237b80d395e73990917930bc39b1d5315f93b64aeb6e01e4a4071eb42ccb6dedfab74074f4f4e15aa2384075ba0ea24892555a0242d950e50997f967c3bc719cc6823165a5fefbc73b8a83358053375c1af1a83dd42091ebe6b26eb18d2514e8ee426a2a3eca1ba6b3e3b4f0d51ee5307b62fe8938973ed95ae6b45a161760335baa4c63045d4647a50ca3cdd1241493dadf151db5edc3c35e962cfff3484e47916a5f5c9b42127606dea3ba166a85ce1ac8b16f00051d0c0494edc3841610314dea100fc951a84f6e2096047374d168ed96855e176bd9979f5269fe44b4eda39c68fdb2875511fe58327816045a6ad13199e704be2ed95d6f5b5c552a17beaa65d58bee1b1a2ec1efe5cd4e83f73bdfef3e718f88d66c59247c18b76e823e3106cadc178c0b5cc23a9c47270d25b7eb8428d66b9ced96545d61120fd8b0fae9fa25480ebb8c0cdd9cf152536fd8252db3673a9bf274a526f26cb2fd73b312e20ce9b52ebc2587508b2dfd2fff64e13959013c05ae8f4d1ca9f9aad98dc26da02c958a17c024c8ae243549258bf40f28e951e252904501337e003f02450a5cc1008369c617677f31ec2238285057b6696025135dd6d7100f3b5c144293cfc6b31b241d1bba6b9fc258db2c98f7153277e5c1f4fffee7a5d64f072c2240907d71ed9cf57831c939b26f5885e192e80738bb0df7bf52a2762171554f95678b0b9e02019ec49bb7bdc863a7a6ea8c8252c30de55ae968dfa9f182254d9e485540b819d89136b6638a520a6c6276c1dfc47aab238e052e90168f98503f582ec981851b4e22350781bea1a736a9f5d1ab8720efd3d4bcfbac27750dea637480b9a10deeb83ff69c8012a2dc518e85dc3cbea8297a7ea54c2976270be12ec182ddd87f3a4758527a9cb804773ac942f3569dac1037bc46d5096bf64a70c0e25b4a6635f9008944ebf5a97b2d92a3398f259a565565f52811b4ddd4f5a3601d5b06d1f3344f1d6230b36ded4386259f61123a33c4681bbdb3cf3d67273388c9dea6b1be98e5cc59477a8a9974d7d122d0d2dbea17a4336a99477a69670427c775c1656e29ece7ba8798c618be0b54bb79d044d80a6fbf639e88cb31a28972d4442c9a5ac57897613a1346f95a039db174ab01c0276682d98e104113beb414b03f1ee23785aea8cbacef75e5462e5c2bf6b0c47927216a2e378bf1b259a11cf728c7fad0b61f107c2d00e05c97d456f90c9a354a707e527665bc1216603166ef4d1665c07984443783071bfe1575404a4986f7b4a7f4882252da37215a9d843d82afa1e408540bd1595ccd8a6b0e515f746d2ff1a3fad762ed9e54b4d6327333309371a</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="2d8e1d5aece38b292ef8bccf8307a9a95cf0cee15722ff4c56f0823c263622ec">ba7233cb4492a779478ef44e61ef447c28141d18b1231ef6bbffa250b7c0f66f24db462cc1261ba70150ff3ac99f766c1f94890d60773646e2115b802c8b3a09db38fb51734a671df187131ec5d06cdb4e9cec757c91a89496f2dcca128ea3002b4daf37332a0a787c27bf74f71ff4ac29afa9804c123bd9854ddcb2ef037ba7934bcb6c5304027e68bb26674f5885b6e2a5b1e6aa76feffc847dbf54cd67550ad0fea75204ba84daf46ed589f24e794739b848736141324c5e96679ac8754ea67ce0aefc9f856b605b9fef5c6339da2779d72002db303a22ed327b682b9841b128dd482cd48333a37d8546a1cbfbc1c6808745196a829718459107716358b5a9da558b86067d208e4eb5905f277f94622ff2fd5a7fb19dd60b76e0ea1ea93452b4ffee1fab52d6fd0faed4b6304732256e3467dc21af6cd4c8cbab17ddab3aef7636612ea845399d4900c76e8b7446be175019dc98c65796f2a99185a61607223c205f426a61a9f7668586d3f677211bae5d530110304ee17d7ee78b4e32d94760c8562c4f43c7bd0b92093c449d63f7419a4c5edca9059096549ae9173fa60caabf3a68e389b9b83511714e547231b39a730deb5105cdbda7faef46eb43eb226963ca9e872e4cfcc7b539dd0b4c6d6d9a8114c13d9a0156762c9b2eafe3f7d8f027c60cfd6e39c99f43056abbc3a22d41597d77927908292bd1a3a0fa9ce1a429e93c6385a1c31bcec2a201dd9cfb432e3ebe9df5a2f106e03dc1a6bd5185a0464d0a5f5d061b9ce7318ca73dbd1202cef41ecf931f9af97d413acf1ba217c72ce44726eabdca0ef7fae42a13ef3c7909dcacd0d044ff34b60ab818758e9c7f5183910165a45f250e992a12e585c69390ac2f01c4e5c1edf651fa7b48cddaf1c6bfb1358a3c3f364069791d66903f827619a38f7edd96cbcd111cd1b210b49afd364c66a7ba9121b4cedf347c8ec3bf5f0532206e6f0c726f10653a2cbb51441a79878eb219bec9d8de5f165eade64bb92db2e704b29d378918aed3db5f724fb39098fa57b956d590308175fd97ffc8492749c4c1d2928040c2569a210bb2a84a0fc67a11ae5d746e872ef8e45b9a38bf3994074555b1ceb6dce49bfebe545743178627eb88d0d3fb71096abccbc60a236e8ced83c6a272df9db1cc54a2055788bf41c9beff3449c66c0581540aa95a0291cbb9f794002df7a802ee9ba2bea40b8eaafa5386498bf263ab38c8f0b3a9bc135732d59e8d39100bab14a9d534754cee3b4c67ee8d67339f26a9bb3d64116ad01e7ec52fd6177cd1cd4344a37d38081a739654bc4249a34087f3dd1c25d22fe54aef06a57683b6bdbcf1e5f800f722511b953f35c315c1b07977db6d5915b561397558929e017d51a53b77e933e82faacad5e75e75fbd74f1a1c5a353fc04ac6b8d033568bf676ae97ba8c73f58baaa2bffac967e28ef9f2212ab5f4145b6ccfc55ed6d710676dcd8bd50b753aa0516ed4fba8c2d8248ac289f1e80ada8b3021ef035e27cef4297700ee3c56d5126d529347e19c46f9c531bc937d56e6607b51b507d9e8897f4f075c2f98388ff2ddcbb191e55a2bdb6d1a2aa836151446592b09ef6bdf84495a29b2fbc23157e4c14a87ad40237d4c8e633e26e5add938409c3e1301d3e022f400969e9484a0b6ad2570cb580bb5e3d5d19f0423c4cd10712aab120afac2c274ef5965c10839dee20eaa3a6133246b3d8eb1593b5e9922cfa18cb8e6fb7df1394c7ca9d5366c605f08c0d8a951c7ad307785928668ae84ee65ed09f029570d65a6261ed77ddac3b8a254e0de9eb600775c3181616863178c1349c92cabb9ccd6d514acf8fb1c6a7a6c3ea74710c97e131ac23b2740d09fb421fdb3f8f9bba83193af9cbd7d681dea956b7b637e8ffedef4705b762a4f05d42973395dcdb99e0379eee7dd7a7a42098a2cb8a410aa286aa1732610e7f99154ec3868db91c0be98f5b95776b12762988ae50d8b40268d2c092f3dcf3534882268027b75fb0ebdd9f429d3353c2b483e5b21ced58e442b1790620dfabb24a751a138b467ddc33decaf2fec3ed3ad10ea7a48a446167cf63a40a066b8b5621fe8ab3900ebb7844776f6b3e841d350c95cfe9439ccb65556ccc053c58c3aa56fd6bb506c5d7631f61f020fa6a34d5b733ff18d5ffd029bfffd4841b1bb88779e40e58fd655c1001d6ab709fd5a1dd382abcee27f83d668731860f47841f96acd812fa36c79d6cb6b35e592b6cb777f86c1c281b7c27cfc8dfc7708cc4991a0691c679b50bdea868f798ef4a6b64191f7554c1caae3abb5e7fc0b13fb0648cf5bc2ee7d3fa664133b830f9d2a08ac0a9316bd275080682714341987981f3b28244d16213b1cc9b4ce95738949350ee8f7b04b86003deef6b71504a206f5c5065726e15f2c9c641ca1eafb06ced332414f5bc8fdefd1fd89348c85be0bca7f89048069b3c5042043f9a02ebfeb66c8ef947b0054e2b843abc996c88d3b5d6bee829f0478e31107fcf245b3f84bcbe2f8c7ea7de7df6650853fcd20007db68cd7b7e703085851ab6d63a65fc800a6588de2c66685510bb9bd492df9438c56ae8eb3aa5a8a1fdda37a3722824ba90e761386a9ba9fe2473129cc9ad76f1327e012bc195889735d7d95107e778227b359bd0cf290b149782e11f0bdb5f30798bd10f0abfcee179fb6056c92d24b2a6947ef646d1faf24e8bc5bd477198d8ee8a66550f13acb48e8745529b38adb587eaa10983b18500624c44f654e067fbe5a9fedff10fe915764f97619b8c711564e58d549b3569b5caf552fc4b2d18eb5ae52309c3feafb6347623a417c4fddf253de0761b1a94b1079c03b14d4e61d1bcb5908b4f5549697653a265038361d39590d2d080b8d1d09a696663c952a5761698e4d3efab9339b1d3615384af8e1b83a0359da1544e265b7ebb1721481e7eb5f36d6586218c02086636f6659cffefe510fbbcbfdb743441eb8b72d469dc5d719bda4fa9307663e97e34ead0c5ca11cfbeaa49dd006376718b735edb94343ea81c13132dae6acb4706a9c559d1a642efdd3c784decb462d71aef742e23248925b870b86fe30a8bc4fc07c6b42c8dd562c424969a96bcf86d926ecc3c991c622111643d389d2cb20816edae75429dc14e11cb7235202ce592f12afab77ef3e3050f9aa5b4096c55856e157c4137f5513ec0a09045e759e19b8b60173743e13729f16e4debb46f842a5c0ae1aaf98a12ea0c7b8f1c45bb4bd269d15f46cd80cb94653a2782429d615811f555f2154785d2c8b26f3f12dcb6905736fbdbefa9ba053259dc9c831b1553d7d725ca842eacce81139e13ae783a50460d5b08870029d2d263f77787fc497d3366869b24d1de5e885d77ca16ea4d9cb3784d877597e190a33e3b2339846f60f664c5db83a0abc525cd82cda24bfc83f78e72aa0c874d681633543e81668ce796581c43c9ed86e79e55c0598e0068f028aa4038ee3d8bcbf89a36e395c616d03d0bd5317b6b744ef73eb751ffdbe522d2dcd5600bef2f2d3c8386ce5ebde606328621199ef125a0260cca7c19ab5b62a702a6443ff5cdb997ba66b043da9a99a3c98cd972dabbaab02bef523e2e9361fca17e00bb24984d2da9b1086dc3d20354a301c760b11426f6cc9ac3b0b18f47c748cbabed76da95d0fcba1cced6a48dddef071c7c093d2253f2d9146fe465b3ef76f64b8c243ad8ad4ac3dca13785a785d62ddcd1fba4ceb663d62d9b11d285989797875ff8bb754c54bc561c40d49d1e871ce4dbf47b3cced152131d935e1942846e4468eaa5c3fdcaf1cd93cf9b4382797eeb51cff2d446106793b8071ead0a16dc522cdf9da1f53264c1ca1b99ad51483aa146fc29a6c1861b27386cdd56a837cbab636067ed713699394065de5cdff0d7dcefe5dc55a3811c69892ce3ee239f6d155529ec5065866101f216c7c966342c356d6a9f9046fdba96e7b8481a5e4448444e0f4ce8d87ac428aec0bc04398eb8bc3a8a94c37fa8e60b26fb591d95fe42a9f26d146c2f8b6da8d4cd23f91a7ff4b5973dd7fe0a0785ef4378244200846c7ca1ee0ca81a62382d9e2318c5451fc69e4e733eb0ba6b1890f3d07119504d7201302dc4f96b7c327e62e38715c41b225d94c70783bb7545528ab0489386bd60e353e6ae00139c929fb0a6e9691cca8ba12a4f4cdb98d4a76abb7e72d3e904965da8c5833e802dc01d515e4e8b0fdbeecc80f2cbf59d3000784a633408dab19f6d809ce0b23461c969c1de89cfc8172a1d3e20bb0d648d20843b11b481d362946754537689fe781c5dc4cb0d5cf11e741966a00c8cf1852f0c1aa502f244e3155831483eceb25d1264cb88cc5ce8735dc4eb1922b74cb7d7f5f31993d1f00db5ffe53d57442838ce9204369591935165ac9870257f199998d398705a44a8e9e71264921b2d77ce8d5fda5378813f9e0828b2980c88317269b55a4e12087463676adb32995896412629dd998c0ee713e93f77089bbad1a03be153f80bb2746076acf355bcb197e30af821c79ae9ecfe9e13d813a19d3d085d13d4437b277dfd3db48b90f4adfcd88b8251f56fb3f712f02d6e2bce96f40cfd2710135c19f0bf76d560424030f70c6191238f5700b5362aab113590bc97dadb11578045561a6551516100ef6826e75537a033db16196bfab59a9918518f8dccd29d1f1811dd5acaa4d9561dd41fab17b7029dbe8235f4a05078269005e4af822054036c1c6577217b8a60b335a3a6ee</script>
 </div>
 <script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
@@ -785,7 +785,7 @@ DFS from 5: 5 1 3 0 2 4 6<br>
 2.将最下面的盘子由a柱直接移动到c柱<br>
 3.将那n-1个盘子在由b柱借助a柱移动到c柱</p>
 <p>因为这个是出栈时的操作，所以入栈时要到着写</p>
-<h2 id="简要解释一下（因为跟递归思路差不多）"><a class="header-anchor" href="#简要解释一下（因为跟递归思路差不多）">¶</a>简要解释一下（因为跟递归思路差不多）</h2>
+<h2 id="简要解释一下（因为跟递归思路差不多）">简要解释一下（因为跟递归思路差不多）</h2>
 <p>如果n不等于一时，就意味着，以上的n-1个盘子，都要做上述所说的三个步骤，知道n等于1时，直接移动到目的柱。<br>
 因此，移动次数最多的是最上边的那个盘子，移动次数最少的是最下面的那个盘子，只需要移动一次</p>
 <p>利用结构体数组更便于理解。</p>
@@ -803,7 +803,7 @@ DFS from 5: 5 1 3 0 2 4 6<br>
   <entry>
     <title>My Daily Life Jan 20th</title>
     <url>/2020/01/20/DailyLife--Jan--20th/</url>
-    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="前言"><a class="header-anchor" href="#前言">¶</a>前言</h2>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="前言">前言</h2>
 <p>没错今天非常的浑浑噩噩，上午基本没干什么，除了下载了一下vim编辑markdown文件的插件后，然后还非常的作。。。诶，具体的就不说了。好不容易坚持了一段时间，突然又放弃了。<br>
 下午貌似捣鼓网页捣鼓了半天，貌似却没啥成果。然后睡了一觉。有些疲惫。晚上也捣鼓了一些东西。貌似收获也不大。。</p>
 <p>明天再写一篇文章记录一下假期任务和完成情况吧。</p>
@@ -851,11 +851,11 @@ DFS from 5: 5 1 3 0 2 4 6<br>
 </tr>
 </tbody>
 </table>
-<h3 id="Adobe账号"><a class="header-anchor" href="#Adobe账号">¶</a>Adobe账号</h3>
+<h3 id="Adobe账号">Adobe账号</h3>
 <p>还有一个 Adobe账号：3jkxtqhtq4@privaterelay.appleid.com</p>
 <p>这搁谁谁能记得住阿</p>
 <p>现在是22:30 准备去睡觉，多的就先不说了，每天早起规划第二天的任务，晚上打卡，完成情况。</p>
-<h2 id="就先这样吧-晚安"><a class="header-anchor" href="#就先这样吧-晚安">¶</a>就先这样吧 晚安</h2>
+<h2 id="就先这样吧-晚安">就先这样吧 晚安</h2>
 </body></html>]]></content>
       <categories>
         <category>My Daily Life</category>
@@ -870,21 +870,21 @@ DFS from 5: 5 1 3 0 2 4 6<br>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><p>农夫要修理牧场的一段栅栏，他测量了栅栏，发现需要N块木头，每块木头长度为整数Li个长度单位，于是他购买了一条很长的、能锯成N块的木头，即该木头的长度是Li​​的总和。</p>
 <p>但是农夫自己没有锯子，请人锯木的酬金跟这段木头的长度成正比。为简单起见，不妨就设酬金等于所锯木头的长度。例如，要将长度为20的木头锯成长度为8、7和5的三段，第一次锯木头花费20，将木头锯成12和8；第二次锯木头花费12，将长度为12的木头锯成7和5，总花费为32。如果第一次将木头锯成15和5，则第二次锯木头花费15，总花费为35（大于32）。</p>
 <p>请编写程序帮助农夫计算将木头锯成N块的最少花费。</p>
-<h2 id="输入格式"><a class="header-anchor" href="#输入格式">¶</a>输入格式:</h2>
+<h2 id="输入格式">输入格式:</h2>
 <p>输入首先给出正整数N（≤10000​​ ），表示要将木头锯成N块。第二行给出N个正整数（≤50），表示每段木块的长度。</p>
-<h2 id="输出格式"><a class="header-anchor" href="#输出格式">¶</a>输出格式:</h2>
+<h2 id="输出格式">输出格式:</h2>
 <p>输出一个整数，即将木头锯成N块的最少花费。</p>
-<h2 id="输入样例"><a class="header-anchor" href="#输入样例">¶</a>输入样例:</h2>
+<h2 id="输入样例">输入样例:</h2>
 <p>8<br>
 4 5 1 2 1 3 1 1</p>
-<h2 id="输出样例"><a class="header-anchor" href="#输出样例">¶</a>输出样例:</h2>
+<h2 id="输出样例">输出样例:</h2>
 <p>49</p>
 <h1>思路</h1>
-<h2 id="构造最优二叉树，将除叶节点外所有的节点权值加和。即为所求。"><a class="header-anchor" href="#构造最优二叉树，将除叶节点外所有的节点权值加和。即为所求。">¶</a>构造最优二叉树，将除叶节点外所有的节点权值加和。即为所求。</h2>
+<h2 id="构造最优二叉树，将除叶节点外所有的节点权值加和。即为所求。">构造最优二叉树，将除叶节点外所有的节点权值加和。即为所求。</h2>
 <p>实际上是没必要构造一颗树的，运用他的原理即可</p>
 <p>其实这两个解法差不多，但是c<ins>更加的简单易于理解，在时间上也是很短的。c相对而言就比较暴力了。相当于对c</ins>解法的底层解释。注重基础。<br>
 <code> </code></p>
-<h2 id="c-解法"><a class="header-anchor" href="#c-解法">¶</a>c++解法</h2>
+<h2 id="c-解法">c++解法</h2>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">cpp</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string"><queue></queue></span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line">priority_queue<<span class="keyword">int</span>,<span class="built_in">vector</span><<span class="keyword">int</span>>,greater<<span class="keyword">int</span>> > Q;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="keyword">int</span> x,n,sum = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&n);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i<n;i++){< span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&x);</span><br><span class="line">        Q.push(x);</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">while</span>(Q.size()><span class="number">1</span>){</span><br><span class="line">        <span class="keyword">int</span> a=Q.top();</span><br><span class="line">        Q.pop();</span><br><span class="line">        <span class="keyword">int</span> b=Q.top();</span><br><span class="line">        Q.pop();</span><br><span class="line">        Q.push(a+b);</span><br><span class="line">        sum+=a+b;</span><br><span class="line">    }</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,sum);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></n;i++){<></span></pre></td></tr></tbody></table></figure></div>
 <p>在这里解释一下这句话</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">cpp</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line">priority_queue<<span class="keyword">int</span>,<span class="built_in">vector</span><<span class="keyword">int</span>>,greater<<span class="keyword">int</span>> > Q;</span><br></pre></td></tr></tbody></table></figure></div>
@@ -896,7 +896,7 @@ push出两个最小值并相加，将相加的值加到sum并放回Q中，然后
 以此类推</type,></p>
 <p><a href="https://img-blog.csdnimg.cn/20191207174941948.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20191207174941948.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a><br>
 不仅代码量很少，时间也是很短的，考试的时候可以使用，平时练习不建议，有点投机取巧。练习还是用c一步步实现他的每一个步骤。</p>
-<h2 id="c解法"><a class="header-anchor" href="#c解法">¶</a>c解法</h2>
+<h2 id="c解法">c解法</h2>
 <p>用c语言其实就是对c++的具体实现，（可能我这个不是最好的解法。）但是每次取每次放都需要重新排序，这将是一件很累的事情。所以干脆就不排序了，直接放在那，取的时候再去判断最小值。</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"><span class="keyword">int</span> a[<span class="number">10010</span>],n;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> Max 10000000</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">findMin</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="keyword">int</span> <span class="built_in">min</span> = Max+<span class="number">1</span>,i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i<n; i++)< span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">min</span>>a[i]) <span class="built_in">min</span> = a[i];</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">min</span>;</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Delete</span><span class="params">(<span class="keyword">int</span> x)</span></span>{</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i<n; i++)< span><br><span class="line">        <span class="keyword">if</span> (a[i] == x) {</span><br><span class="line">            a[i] = Max;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        }</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> x)</span></span>{</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i<n; i++)< span><br><span class="line">        <span class="keyword">if</span> (a[i] == Max) {</span><br><span class="line">            a[i] = x;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        }</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="keyword">int</span> i,sum2 = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&n);</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i<n; i++)< span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&a[i]);</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span>; i<n; i++) {< span><br><span class="line">        <span class="keyword">int</span> x = findMin();</span><br><span class="line">        Delete(x);</span><br><span class="line">        <span class="keyword">int</span> y = findMin();</span><br><span class="line">        Delete(y);</span><br><span class="line">        add(x+y);</span><br><span class="line">        sum2+=x+y;</span><br><span class="line">    }</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,sum2);</span><br><span class="line">}</span><br></n;></span></n;></span></n;></span></n;></span></n;></span></pre></td></tr></tbody></table></figure></div>
 <p>这里注明一下：删除其实就是把现在这个数组里这个值（不一定是之前取的那个数）给赋值为非常大，这样下次寻找最小值就不会找到他。<br>
@@ -919,7 +919,7 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
     <title>PTA 树种统计  c语言-------二叉搜索树 详细解释</title>
     <url>/2020/01/20/%E6%A0%91%E7%A7%8D%E7%BB%9F%E8%AE%A1/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>树种统计</h1>
-<h2 id="这题乍一瞅写个树种，但是再一看貌似跟树没啥关系啊。"><a class="header-anchor" href="#这题乍一瞅写个树种，但是再一看貌似跟树没啥关系啊。">¶</a>这题乍一瞅写个树种，但是再一看貌似跟树没啥关系啊。</h2>
+<h2 id="这题乍一瞅写个树种，但是再一看貌似跟树没啥关系啊。">这题乍一瞅写个树种，但是再一看貌似跟树没啥关系啊。</h2>
 <p>随着卫星成像技术的应用，自然资源研究机构可以识别每一棵树的种类。请编写程序帮助研究人员统计每种树的数量，计算每种树占总数的百分比。</p>
 <p>输入格式:<br>
 输入首先给出正整数N（≤10<br>
@@ -927,11 +927,11 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
 ​​ ），随后N行，每行给出卫星观测到的一棵树的种类名称。种类名称由不超过30个英文字母和空格组成（大小写不区分）。</p>
 <p>输出格式:<br>
 按字典序递增输出各种树的种类名称及其所占总数的百分比，其间以空格分隔，保留小数点后4位。</p>
-<h2 id="第一眼直观感受是用数组常规排序？？？-但是看了一眼给的案例，这么老些，而且N是小于等于10的五次方。。用数组常规排序肯定超时。"><a class="header-anchor" href="#第一眼直观感受是用数组常规排序？？？-但是看了一眼给的案例，这么老些，而且N是小于等于10的五次方。。用数组常规排序肯定超时。">¶</a>第一眼直观感受是用数组常规排序？？？ 但是看了一眼给的案例，这么老些，而且N是小于等于10的五次方。。用数组常规排序肯定超时。</h2>
-<h2 id="这么大的数据量要想排序并输出只能想到的是二分法。因为二分法时间复杂度O-logN-。根据二维图像，可以想象数据量越大，O-logN-会越来越趋近与O-1"><a class="header-anchor" href="#这么大的数据量要想排序并输出只能想到的是二分法。因为二分法时间复杂度O-logN-。根据二维图像，可以想象数据量越大，O-logN-会越来越趋近与O-1">¶</a><em><strong>这么大的数据量要想排序并输出只能想到的是二分法。因为二分法时间复杂度O(logN)。根据二维图像，可以想象数据量越大，O(logN)会越来越趋近与O(1)</strong></em></h2>
-<h2 id="在回归这道题，数组里的二分法是去查找元素。。-而这道题是把元素按顺序输出，所以还是不行。。。。"><a class="header-anchor" href="#在回归这道题，数组里的二分法是去查找元素。。-而这道题是把元素按顺序输出，所以还是不行。。。。">¶</a>在回归这道题，数组里的二分法是去查找元素。。 而这道题是把元素按顺序输出，所以还是不行。。。。</h2>
+<h2 id="第一眼直观感受是用数组常规排序？？？-但是看了一眼给的案例，这么老些，而且N是小于等于10的五次方。。用数组常规排序肯定超时。">第一眼直观感受是用数组常规排序？？？ 但是看了一眼给的案例，这么老些，而且N是小于等于10的五次方。。用数组常规排序肯定超时。</h2>
+<h2 id="这么大的数据量要想排序并输出只能想到的是二分法。因为二分法时间复杂度O-logN-。根据二维图像，可以想象数据量越大，O-logN-会越来越趋近与O-1"><em><strong>这么大的数据量要想排序并输出只能想到的是二分法。因为二分法时间复杂度O(logN)。根据二维图像，可以想象数据量越大，O(logN)会越来越趋近与O(1)</strong></em></h2>
+<h2 id="在回归这道题，数组里的二分法是去查找元素。。-而这道题是把元素按顺序输出，所以还是不行。。。。">在回归这道题，数组里的二分法是去查找元素。。 而这道题是把元素按顺序输出，所以还是不行。。。。</h2>
 <p>最后想了想二分法在树里的应用</p>
-<h2 id="二叉搜索树"><a class="header-anchor" href="#二叉搜索树">¶</a>二叉搜索树</h2>
+<h2 id="二叉搜索树">二叉搜索树</h2>
 <p>在输入时就开始构造二叉搜索树。。</p>
 <p>然后中序遍历输出就可以了。。。<br>
 左中右 正好是有小到大。。<br>
@@ -953,7 +953,7 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
     <title>LeeCode第二题常见报错</title>
     <url>/2020/01/19/leeCode%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%981/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><hr>
-<h2 id="LeeCode第二题"><a class="header-anchor" href="#LeeCode第二题">¶</a>LeeCode第二题</h2>
+<h2 id="LeeCode第二题">LeeCode第二题</h2>
 <p>两数相加 c语言实现报错解决</p>
 <hr>
 <p>runtime error: member access within misaligned address 0xbebebebebebebebe for type ‘struct ListNode’, which requires 8 byte alignment (ListNode.c)<br>
@@ -983,7 +983,7 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
   <entry>
     <title>汉诺塔递归实现c语言版</title>
     <url>/2020/01/19/%E6%B1%89%E8%AF%BA%E5%A1%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0c%E8%AF%AD%E8%A8%80%E7%89%88/</url>
-    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="汉诺塔问题-递归实现法"><a class="header-anchor" href="#汉诺塔问题-递归实现法">¶</a><em><strong>汉诺塔问题 递归实现法</strong></em></h2>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="汉诺塔问题-递归实现法"><em><strong>汉诺塔问题 递归实现法</strong></em></h2>
 <p><strong>话不多说直接上代码</strong></p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line"><span class="comment">#include <stdio.h></stdio.h></span></span><br><span class="line">void Move(int n ,char from ,char to){</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%c -> %c\n"</span>,from,to);</span><br><span class="line">}</span><br><span class="line">void hanoi(int n ,char from,char depend,char to){</span><br><span class="line">    <span class="keyword">if</span> (n == 1) {</span><br><span class="line">        //当剩一个盘子的时候，直接移动到目的柱</span><br><span class="line">        Move(1, from, to);</span><br><span class="line">    }<span class="keyword">else</span>{</span><br><span class="line">        hanoi(n-1,from,to,depend);//将初始柱的前n-1个盘子借助目的塔移动到借用柱上</span><br><span class="line">        Move(n,from,to);              //将剩下的一个盘子移动到目的柱上</span><br><span class="line">        hanoi(n-1,depend,from,to);//将b柱n-1个盘子移动到借用a柱移动到c上</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line">int <span class="function"><span class="title">main</span></span>() {</span><br><span class="line">    int n;</span><br><span class="line">    scanf(<span class="string">"%d"</span>,&n);</span><br><span class="line">    char x = <span class="string">'A'</span>,y = <span class="string">'B'</span>,z = <span class="string">'C'</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"盘子移动情况如下：\n"</span>);</span><br><span class="line">    hanoi(n, x, y, z);</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
 <p>思路：<br>
@@ -1022,22 +1022,22 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
     <title>Mac上好用的敲代码软件CodeRunner外加破解</title>
     <url>/2020/01/13/Mac%E4%B8%8A%E5%A5%BD%E7%94%A8%E7%9A%84%E6%95%B2%E4%BB%A3%E7%A0%81%E8%BD%AF%E4%BB%B6CodeRunner/</url>
     <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1>Powerful IDE level code completion for most languages</h1>
-<h2 id="有时候我们会一下子学好多语言，仅是用它写写算法而已。对于每一个语言都特意去下在一个IDE的话，无疑是件浪费时间和空间的事情，或许你可以用VS-Code-，但是插件的下载与安装也是比较麻烦的。"><a class="header-anchor" href="#有时候我们会一下子学好多语言，仅是用它写写算法而已。对于每一个语言都特意去下在一个IDE的话，无疑是件浪费时间和空间的事情，或许你可以用VS-Code-，但是插件的下载与安装也是比较麻烦的。">¶</a>有时候我们会一下子学好多语言，仅是用它写写算法而已。对于每一个语言都特意去下在一个IDE的话，无疑是件浪费时间和空间的事情，或许你可以用VS Code ，但是插件的下载与安装也是比较麻烦的。</h2>
-<h2 id="我介绍一个万能IDE-Code-Runner"><a class="header-anchor" href="#我介绍一个万能IDE-Code-Runner">¶</a>我介绍一个万能IDE-----------> Code Runner</h2>
+<h2 id="有时候我们会一下子学好多语言，仅是用它写写算法而已。对于每一个语言都特意去下在一个IDE的话，无疑是件浪费时间和空间的事情，或许你可以用VS-Code-，但是插件的下载与安装也是比较麻烦的。">有时候我们会一下子学好多语言，仅是用它写写算法而已。对于每一个语言都特意去下在一个IDE的话，无疑是件浪费时间和空间的事情，或许你可以用VS Code ，但是插件的下载与安装也是比较麻烦的。</h2>
+<h2 id="我介绍一个万能IDE-Code-Runner">我介绍一个万能IDE-----------> Code Runner</h2>
 <p><a href="https://img-blog.csdnimg.cn/20200117085038328.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200117085038328.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a><br>
 他几乎支持的了所有语言，如果没有你想要的，你也可以手动添加。<br>
 他的界面如xcode一样，非常的美观，清楚。支持代码自动补全，同样也支持很多主题。</p>
 <p>运行之后还会显示运行时间。。</p>
-<h3 id="功能强大-仅有270多MB-是不是心动了呢"><a class="header-anchor" href="#功能强大-仅有270多MB-是不是心动了呢">¶</a>功能强大 仅有270多MB 是不是心动了呢?</h3>
+<h3 id="功能强大-仅有270多MB-是不是心动了呢">功能强大 仅有270多MB 是不是心动了呢?</h3>
 <h1>然而</h1>
 <p><a href="https://img-blog.csdnimg.cn/20200117085414258.png" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200117085414258.png" class="lazyload"></a><br>
 没错它是需要付费的。</p>
 <h1>然而</h1>
 <p>不废话—</p>
-<h2 id="1-直接登录官网下载"><a class="header-anchor" href="#1-直接登录官网下载">¶</a>1. 直接登录官网下载</h2>
-<h2 id="2-断网激活："><a class="header-anchor" href="#2-断网激活：">¶</a>2. 断网激活：</h2>
+<h2 id="1-直接登录官网下载">1. 直接登录官网下载</h2>
+<h2 id="2-断网激活：">2. 断网激活：</h2>
 <p>安装成功后，选择输入激活码。并断网。激活码网上都有，我就不找啦。几乎是随便一个就可以。成功后会有一个successfully</p>
-<h2 id="3-修改hosts文件："><a class="header-anchor" href="#3-修改hosts文件：">¶</a>3. 修改hosts文件：</h2>
+<h2 id="3-修改hosts文件：">3. 修改hosts文件：</h2>
 <p>打开<br>
 终端，开启root权限：</p>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">sudo su</span><br></pre></td></tr></tbody></table></figure></div>
@@ -1050,7 +1050,7 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
 <p>然后保存退出。。。<br>
 （这块需要用到vim的一些简单操作，不会的话百度一下就OK，非常简单）<br>
 （注：修改成功以后他的官网就会进不去）</p>
-<h3 id="重启coderunner-就可以使用啦。"><a class="header-anchor" href="#重启coderunner-就可以使用啦。">¶</a>重启coderunner 就可以使用啦。</h3>
+<h3 id="重启coderunner-就可以使用啦。">重启coderunner 就可以使用啦。</h3>
 </body></html>]]></content>
       <categories>
         <category>Mac骚操作</category>
@@ -1062,25 +1062,25 @@ Max一定要特别大，要不然，最大值测试用例时，x+y的值甚至�
   <entry>
     <title>关于C指针----和指针的第一次亲密接触</title>
     <url>/2020/01/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="先看代码："><a class="header-anchor" href="#先看代码：">¶</a>先看代码：</h2>
+    <content><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h2 id="先看代码：">先看代码：</h2>
 <div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">cpp</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string"><stdio.h></stdio.h></span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span>{</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">5</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> *c;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//输出每个变量的地址</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a的地址是 %p\n"</span>,&a);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b的地址是 %p\n"</span>,&b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c的地址是 %p\n"</span>,&c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/*将a的地址赋予c*/</span></span><br><span class="line">    c = &a;<span class="comment">//此处需用到  ”&“来得到a的地址</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c修改后的地址为 %p\n"</span>,c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/* 通过c输出a的内容*/</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"*c ---->%d\n"</span>,*c);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/* 通过c修改a的内容*/</span></span><br><span class="line">    *c = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a---->%d\n"</span>,a);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></div>
-<h2 id="然后我们看运行结果"><a class="header-anchor" href="#然后我们看运行结果">¶</a>然后我们看运行结果</h2>
+<h2 id="然后我们看运行结果">然后我们看运行结果</h2>
 <p><a href="https://img-blog.csdnimg.cn/20200115085336718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115085336718.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
-<h2 id="我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c"><a class="header-anchor" href="#我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c">¶</a>我们首先声明了int型变量 a,b 然后声明了”指向int 的指针“类型的变量c</h2>
+<h2 id="我们首先声明了int型变量-a-b-然后声明了”指向int-的指针“类型的变量c">我们首先声明了int型变量 a,b 然后声明了”指向int 的指针“类型的变量c</h2>
 <p>==我们暂且先将c理解为指向int 的指针==</p>
-<h2 id="再看初始化完后内存中保存的样子在这里插入图片描述"><a class="header-anchor" href="#再看初始化完后内存中保存的样子在这里插入图片描述">¶</a>再看初始化完后内存中保存的样子<a href="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
+<h2 id="再看初始化完后内存中保存的样子在这里插入图片描述">再看初始化完后内存中保存的样子<a href="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/20200115090658778.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></h2>
 <p>在c语言中，会存在 int类型，double类型，等。。同样，c语言中也存在指针类型这样的类型。<br>
 指针类型并不是单独存在的，而是由其他类型派生出来的。。</p>
 <p>==由引用类型T派生的指针类型有时候称为’（指向）T的指针‘==</p>
 <p>因为指针类型是类型，所以他也像其他类型一样，有“指针类型的值和指针类型变量”，但有时，我们将“指针类型”，“指针类型变量”，“指针类型的值”简单统称为—指针</p>
 <p>因此 c就是一个指针类型变量-----指向int的指针，但此时并为对它赋值。</p>
 <p>接下来我们将a的地址赋予了c，此时c的值就是a的地址<a href="https://img-blog.csdnimg.cn/2020011509233464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" data-fancybox="group" data-caption="在这里插入图片描述" class="fancybox"><img alt="在这里插入图片描述" title="在这里插入图片描述" data-src="https://img-blog.csdnimg.cn/2020011509233464.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1Zpc3RvcnNZYW4=,size_16,color_FFFFFF,t_70" class="lazyload"></a></p>
-<h2 id="接下来："><a class="header-anchor" href="#接下来：">¶</a>接下来：</h2>
+<h2 id="接下来：">接下来：</h2>
 <p>在指针前面加*，可以表示指针指向的变量，因为现在c指向a，所以<em>c就等同于a。同理，修改</em>c就相当于修改了a的值。</p>
 <p>==这是对后两行输出做的解释==</p>
-<h2 id="补充："><a class="header-anchor" href="#补充：">¶</a>补充：</h2>
+<h2 id="补充：">补充：</h2>
 <p>如果说c是 指向int的指针，但我们声明变量时一般要遵循：</p>
-<h2 id="类型-变量名"><a class="header-anchor" href="#类型-变量名">¶</a>类型 变量名</h2>
+<h2 id="类型-变量名">类型 变量名</h2>
 <p>因此，我们似乎声明了一个名为*c的变量。</p>
 <p>所以我们可以写成 ==int* c==的形式。这样更符合  ==类型 变量名==  的形式。</p>
 <p>但之后就会出现问题：<br>
@@ -1090,7 +1090,7 @@ C语言声明数组时应该是：</p>
 <p>很明显，会报错。这就产生了矛盾。。</p>
 <p>反而，Java中可以这么写，但是Java为了让C程序员更好的转向Java。也兼容了c语言定义数组的写法。。</p>
 <p>在这里需要插一句：</p>
-<h2 id="C语言的语法本来就是不自然的，奇怪的而又变态的。"><a class="header-anchor" href="#C语言的语法本来就是不自然的，奇怪的而又变态的。">¶</a>C语言的语法本来就是不自然的，奇怪的而又变态的。</h2>
+<h2 id="C语言的语法本来就是不自然的，奇怪的而又变态的。">C语言的语法本来就是不自然的，奇怪的而又变态的。</h2>
 <p>之后我会出一篇关于C语法的博客专门研究这“变态的”c语法。。。</p>
 <p>欢迎吐槽评论</p>
 </body></html>]]></content>
