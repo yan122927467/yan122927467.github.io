@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>数模作业</title>
-      <link href="/2020/02/23/%E6%95%B0%E6%A8%A1%E4%BD%9C%E4%B8%9A/"/>
-      <url>/2020/02/23/%E6%95%B0%E6%A8%A1%E4%BD%9C%E4%B8%9A/</url>
-      
-        <content type="html"><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script></head><body><h1 id="作业："><a href="#作业：" class="headerlink" title="作业："></a>作业：</h1><h2 id="1-估计一个人体内血液的总量"><a href="#1-估计一个人体内血液的总量" class="headerlink" title="1. 估计一个人体内血液的总量"></a>1. 估计一个人体内血液的总量</h2><ul><li><p>准备的数据资料：</p><ul><li>人体血量因人而异，但是血液在人体中的比重基本不变。</li><li>医学上有一种药理学方法测量人体血量：静脉注射只在血液中分布的药物（个人建议早上空腹注射）。待其扩布至全身血管后测量血液中该药物的浓度，根据注射前药物浓度和体积以及注射后血药浓度可以计算出血液体积。</li></ul></li><li><p>需要做的观察：我们只需要观察并记录注射药物的体积，注射药物的浓度与提取出的血药浓度。</p></li><li><p>数学模型：</p></li></ul><p>\mathtt{V}<em>药 \mathtt{C}</em>药 = \mathtt{V}血\mathtt{C}血（\mathtt{V}_血即为所求）</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">注射药物体积×注射药物浓度＝血液体积×血药浓度</span><br></pre></td></tr></tbody></table></figure></div><h1 id="作业：-1"><a href="#作业：-1" class="headerlink" title="作业："></a>作业：</h1><h2 id="1-估计一个人体内血液的总量-1"><a href="#1-估计一个人体内血液的总量-1" class="headerlink" title="1. 估计一个人体内血液的总量"></a>1. 估计一个人体内血液的总量</h2><ul><li><p>准备的数据资料：</p><ul><li>人体血量因人而异，但是血液在人体中的比重基本不变。</li><li>医学上有一种药理学方法测量人体血量：静脉注射只在血液中分布的药物（个人建议早上空腹注射）。待其扩布至全身血管后测量血液中该药物的浓度，根据注射前药物浓度和体积以及注射后血药浓度可以计算出血液体积。</li></ul></li><li><p>需要做的观察：我们只需要观察并记录注射药物的体积，注射药物的浓度与提取出的血药浓度。</p></li><li><p>数学模型：</p><p>​     注射药物体积×注射药物浓度＝血液体积×血药浓度</p></li></ul><script type="math/tex; mode=display">\mathtt{V}_药 \mathtt{C}_药 = \mathtt{V}血\mathtt{C}血（\mathtt{V}_血即为所求）</script><h2 id="2-包饺子问题"><a href="#2-包饺子问题" class="headerlink" title="2. 包饺子问题"></a>2. 包饺子问题</h2><h4 id="新增条件：饺子越大，饺子皮越厚。"><a href="#新增条件：饺子越大，饺子皮越厚。" class="headerlink" title="新增条件：饺子越大，饺子皮越厚。"></a>新增条件：饺子越大，饺子皮越厚。</h4><h4 id="假设：-面皮厚度h与面积s关系成立某种线性关系："><a href="#假设：-面皮厚度h与面积s关系成立某种线性关系：" class="headerlink" title="假设： 面皮厚度h与面积s关系成立某种线性关系："></a>假设： 面皮厚度h与面积s关系成立某种线性关系：</h4><script type="math/tex; mode=display">s = \mathtt{K}_0h</script><h4 id="建模："><a href="#建模：" class="headerlink" title="建模："></a>建模：</h4><p>此时总面块体积V满足：</p><script type="math/tex; mode=display">V = SH = \sum_{i=1}^n\mathtt{s}_i\mathtt{h}_i = nsh</script><p>有上述二式可得大饺子和小饺子的表面积关系</p><script type="math/tex; mode=display">\mathtt{S}^2 = n\mathtt{s}^2</script><p>大饺子与小饺子的体积分别为</p><script type="math/tex; mode=display">V = kS^\frac32</script><script type="math/tex; mode=display">v = ks^\frac32</script><p>以上三式联立得</p><script type="math/tex; mode=display">V = n^\frac34v</script><h4 id="应用-100个饺子包1kg馅，50个饺子能包多少？"><a href="#应用-100个饺子包1kg馅，50个饺子能包多少？" class="headerlink" title="应用: 100个饺子包1kg馅，50个饺子能包多少？"></a>应用: 100个饺子包1kg馅，50个饺子能包多少？</h4><p>用此模型得出来的结果大约为0.88kg</p></body></html>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>笔记————电路与电子技术第五版（主编：张虹)</title>
       <link href="/2020/02/22/%E7%94%B5%E8%B7%AF%E4%B8%8E%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1/"/>
       <url>/2020/02/22/%E7%94%B5%E8%B7%AF%E4%B8%8E%E7%94%B5%E5%AD%90%E8%AE%BE%E8%AE%A1/</url>
