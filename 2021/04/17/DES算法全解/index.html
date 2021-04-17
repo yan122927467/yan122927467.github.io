@@ -84,17 +84,17 @@ function activateLightMode(){
 <li>DES的密码结构属于Feistel结构</li>
 </ul>
 <h3 id="二、DES的加密过程"><a href="#二、DES的加密过程" class="headerlink" title="二、DES的加密过程"></a>二、DES的加密过程</h3><ol>
-<li>64位秘钥经子秘钥产生算法产生出16个子秘钥：$K<em>1,K_2,…,K</em>{16}$, 分别供第一次，第二次，… ，第十六次加密迭代使用。</li>
+<li>64位秘钥经子秘钥产生算法产生出16个子秘钥：$ K<em>1,K_2,…,K</em>{16} $, 分别供第一次，第二次，… ，第十六次加密迭代使用。</li>
 <li>64位明文首先经过初始置换$IP（Initial\quad permutation）$，将数据打乱重新排列并分成左右两半，左边32位构成$L_0$，右边32位构成$R_0$。</li>
 <li>由加密函数$f$实现子密钥$K_1$对$R_0$的加密，结果为32位的数据组$f(R_0,K_1)$。$f(R_0,K_1)$再与$L_0$模2相加，又得到一个有32位的数据组$L_0\bigoplus f(R_0,K_1)$。以$L_0\bigoplus f(R_0,K_1)$作为第二次加密迭代的$R_1$，以$R_0$作为第二次加密迭代的$L_1$。至此，第一次加密迭代结束。</li>
 <li>第二次加密迭代至第十六次加密迭代分别用子密钥$K<em>2$，…，$K</em>{16}$进行，其过程与第一次加密迭代相同。</li>
-<li>第十六次加密迭代结束后，产生一个64位的数据组。以其左边32位作为L$<em>{16}$，以其右边32位作为$R</em>{16}$，两者合并在经过逆初始置换<strong>$\color{red}{IP^{-1} }$</strong>，将数据重新排列，便得到64位密文。至此加密过程全部结束。</li>
+<li>第十六次加密迭代结束后，产生一个64位的数据组。以其左边32位作为$ L<em>{16} $，以其右边32位作为$R</em>{16}$，两者合并在经过逆初始置换<strong>$\color{red}{IP^{-1} }$</strong>，将数据重新排列，便得到64位密文。至此加密过程全部结束。</li>
 </ol>
 <h3 id="三、DES的算法细节"><a href="#三、DES的算法细节" class="headerlink" title="三、DES的算法细节"></a>三、DES的算法细节</h3><p>下面我们详细的介绍算法细节，我们以一个例子进行展开。</p>
 <p><strong>举例：取16进制秘钥$K$为</strong></p>
 <p>$K =3132333435363738 $</p>
 <p>转化为二进制，并且将每八位写成一组</p>
-<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">java</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight java"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">00110001</span> <span class="number">00110010</span> <span class="number">00110011</span> <span class="number">00110100</span> <span class="number">00110101</span> <span class="number">00110110</span> <span class="number">00110111</span> <span class="number">00111000</span></span><br></pre></td></tr></tbody></table></figure></div>
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">c</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">00110001</span> <span class="number">00110010</span> <span class="number">00110011</span> <span class="number">00110100</span> <span class="number">00110101</span> <span class="number">00110110</span> <span class="number">00110111</span> <span class="number">00111000</span></span><br></pre></td></tr></tbody></table></figure></div>
 <h4 id="1-创建16个子秘钥，每个长48比特"><a href="#1-创建16个子秘钥，每个长48比特" class="headerlink" title="1.     创建16个子秘钥，每个长48比特"></a>1.     创建16个子秘钥，每个长48比特</h4><p>创建子密钥过程大致流程图如下：</p>
 <p><a href="https://i.loli.net/2021/04/13/FkdKeIb3ylh7YnZ.jpg" target="_blank" rel="noopener" data-fancybox="group" data-caption="流程" class="fancybox"><img alt="流程" style="zoom:70%;" title="流程" data-src="https://i.loli.net/2021/04/13/FkdKeIb3ylh7YnZ.jpg" class="lazyload"></a></p>
 <p>64位秘钥我们已经给出，现在依次介绍置换选择1，，置换选择2，循环左移。</p>
