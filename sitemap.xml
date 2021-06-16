@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.charlesyan.cn/2021/06/16/%E6%9C%AA%E5%91%BD%E5%90%8D/</loc>
+    
+    <lastmod>2021-06-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.charlesyan.cn/music/index.html</loc>
     
     <lastmod>2021-06-16</lastmod>
@@ -354,6 +361,13 @@
   </url>
   
   <url>
+    <loc>https://www.charlesyan.cn/tags/sql%E8%AF%AD%E5%8F%A5/</loc>
+    <lastmod>2021-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.charlesyan.cn/tags/swift/</loc>
     <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -362,13 +376,6 @@
   
   <url>
     <loc>https://www.charlesyan.cn/tags/swiftUI/</loc>
-    <lastmod>2021-06-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.charlesyan.cn/tags/sql%E8%AF%AD%E5%8F%A5/</loc>
     <lastmod>2021-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
