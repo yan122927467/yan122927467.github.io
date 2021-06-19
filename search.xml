@@ -161,29 +161,46 @@
     <title>信息系统安全复习提纲</title>
     <url>/2021/06/18/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="信息系统安全复习提纲"><a href="#信息系统安全复习提纲" class="headerlink" title="信息系统安全复习提纲"></a>信息系统安全复习提纲</h1><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h2 id="第四章-身份认证"><a href="#第四章-身份认证" class="headerlink" title="第四章 身份认证"></a>第四章 身份认证</h2><ul>
-<li>概述：</li>
+<li><strong>概述：</strong></li>
 </ul>
 <p>身份认证是信息系统的第一道安全防线，包括<mark class="hl-label default">标识</mark> 与<mark class="hl-label blue">鉴别</mark> 两个过程</p>
 <ul>
-<li>身份认证方式</li>
+<li><strong>身份认证方式</strong></li>
 </ul>
-<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">基于口令的认证</button></li><li class="tab"><button type="button" data-href="#test4-2">基于智能卡的认证方式</button></li><li class="tab"><button type="button" data-href="#test4-3">基于生物特征的认证方式</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><p>基于口令认证是我们最常用的一种认证方式，根据动态因素的不同，分为同步认证技术和异步认证技术。其中同步认证技术又分为基于时间同步认证技术和基于事件同步认证技术。异步认证技术即为挑战/应答认证技术</p>
-<p>挑战应答是什么样的方式，大家要掌握</p>
-<p>会区别是基于时间同步的还是挑战应答的</p>
-<p>1）基于时间同步认证技术是把流逝的时间作为变动因子（60秒作为变化单位，用“滑动窗口”技术）。用户密钥卡和认证服务器所产生的密码在时间上必须同步。 具有操作简单，携带方便等优点，难点在于需要解决网络延迟等不确定因素带来的干扰。</p>
-<p>动态令牌，手机令牌 （一次性口令）</p>
-<p>2) 基于事件同步认证技术是把变动的数字序列（事件序列）作为密码产生器的一个运算因子与用户的私钥共同产生动态密码。用户密钥卡和认证服务器保持相同的事件序列。 </p>
-<p>3) 挑战/应答方式的变动因子是由认证服务器产生的随机数字序列（Challenge），它也是密 码卡的密码生成的变动因子，由于每一个Challenge都是唯一的、不会重复使用，并且 Challenge是在同一个地方产生，不需要同步。</p>
-<p>应用最广泛一次性口令实现方式</p>
-<p>基本原理：每次认证时，服务器产生一个随机数（称为挑战）发送给客户端，客户端以该随机数作为不确定因素，用某种单向算法计算出结果作为应答，服务器通过验证应答的有效性来判断客户端身份的合法性。其最为经典的方案是S/Key协议 分为两个过程：注册过程和认证过程。注册过程只执行一次，而认证过程则在用户的每次登录时都要执行。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><p>基于PKI技术体系的USB Key 认证原理</p>
-<p>USB Key中预置了加密算法，摘要算法，秘钥生成算法等，可利用秘钥生成算法首先为用户生成一对公/私钥，私钥保存在USB Key中，公钥可以导出向CA申请生成数字证书，数字证书也保存在USB Key中。在进行客户端身份认证时，客户端向服务器发送数字证书，服务端利用CA的公钥验证数字证书的真实性，完后才能对客户端身份的认证，客户端可也要求服务端发送数字证书以验证服务端的真实身份</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p>这里无重点，但是要知道这种认证方式。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">基于口令的认证</button></li><li class="tab"><button type="button" data-href="#test4-2">基于智能卡的认证方式</button></li><li class="tab"><button type="button" data-href="#test4-3">基于生物特征的认证方式</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>需要掌握挑战应答方式<br>要学会区别基于时间同步的还是挑战应答的 </p>
+</div>
+
+<p>基于一次性口令认证是我们最常用的一种认证方式，根据动态因素的不同，分为同步认证技术和异步认证技术。其中同步认证技术又分为<mark class="hl-label orange">基于时间同步认证技术</mark> 和基于事件同步认证技术。异步认证技术即为<mark class="hl-label red">挑战/应答认证技术</mark> </p>
+<h3 id="基于时间同步认证技术"><a href="#基于时间同步认证技术" class="headerlink" title="基于时间同步认证技术"></a>基于时间同步认证技术</h3><p>把流逝的时间作为变动因子（60秒作为变化单位，用“滑动窗口”技术）。用户密钥卡和认证服务器所产生的密码在时间上必须同步。 具有操作简单，携带方便等优点，难点在于需要解决网络延迟等不确定因素带来的干扰。如动态令牌，手机令牌。 </p>
+<h3 id="挑战-应答方式"><a href="#挑战-应答方式" class="headerlink" title="挑战/应答方式"></a>挑战/应答方式</h3><p>应用最广泛一次性口令实现方式</p>
+<p>基本原理：每次认证时，服务器产生一个随机数（称为挑战）发送给客户端，客户端以该随机数作为不确定因素，用某种单向算法计算出结果作为应答，服务器通过验证应答的有效性来判断客户端身份的合法性。其最为经典的方案是S/Key协议 分为两个过程：注册过程和认证过程。注册过程只执行一次，而认证过程则在用户的每次登录时都要执行。</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/信息系统安全复习提纲/image-20210619182745040.png" alt="挑战应答进本工作过程" style="zoom:50%;" /></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><h3 id="基于PKI技术体系的USB-Key-认证原理："><a href="#基于PKI技术体系的USB-Key-认证原理：" class="headerlink" title="基于PKI技术体系的USB Key 认证原理："></a>基于PKI技术体系的USB Key 认证原理：</h3><p>USB Key中预置了加密算法，摘要算法，秘钥生成算法等，可利用秘钥生成算法首先为用户生成一对公/私钥，私钥保存在USB Key中，公钥可以导出向CA申请生成数字证书，数字证书也保存在USB Key中。在进行客户端身份认证时，客户端向服务器发送数字证书，服务端利用CA的公钥验证数字证书的真实性，完后才能对客户端身份的认证，客户端可也要求服务端发送数字证书以验证服务端的真实身份</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p>这里无重点，但是要知道这种认证方式。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
 <ul>
-<li>身份认证协议</li>
+<li><strong>身份认证协议</strong></li>
 </ul>
 <p>包括单向认证协议和双向认证协议</p>
-<p>需要掌握双向认证协议，能够自己来设计实现一个基于对称密码体制实现双向认证或者公钥密码体制的双向认证，设计实现</p>
-<p>113页 三个选择题</p>
-<h2 id="访问控制"><a href="#访问控制" class="headerlink" title="访问控制"></a>访问控制</h2><p>访问控制策略 </p>
+<div class="tabs" id="双向认证"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#双向认证-1">双向认证 1</button></li><li class="tab"><button type="button" data-href="#双向认证-2">双向认证 2</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="双向认证-1"><div class="note purple icon flat"><i class="note-icon far fa-hand-scissors"></i><p>自行设计一个利用对称密码体制实现双向认证的协议</p>
+</div>
+
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/信息系统安全复习提纲/image-20210619185840344.png" alt="对称密码体制实现双向认证" style="zoom:50%;" /></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="双向认证-2"><div class="note red icon flat"><i class="note-icon fas fa-fan"></i><p>自行设计一个利用公钥密码体制实现双向认证的协议</p>
+</div>
+
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/信息系统安全复习提纲/image-20210619185920211.png" alt="公钥密码体制实现双向认证" style="zoom:50%;" /></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<ul>
+<li><strong>课后选择题</strong></li>
+</ul>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/信息系统安全复习提纲/image-20210619185325437.png" alt="课后选择题" style="zoom:50%;" /></p>
+<h2 id="第五章-访问控制"><a href="#第五章-访问控制" class="headerlink" title="第五章 访问控制"></a>第五章 访问控制</h2><div class="note pink icon flat"><i class="note-icon fab fa-Redhat"></i><p>本章老师未强调5.1  着重说的5.2访问控制策略</p>
+</div>
+<h3 id="访问控制策略"><a href="#访问控制策略" class="headerlink" title="访问控制策略"></a>访问控制策略</h3><div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">自主访问控制</button></li><li class="tab"><button type="button" data-href="#test1-2">强制访问控制</button></li><li class="tab"><button type="button" data-href="#test1-3">基于角色的访问控制</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p>​        <strong>自主访问控制</strong>是指资源的所有者（创建者），对于其拥有的资源，可以自主地将访问权限分发给其他主体，即确定这些主题对于资源有怎样的访问权限，是最常用的访问控制机制。</p>
+<ul>
+<li><strong>实现机制</strong></li>
+</ul>
+<ol>
+<li>访问控制矩阵</li>
+<li>访问控制列表</li>
+<li>访问能力表</li>
+</ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
 <p>自主访问控制   </p>
 <p>访问控制矩阵，访问控制列表 访问能力表 实现方式一定要掌握  到底是怎么实现的</p>
 <p>强制访问控制</p>
@@ -226,6 +243,7 @@
 <p>web应用漏洞 sql注入 和跨站脚本 构造sql语句 原理</p>
 <p>跨站脚本分为三类</p>
 <p>安全审计 以及一般流程</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/信息系统安全复习提纲/image-20210619194014965.png" alt=""></p>
 ]]></content>
   </entry>
   <entry>
@@ -238,9 +256,9 @@
     &quot;Magnesium&quot; : 10.01
     &quot;Iron&quot; :  5</div>
 <div class="mermaid">
-graph TD    
+graph TD
 
-​			Start --&gt; Stop
+​	
 </div>
 <div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
 <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
@@ -681,8 +699,8 @@ M = C^d\,mod \quad n</script><h4 id="示例（教材）："><a href="#示例（�
         <category>算法分析与设计</category>
       </categories>
       <tags>
-        <tag>上课笔记</tag>
         <tag>算法</tag>
+        <tag>上课笔记</tag>
       </tags>
   </entry>
   <entry>
