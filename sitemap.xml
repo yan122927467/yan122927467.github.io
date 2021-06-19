@@ -277,6 +277,13 @@
 
   
   <url>
+    <loc>https://www.charlesyan.cn/tags/mac%E4%B8%8Ewindows%E5%85%BC%E5%AE%B9%E6%80%A7/</loc>
+    <lastmod>2021-06-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.charlesyan.cn/tags/%E8%80%83%E7%A0%94/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
@@ -285,6 +292,13 @@
   
   <url>
     <loc>https://www.charlesyan.cn/tags/%E8%8B%B1%E8%AF%AD/</loc>
+    <lastmod>2021-06-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.charlesyan.cn/tags/C%E6%8C%87%E9%92%88/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -305,14 +319,7 @@
   </url>
   
   <url>
-    <loc>https://www.charlesyan.cn/tags/mac%E4%B8%8Ewindows%E5%85%BC%E5%AE%B9%E6%80%A7/</loc>
-    <lastmod>2021-06-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.charlesyan.cn/tags/C%E6%8C%87%E9%92%88/</loc>
+    <loc>https://www.charlesyan.cn/tags/Mac/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -326,21 +333,7 @@
   </url>
   
   <url>
-    <loc>https://www.charlesyan.cn/tags/Mac/</loc>
-    <lastmod>2021-06-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.charlesyan.cn/tags/%E4%B8%8A%E8%AF%BE%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-06-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.charlesyan.cn/tags/sql%E8%AF%AD%E5%8F%A5/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -375,6 +368,13 @@
   </url>
   
   <url>
+    <loc>https://www.charlesyan.cn/tags/sql%E8%AF%AD%E5%8F%A5/</loc>
+    <lastmod>2021-06-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.charlesyan.cn/tags/swift/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
@@ -389,14 +389,14 @@
   </url>
   
   <url>
-    <loc>https://www.charlesyan.cn/tags/vim/</loc>
+    <loc>https://www.charlesyan.cn/tags/word%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.charlesyan.cn/tags/word%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://www.charlesyan.cn/tags/vim/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -426,20 +426,6 @@
 
   
   <url>
-    <loc>https://www.charlesyan.cn/categories/%E8%80%83%E7%A0%94%E7%B1%BB/</loc>
-    <lastmod>2021-06-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.charlesyan.cn/categories/%E6%95%A3%E6%96%87%E9%9B%86/</loc>
-    <lastmod>2021-06-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.charlesyan.cn/categories/Mac%E9%AA%9A%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
@@ -447,7 +433,21 @@
   </url>
   
   <url>
+    <loc>https://www.charlesyan.cn/categories/%E8%80%83%E7%A0%94%E7%B1%BB/</loc>
+    <lastmod>2021-06-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.charlesyan.cn/categories/%E5%BE%81%E6%9C%8DC%E6%8C%87%E9%92%88/</loc>
+    <lastmod>2021-06-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.charlesyan.cn/categories/%E6%95%A3%E6%96%87%E9%9B%86/</loc>
     <lastmod>2021-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
