@@ -158,6 +158,77 @@
       </tags>
   </entry>
   <entry>
+    <title>信息系统安全复习提纲</title>
+    <url>/2021/06/18/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="信息系统安全复习提纲"><a href="#信息系统安全复习提纲" class="headerlink" title="信息系统安全复习提纲"></a>信息系统安全复习提纲</h1><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h2 id="第四章-身份认证"><a href="#第四章-身份认证" class="headerlink" title="第四章 身份认证"></a>第四章 身份认证</h2><ul>
+<li>概述：</li>
+</ul>
+<p>身份认证是信息系统的第一道安全防线，包括<mark class="hl-label default">标识</mark> 与<mark class="hl-label blue">鉴别</mark> 两个过程</p>
+<ul>
+<li>身份认证方式</li>
+</ul>
+<div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">基于口令的认证</button></li><li class="tab"><button type="button" data-href="#test4-2">基于智能卡的认证方式</button></li><li class="tab"><button type="button" data-href="#test4-3">基于生物特征的认证方式</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><p>基于口令认证是我们最常用的一种认证方式，根据动态因素的不同，分为同步认证技术和异步认证技术。其中同步认证技术又分为基于时间同步认证技术和基于事件同步认证技术。异步认证技术即为挑战/应答认证技术</p>
+<p>挑战应答是什么样的方式，大家要掌握</p>
+<p>会区别是基于时间同步的还是挑战应答的</p>
+<p>1）基于时间同步认证技术是把流逝的时间作为变动因子（60秒作为变化单位，用“滑动窗口”技术）。用户密钥卡和认证服务器所产生的密码在时间上必须同步。 具有操作简单，携带方便等优点，难点在于需要解决网络延迟等不确定因素带来的干扰。</p>
+<p>动态令牌，手机令牌 （一次性口令）</p>
+<p>2) 基于事件同步认证技术是把变动的数字序列（事件序列）作为密码产生器的一个运算因子与用户的私钥共同产生动态密码。用户密钥卡和认证服务器保持相同的事件序列。 </p>
+<p>3) 挑战/应答方式的变动因子是由认证服务器产生的随机数字序列（Challenge），它也是密 码卡的密码生成的变动因子，由于每一个Challenge都是唯一的、不会重复使用，并且 Challenge是在同一个地方产生，不需要同步。</p>
+<p>应用最广泛一次性口令实现方式</p>
+<p>基本原理：每次认证时，服务器产生一个随机数（称为挑战）发送给客户端，客户端以该随机数作为不确定因素，用某种单向算法计算出结果作为应答，服务器通过验证应答的有效性来判断客户端身份的合法性。其最为经典的方案是S/Key协议 分为两个过程：注册过程和认证过程。注册过程只执行一次，而认证过程则在用户的每次登录时都要执行。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><p>基于PKI技术体系的USB Key 认证原理</p>
+<p>USB Key中预置了加密算法，摘要算法，秘钥生成算法等，可利用秘钥生成算法首先为用户生成一对公/私钥，私钥保存在USB Key中，公钥可以导出向CA申请生成数字证书，数字证书也保存在USB Key中。在进行客户端身份认证时，客户端向服务器发送数字证书，服务端利用CA的公钥验证数字证书的真实性，完后才能对客户端身份的认证，客户端可也要求服务端发送数字证书以验证服务端的真实身份</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p>这里无重点，但是要知道这种认证方式。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<ul>
+<li>身份认证协议</li>
+</ul>
+<p>包括单向认证协议和双向认证协议</p>
+<p>需要掌握双向认证协议，能够自己来设计实现一个基于对称密码体制实现双向认证或者公钥密码体制的双向认证，设计实现</p>
+<p>113页 三个选择题</p>
+<h2 id="访问控制"><a href="#访问控制" class="headerlink" title="访问控制"></a>访问控制</h2><p>访问控制策略 </p>
+<p>自主访问控制   </p>
+<p>访问控制矩阵，访问控制列表 访问能力表 实现方式一定要掌握  到底是怎么实现的</p>
+<p>强制访问控制</p>
+<p>基于角色访问控制</p>
+<p>自主访问控制的缺点 118页</p>
+<p>强制访问控制</p>
+<p>两种模型</p>
+<p> BLP 两种基本原则 简单安全性，*特性 </p>
+<p>图 写的话可以向上写，读的话只能向下读</p>
+<p>防范特洛伊木马，下面那段119页 </p>
+<p>Biba </p>
+<p>数据完整性的保护， 策略 主体只能向下写 向上读 </p>
+<p>4到选择题 125页</p>
+<h2 id="操作系统安全-—了解"><a href="#操作系统安全-—了解" class="headerlink" title="操作系统安全 —了解"></a>操作系统安全 —了解</h2><p>进程，进程的状态和转换 135页</p>
+<p>存储保护，涉及到地址越界和</p>
+<p>最小特权管理 最小特权的思想</p>
+<p>是系统不应赋予用户超过其执行任务所需特权以外的特权，或者说仅给用户赋予必不可少的特权，最小特权原则一方面赋予主体“必不可少”的特权以保证用户能完成承担的任务或操作，另一放面它仅给用户“必不可少的特权从而能限制用户所能进行的操作。</p>
+<h2 id="数据库系统安全"><a href="#数据库系统安全" class="headerlink" title="数据库系统安全"></a>数据库系统安全</h2><p>数据库备份与恢复技术</p>
+<p>备份技术：日志和数据备份 要知道数据备份分为静态备份和动态备份 是什么过程</p>
+<p>数据库恢复技术</p>
+<h2 id="信息系统安全评价标准和等级保护"><a href="#信息系统安全评价标准和等级保护" class="headerlink" title="信息系统安全评价标准和等级保护"></a>信息系统安全评价标准和等级保护</h2><p>两种标准 TCSEC和CC</p>
+<p>TCSEC的首次引用在C2层</p>
+<p>CC标准有三个部分组成 1. 2. 3. 部分</p>
+<h2 id="信息系统安全风险评估"><a href="#信息系统安全风险评估" class="headerlink" title="信息系统安全风险评估"></a>信息系统安全风险评估</h2><p>风险评估方法：定量 定性 相结合 有一定认识</p>
+<p>机密性 完整性 可控性？</p>
+<p>风险评估的过程 流程图 258页</p>
+<p>风险计算原理 三个计算环节 267页</p>
+<p>风险值计算 两种常用方法 例子会</p>
+<h2 id="恶意代码检测与防范技术"><a href="#恶意代码检测与防范技术" class="headerlink" title="恶意代码检测与防范技术"></a>恶意代码检测与防范技术</h2><p>计算机病毒一般特征 </p>
+<p>277 页工作过程</p>
+<p>计算机病毒检测</p>
+<p>木马的功能 四个</p>
+<p>木马的检测与防范 步骤</p>
+<p>蠕虫 </p>
+<p>病毒和蠕虫的区别</p>
+<p>红色代码蠕虫</p>
+<p>蠕虫的结构和工作机制</p>
+<h2 id="应用系统安全"><a href="#应用系统安全" class="headerlink" title="应用系统安全"></a>应用系统安全</h2><p>冲击波 震荡波</p>
+<p>缓冲区溢出原理 原因 构造一个缓冲区溢出的攻击过程  297页</p>
+<p>web应用漏洞 sql注入 和跨站脚本 构造sql语句 原理</p>
+<p>跨站脚本分为三类</p>
+<p>安全审计 以及一般流程</p>
+]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/2021/06/16/%E6%9C%AA%E5%91%BD%E5%90%8D/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><div class="mermaid">pie
@@ -167,15 +238,9 @@
     &quot;Magnesium&quot; : 10.01
     &quot;Iron&quot; :  5</div>
 <div class="mermaid">
-graph TD;   
+graph TD    
 
-​		 A--&gt;B;   
-
-​		 A--&gt;C;    
-
-​         B--&gt;D;    
-
-​         C--&gt;D;
+​			Start --&gt; Stop
 </div>
 <div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
 <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
@@ -616,8 +681,8 @@ M = C^d\,mod \quad n</script><h4 id="示例（教材）："><a href="#示例（�
         <category>算法分析与设计</category>
       </categories>
       <tags>
-        <tag>算法</tag>
         <tag>上课笔记</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
