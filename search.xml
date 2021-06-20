@@ -243,7 +243,6 @@
 <p>web应用漏洞 sql注入 和跨站脚本 构造sql语句 原理</p>
 <p>跨站脚本分为三类</p>
 <p>安全审计 以及一般流程</p>
-<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/信息系统安全复习提纲/image-20210619194014965.png" alt=""></p>
 ]]></content>
   </entry>
   <entry>
@@ -699,8 +698,8 @@ M = C^d\,mod \quad n</script><h4 id="示例（教材）："><a href="#示例（�
         <category>算法分析与设计</category>
       </categories>
       <tags>
-        <tag>算法</tag>
         <tag>上课笔记</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
