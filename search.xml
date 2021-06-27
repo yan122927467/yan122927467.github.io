@@ -158,6 +158,583 @@
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/2021/06/24/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E8%AE%AD%E7%AC%AC%E5%9B%9B%E5%A4%A9/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="信息系统安全实训第四天"><a href="#信息系统安全实训第四天" class="headerlink" title="信息系统安全实训第四天"></a>信息系统安全实训第四天</h1><h2 id="文件上传漏洞"><a href="#文件上传漏洞" class="headerlink" title="文件上传漏洞"></a>文件上传漏洞</h2><h3 id="1-文件上传漏洞训练营pass-03"><a href="#1-文件上传漏洞训练营pass-03" class="headerlink" title="1. 文件上传漏洞训练营pass-03"></a>1. 文件上传漏洞训练营pass-03</h3><ol>
+<li>已知不能上传php文件，可以把一句话木马后缀改成<code>.php3</code>。然后上传</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624164248367.png" alt="image-20210624164248367" style="zoom:50%;" /></p>
+<p>右击复制图像连接，获取url<code>http://d3566e57.yunyansec.com/upload/202106241712204346.php3</code></p>
+<ol>
+<li>在httpd.conf 文件中添加：</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624171530612.png" alt="image-20210624171530612" style="zoom:50%;" /></p>
+<ol>
+<li>打开蚁剑</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624171251371.png" alt="image-20210624171251371"></p>
+<h3 id="2-文件上传漏洞训练营pass-21"><a href="#2-文件上传漏洞训练营pass-21" class="headerlink" title="2. 文件上传漏洞训练营pass-21"></a>2. 文件上传漏洞训练营pass-21</h3><ol>
+<li>这里会过滤php文件以及php字段。因此我们生成一句话木马图片。（题目限制）</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/069A500F70C9EB0243EB070FC74B10A7.png" alt="069A500F70C9EB0243EB070FC74B10A7" style="zoom:50%;" /></p>
+<p>用记事本打开图片写入代码。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat 1.txt &gt;&gt; 1.jpg<span class="comment">#1.txt中是一句话木马</span></span><br></pre></td></tr></table></figure>
+<ol>
+<li>然后上传该文件。然后显示上传成功，以上面同样的方法用蚁剑连接。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/F5F19AB20A5342BF5DE6D9ECEC7428C5.png" alt="F5F19AB20A5342BF5DE6D9ECEC7428C5" style="zoom:50%;" /></p>
+<h3 id="3-UCMS文件上传漏洞"><a href="#3-UCMS文件上传漏洞" class="headerlink" title="3. UCMS文件上传漏洞"></a>3. UCMS文件上传漏洞</h3><ol>
+<li>利用kali进行端口扫描</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">python3 dirsearch.py -u http://5f70ea3f.yunyansec.com -e jsp,php</span><br></pre></td></tr></table></figure>
+<ol>
+<li>进入网址：<code>http://5f70ea3f.yunyansec.com//install/index.php?upgrade/</code>。然后点进入后台。<code>admin</code> <code>admin123</code> 登录</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624170145647.png" alt="image-20210624170145647"></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624170309175.png" alt="image-20210624170309175" style="zoom:50%;" /></p>
+<ol>
+<li>进入文件管理—-修改index.php文件，将其内容改为一句话木马</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624171031556.png" alt="image-20210624171031556" style="zoom:50%;" /></p>
+<ol>
+<li>然后打开蚁剑，url输入<code>http://5f70ea3f.yunyansec.com/</code></li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624171140356.png" alt="image-20210624171140356" style="zoom:50%;" /></p>
+<h3 id="4-PHPOA4-0-任意文件上传漏洞"><a href="#4-PHPOA4-0-任意文件上传漏洞" class="headerlink" title="4. PHPOA4.0.任意文件上传漏洞"></a>4. PHPOA4.0.任意文件上传漏洞</h3><ol>
+<li>进入环境，账户名密码为<code>admin</code> <code>admin123</code></li>
+<li>然后点击公共文件柜，然后上传一句话木马</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624163614320.png" alt="image-20210624163614320"></p>
+<ol>
+<li>右键查看，然后找到了url</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624163601924.png" alt="image-20210624163601924"></p>
+<p><code>http://5dfc9551.yunyansec.com/data/uploadfile/1/1624523682.php</code></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624163552101.png" alt="image-20210624163552101"></p>
+<ol>
+<li>测试连接成功，然后点击添加，进入文件管理</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624163759846.png" alt="image-20210624163759846"></p>
+<h2 id="XSS漏洞"><a href="#XSS漏洞" class="headerlink" title="XSS漏洞"></a>XSS漏洞</h2><h3 id="一、零基础入门-xss漏洞实验（xss过滤困难）"><a href="#一、零基础入门-xss漏洞实验（xss过滤困难）" class="headerlink" title="一、零基础入门-xss漏洞实验（xss过滤困难）"></a>一、零基础入门-xss漏洞实验（xss过滤困难）</h3><ol>
+<li>经过测试会把一些危险字符删掉，像： script、alert、on、img、&lt;、src 等更多的字符会被清除。</li>
+<li>可以在框中输入：<code>213&quot; oimgnclick=&quot;alimgert(1)</code></li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624152202401.png" alt="image-20210624152202401"></p>
+<ol>
+<li>success!</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624152052657.png" alt="image-20210624152052657"></p>
+<h3 id="二、JYmusic存储型XSS"><a href="#二、JYmusic存储型XSS" class="headerlink" title="二、JYmusic存储型XSS"></a>二、JYmusic存储型XSS</h3><ol>
+<li>先用火狐登录改界面，并注册一个账户，作为攻击者</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624102218414.png" alt="image-20210624102218414" style="zoom:50%;" /></p>
+<ol>
+<li>然后点击歌曲<code>test</code>。并在下方评论, 自己xss平台的代码</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624102516165.png" alt="image-20210624102516165" style="zoom:50%;" /></p>
+<ol>
+<li>而后在Google浏览器登录管理员用户。点击test歌曲。然后在自己的xss后台发现多了两条数据，第一个是demo用户的。第二个是admin用户的。复制第二个的PHPSESSID。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624104747870.png" alt="image-2021062404747870" style="zoom:50%;" /></p>
+<ol>
+<li>然后在火狐浏览器中，打开cookie，修改他的值为管理员的cookie。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624103126845.png" alt="image-20210624103126845"></p>
+<ol>
+<li>然后登录/admin.php。直接进入后台</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624104809408.png" alt="image-0210624104809408" style="zoom:50%;" /></p>
+<p>success！</p>
+<h2 id="命令执行漏洞"><a href="#命令执行漏洞" class="headerlink" title="命令执行漏洞"></a>命令执行漏洞</h2><h3 id="基础题目之命令执行"><a href="#基础题目之命令执行" class="headerlink" title="基础题目之命令执行"></a>基础题目之命令执行</h3><ol>
+<li>打开环境，测试输入发现 &amp;&amp; ls会被过滤，而|| ls可以。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624144507580.png" alt="image-20210624144507580" style="zoom:50%;" /></p>
+<ol>
+<li>然后输入 <code>|| ls ../</code> 发现key.php</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624144624824.png" alt="image-20210624144624824" style="zoom:50%;" /></p>
+<ol>
+<li>然后输入<code>|| cat ../key.php</code> 。会出现Get it! ?&gt;</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624144723907.png" alt="image-20210624144723907" style="zoom:50%;" /></p>
+<ol>
+<li>而我们并未发现flag。右击打开源代码：</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210624144900066.png" alt="image-20210624144900066" style="zoom:50%;" /></p>
+<p>显示flag</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>密码学复习提纲</title>
+    <url>/2021/06/23/%E5%AF%86%E7%A0%81%E5%AD%A6%E5%A4%8D%E4%B9%A0%E6%8F%90%E7%BA%B2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="密码学复习提纲"><a href="#密码学复习提纲" class="headerlink" title="密码学复习提纲"></a>密码学复习提纲</h1><h2 id="第二章-密码学的基本概念"><a href="#第二章-密码学的基本概念" class="headerlink" title="第二章 密码学的基本概念"></a>第二章 密码学的基本概念</h2><h3 id="1-密码学基本概念"><a href="#1-密码学基本概念" class="headerlink" title="1. 密码学基本概念"></a>1. 密码学基本概念</h3><ul>
+<li><strong>概念</strong></li>
+</ul>
+<p><code>密码编制学</code>和<code>密码分析学</code>共同组成密码学</p>
+<p style="text-indent:2em">密码技术的基本思想是对数据进行伪装以隐藏信息，使未授权者不能理解它的只是含义，所谓伪装就是对数据进行一组可逆的数学变换。伪装前原始数据称为明文，伪装后的数据称为密文，伪装的过程称为加密。</p>
+
+<ul>
+<li><strong>密码体制</strong></li>
+</ul>
+<ol>
+<li>明文空间M：全体明文的集合</li>
+<li>密文空间C：全体密文的集合</li>
+<li>密钥空间K：全体密钥的集合，其中每一个密钥K均有加密密钥$K_e$和解密密钥$K_d$组成。即$K = <K_e,K_d>$。</li>
+<li>加密算法E：它是一族M到C的加密变换</li>
+<li>解密算法D：它是一族C到M的解密变换</li>
+</ol>
+<p>加密算法E在密钥的控制下将明文M加密成密文</p>
+<script type="math/tex; mode=display">
+C = E(M,K_e)</script><p>而解密算法D在密钥的控制下由密文C解密出明文M</p>
+<script type="math/tex; mode=display">
+M = D(C,K_d) = D(E(M,K_e),K_d)</script><p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210622214220289.png" alt="密码体制" style="zoom:50%;" /></p>
+<ul>
+<li><strong>密码分析</strong></li>
+</ul>
+<ol>
+<li>穷举攻击</li>
+<li>数学攻击，多用于概率与统计。（其中统计攻击是最早的一种）</li>
+<li>物理攻击</li>
+</ol>
+<p><strong>密码攻击类型</strong></p>
+<p>仅知密文攻击</p>
+<p>已知明文攻击</p>
+<p>选择明文攻击</p>
+<p>选择密文攻击</p>
+<h3 id="2-古典密码"><a href="#2-古典密码" class="headerlink" title="2. 古典密码"></a>2. 古典密码</h3><ul>
+<li><strong>置换密码</strong></li>
+</ul>
+<p>把明文中的字母重新排列，字母本身不变，但其位置改变了，这样编程的密码成为置换密码。</p>
+<ul>
+<li><strong>代替密码</strong></li>
+</ul>
+<p>首先构造一个或多个密文字母表，然后用密文字母表中的字母或字母组来代替明文字母或字母组，各字母或字母组的相对位置不变，但其本身改变了。这样编成的密码称为代替密码。</p>
+<h2 id="第三章-分组密码"><a href="#第三章-分组密码" class="headerlink" title="第三章 分组密码"></a>第三章 分组密码</h2><h4 id="数据加密标准-DES"><a href="#数据加密标准-DES" class="headerlink" title="数据加密标准(DES)"></a>数据加密标准(DES)</h4><ul>
+<li><strong>考概念</strong></li>
+</ul>
+<ol>
+<li>是一种分组密码，明文，密文，密钥都是64位，有效密钥56位，每个字节第八位是奇偶校验位</li>
+<li>面向二进制的密码算法，因而能够加解密任何形式的计算机数据</li>
+<li>对合运算，加密解密同一算法</li>
+<li>属于Feistel结构</li>
+</ol>
+<p><code>三大架构</code></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626094132608.png" alt="image-20210626094132608" style="zoom:50%;" /></p>
+<ul>
+<li><strong>DES不足</strong></li>
+</ul>
+<p>秘钥较短，存在弱秘钥，存在互补对称性</p>
+<ul>
+<li><strong>3DES</strong></li>
+</ul>
+<p>秘钥长度168位，可以抵抗穷举攻击。底层算法就是DES。不足是速度较慢，可以使用三个密钥，也可以使用两个密钥。</p>
+<h4 id="IDEA密码"><a href="#IDEA密码" class="headerlink" title="IDEA密码"></a>IDEA密码</h4><ol>
+<li>分组密码，明文密文64位，密钥长度128位</li>
+<li>对合运算</li>
+<li>易于实现</li>
+</ol>
+<h4 id="高级数据加密标准-AES"><a href="#高级数据加密标准-AES" class="headerlink" title="高级数据加密标准(AES)"></a>高级数据加密标准(AES)</h4><ul>
+<li><strong>概念</strong></li>
+</ul>
+<ol>
+<li>面向二进制</li>
+<li>sp结构</li>
+<li>对合运算</li>
+<li>数据块长度和密钥长度都可变的分组加密算法，其数据块长度和密钥长度都可独立地选定为大于128位小于等于256位的32位的任意倍数。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626095733485.png" alt="image-2021062609573485" style="zoom:50%;" /></p>
+<ul>
+<li><strong>算法实现</strong></li>
+</ul>
+<p>p91查表法</p>
+<h4 id="中国商用密码SM4"><a href="#中国商用密码SM4" class="headerlink" title="中国商用密码SM4"></a>中国商用密码SM4</h4><ol>
+<li>分组算法，分组长度128比特，密钥长度128比特，加密算法与密钥扩展算法都采用32轮迭代结构。</li>
+<li>以字节8位和字32位为单位进行处理。</li>
+<li>SM4算法是对合运算。轮密钥的使用顺序相反</li>
+</ol>
+<h4 id="分组密码的技术应用"><a href="#分组密码的技术应用" class="headerlink" title="分组密码的技术应用"></a>分组密码的技术应用</h4><p>分组密码的工作模式</p>
+<p>一个表</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/94A1A5FE092B29766D3856C157FDDA5C.png" alt="94A1A5FE092B29766D3856C157FDDA5C"></p>
+<h4 id="分组密码的短短块加密"><a href="#分组密码的短短块加密" class="headerlink" title="分组密码的短短块加密"></a>分组密码的短短块加密</h4><p>称长度小于分组长度的数据块为短块。当明文长度大于分组长度而又不是分组长度的整数倍时，短块总是最后一块。而当明文长度小于分组时，本身就是一个短块。</p>
+<ol>
+<li>填充法。</li>
+<li>序列密码加密法。</li>
+<li>密文挪用技术。</li>
+</ol>
+<h2 id="第五章-序列密码"><a href="#第五章-序列密码" class="headerlink" title="第五章 序列密码"></a>第五章 序列密码</h2><ul>
+<li><strong>序列密码与分组密码的异同</strong></li>
+</ul>
+<ol>
+<li>序列密码具有记忆性，分组密码没有记忆性。</li>
+<li>序列密码是逐位加密，分组密码可以避免位操作，多用于软件实现</li>
+<li>理论上，序列密码易于从数学角度分析，分组密码更多的是应用扩散和混淆的方式实现。</li>
+</ol>
+<p>一次一密？</p>
+<ul>
+<li><strong>序列密钥原理</strong></li>
+</ul>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626105449071.png" alt="image-20210626449071" style="zoom:50%;" /></p>
+<ul>
+<li><strong>随机序列产生的方法</strong></li>
+</ul>
+<ol>
+<li>基于数学算法产生随机序列。</li>
+<li>基于物理学来产生。</li>
+<li>先采用物理随机源，在接一个数学算法的随机化处理器。</li>
+</ol>
+<p>p154 例5-1</p>
+<ul>
+<li><strong>对称性移位寄存器序列进行非线性组合</strong></li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626105946738.png" alt="image-20210626105946738"></th>
+<th><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626110000237.png" alt="image-20210626110000237"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li><strong>钟控非线性序列</strong></li>
+</ul>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626110057102.png" alt="image-20210626110057102" style="zoom:50%;" /></p>
+<h2 id="第六章-Hash函数"><a href="#第六章-Hash函数" class="headerlink" title="第六章 Hash函数"></a>第六章 Hash函数</h2><p>hash函数的本质是压缩函数，辅助签名，保密</p>
+<p>基本性质：</p>
+<ol>
+<li>输入可以任意长</li>
+<li>输出固定长</li>
+<li>有效性</li>
+</ol>
+<p>Hash函数主要用于确保数据的真实性和完整性</p>
+<p>Hash函数的安全性有 单向性，抗弱碰撞性，抗强碰撞性，随机性。</p>
+<h2 id="第七章-公开密钥密码"><a href="#第七章-公开密钥密码" class="headerlink" title="第七章 公开密钥密码"></a>第七章 公开密钥密码</h2><p>即非对称密码</p>
+<p>三种通信协议？？？？</p>
+<p>为了实现数据的秘密性，对数据进行加密。被用来做秘钥分配</p>
+<p>为了实现数据的真实性，对数据进行数字签名，被用来做数字签名</p>
+<p>公钥密码的主要任务是解决分组密码当中的秘钥分配和数字签名</p>
+<p>和分组密码的区别主要说的是，核心区别。</p>
+<h3 id="RSA"><a href="#RSA" class="headerlink" title="RSA"></a>RSA</h3><p>前面分组不要求全记下来，这个RSA个人要求记下来，这个是公钥体系中最简单的。</p>
+<p>rsa的加密体系</p>
+<p>详见RSA博客</p>
+<h3 id="ELGamal密码"><a href="#ELGamal密码" class="headerlink" title="ELGamal密码"></a>ELGamal密码</h3><p>和RSA一样</p>
+<p>分组密码核心 S盒</p>
+<p>序列密码核心 随机数序列</p>
+<p>公钥密码核心 困难问题 np</p>
+<p>RSA困难问题 大整数分析</p>
+<p>ELGamal困难问题：</p>
+<p>它的安全性建立在离散对数问题的困难性之上。</p>
+<p>背包问题，单向陷门 是超级序列</p>
+<p>椭圆曲线不做重点，难，困难问题是什么，离散对数问题，节点所构成的交换群。</p>
+<p>228 例7-6</p>
+<hr>
+<p>sm2 椭圆曲线公钥密码加密算法</p>
+<p>sm4分组算法</p>
+<p>sm3密码Hash函数</p>
+<h2 id="第八章-数字签名"><a href="#第八章-数字签名" class="headerlink" title="第八章 数字签名"></a>第八章 数字签名</h2><p>公钥密码主要用途用来做数字签名和迪科尔曼的秘钥交换协议，做秘钥交换</p>
+<p>公开密钥密码主要用于数字签名或用于保护传统密码的密钥。</p>
+<p>一种完善的签名应该满足：</p>
+<ol>
+<li>签名者事后不能抵赖自己的签名</li>
+<li>任何其他人不能伪造签名</li>
+<li>如果当事的双方关于签名的真伪发生争执，能够在公正的仲裁者面前通过验证签名来确认真伪。</li>
+</ol>
+<p>传统密码和公开密钥密码都可以实现数字签名，但是传统的不方便</p>
+<p><strong>数字签名和公钥加密有什么区别？！！</strong></p>
+<h4 id="数字签名的过程"><a href="#数字签名的过程" class="headerlink" title="数字签名的过程"></a>数字签名的过程</h4><p>包含两个步骤，签名阶段和验证签名阶段</p>
+<p>数字签名是自己用自己的私钥对数据进行签名然后发给对方，对方通过查ppd 查你的公钥 然后进行验证</p>
+<p>加密是公钥加密发给对方，对方通过私钥进行解密。</p>
+<p>签名和验证</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626113059640.png" alt="image-20210626113059640"></p>
+<p>安全压缩是hash</p>
+<p>签名是对谁签名 明文</p>
+<p>251 利用RSA密码实现数字签名</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626113403026.png" alt="image-20210626103026" style="zoom:50%;" /></p>
+<p>ECC？？？</p>
+<p>他们加密解密可以交换</p>
+<p>262 DSS 只能用做数字签名，不能用做加密</p>
+<p>DSS采用的是基于ELGamal的数字签名</p>
+<h2 id="第九章-密码协议"><a href="#第九章-密码协议" class="headerlink" title="第九章 密码协议"></a>第九章 密码协议</h2><h4 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h4><ul>
+<li><strong>定义</strong></li>
+</ul>
+<p>所谓协议，就是指两个或两个以上的参与者为了完成某一特定任务而采取的一系列执行步骤。</p>
+<ul>
+<li><strong>三层含义</strong></li>
+</ul>
+<ol>
+<li>协议是一个有序的执行过程</li>
+<li>协议至少要有两个参与者</li>
+<li>协议的执行必须能完成某种任务</li>
+</ol>
+<ul>
+<li><strong>协议和算法的区别</strong></li>
+</ul>
+<p>相同点：都是一组有穷的运算或处理步骤。他们都要求具有有穷性，确定性和能行性。</p>
+<p>不同点：</p>
+<ol>
+<li>协议强调至少两者参与，且双方之间还要进行通信。算法不要求</li>
+<li>协议强调完成某一特定任务，而算法强调问题求解</li>
+<li>协议的执行步骤在粒度上比较粗，比较宏，算法的执行步骤在粒度上比较细，常常是一些基本运算。</li>
+</ol>
+<p>算法是协议的底层</p>
+<p>协议是网络通信基础之一</p>
+<h4 id="密码协议分为四类"><a href="#密码协议分为四类" class="headerlink" title="密码协议分为四类"></a>密码协议分为四类</h4><ol>
+<li>密钥建立协议</li>
+<li>认证协议</li>
+<li>身份认证和密钥建立协议</li>
+<li>电子商务协议</li>
+</ol>
+<h4 id="协议的攻击分为四类"><a href="#协议的攻击分为四类" class="headerlink" title="协议的攻击分为四类"></a>协议的攻击分为四类</h4><ol>
+<li>对协议中的密码算法进行攻击</li>
+<li>对密码算法的技术实现进行攻击</li>
+<li>对协议本身进行攻击</li>
+<li>对协议的技术实现进行攻击</li>
+</ol>
+<p>277 主动攻击被动攻击的区别</p>
+<p>被动攻击是指协议外部的实体对协议的全部或部分执行过程实施窃听，收集协议执行中所传送的消息，并分析所收集到的消息，从中得到自己所感兴趣的信息，攻击者的窃听不影响协议的执行，所以被动攻击难以检测。因此在设计协议时应当考虑的重点是确保协议能够抵抗被动攻击，而不是检测被动攻击。主动攻击是指攻击者试图篡改协议中传送的消息，插人新的消息，甚至改变协议的执行过程。显然，主动攻击比被动攻击具有更大的危险性。</p>
+<h4 id="密码协议的设计原则：九条答一半"><a href="#密码协议的设计原则：九条答一半" class="headerlink" title="密码协议的设计原则：九条答一半"></a>密码协议的设计原则：九条答一半</h4><ol>
+<li>消息独立完整性原则</li>
+<li>消息前提准确原则</li>
+<li>主体身份标识原则</li>
+<li>加密目的原则</li>
+<li>签名原则</li>
+<li>随机数的使用原则</li>
+<li>时间戳的使用原则</li>
+<li>编码原则</li>
+<li>最少安全假设原则</li>
+</ol>
+<h2 id="第十章-认证"><a href="#第十章-认证" class="headerlink" title="第十章 认证"></a>第十章 认证</h2><p>基本思想</p>
+<p>认证是证实某人或某事是偶名副其实或是有效的的一个过程</p>
+<p>认证和加密的区别 别从网上抄瞎答</p>
+<p>认证是保护的第一道防线，身份主体的认证</p>
+<p>基于密码学技术，基于硬件，基于人的生理特征</p>
+<p>关于认证和数字签名的区别</p>
+<ol>
+<li>认证总是基于某种收发双方共享的保密数据来被鉴别对象的真实性，而数字签名中用于验证签名的数据是公开的。</li>
+<li>认证允许收发双方互相验证其真实性。数字签名允许第三者和收发双方进行验证</li>
+<li>数字签名具有发送方不能抵赖、接收方不能伪造和具有在公证人前解决纠纷的能力，而认证不一定具备。</li>
+</ol>
+<h3 id="身份认证"><a href="#身份认证" class="headerlink" title="身份认证"></a>身份认证</h3><p>身份认证是应用系统的第一道防线，识别用户的合理性。</p>
+<ul>
+<li><strong>口令验证机制：</strong></li>
+</ul>
+<ol>
+<li>利用单向函数加密口令</li>
+<li>利用数字签名方法验证口令</li>
+<li>口令的双向验证</li>
+<li>一次性口令</li>
+</ol>
+<h3 id="零知识证明"><a href="#零知识证明" class="headerlink" title="零知识证明"></a>零知识证明</h3><p>不考协议 但要知道是什么</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626145750882.png" alt="image-20210626145750882" style="zoom:50%;" /></p>
+<h3 id="报文认证-发送方为源，接收方为宿-双向？"><a href="#报文认证-发送方为源，接收方为宿-双向？" class="headerlink" title="报文认证 发送方为源，接收方为宿 双向？"></a>报文认证 发送方为源，接收方为宿 双向？</h3><ul>
+<li><strong>报文源认证：</strong></li>
+</ul>
+<p>A发给B，B认证A。A发送的报文增加标识IDA，用KS加密，B接收到用KS解密，标识相同，认证成功</p>
+<p>如果是公开密钥密码，只要发送方对每一报文进行数字签名，接收方验证签名即可。</p>
+<ul>
+<li><strong>报文宿认证：</strong></li>
+</ul>
+<p>发送方对报文用B的公开的加密密钥加密即可。只有B才能用其保密的解密密钥还原报文。</p>
+<ul>
+<li><strong>报文时间性认证的方法</strong></li>
+</ul>
+<ol>
+<li>序列号</li>
+<li>时间戳</li>
+<li>随机数/相应</li>
+</ol>
+<h2 id="第十一章-密钥管理"><a href="#第十一章-密钥管理" class="headerlink" title="第十一章 密钥管理"></a>第十一章 密钥管理</h2><h3 id="密钥管理原则-答一半"><a href="#密钥管理原则-答一半" class="headerlink" title="密钥管理原则 答一半"></a>密钥管理原则 答一半</h3><ol>
+<li>区分密钥管理的策略和机制</li>
+<li>全程安全原则</li>
+<li>最小权利原则</li>
+<li>责任分离原则</li>
+<li>密钥分级原则</li>
+<li>密钥更换原则</li>
+<li>密钥必须满足安全性指标</li>
+</ol>
+<p><strong>密钥管理包括密钥的产生、存储、分配、组织、使用、停用、更换、销毁等。</strong></p>
+<h3 id="分组密码的密钥管理"><a href="#分组密码的密钥管理" class="headerlink" title="分组密码的密钥管理"></a>分组密码的密钥管理</h3><p>密钥的秘密性，真实性，完整性必须同时被保护。</p>
+<p>分级原则：初级，中级，高级（主密钥）</p>
+<p>秘钥产生</p>
+<p>高级：真随机序列</p>
+<p>二级 初级 伪随机序列</p>
+<p>这些都是知识点不一定考</p>
+<p>密钥分配</p>
+<p>318 利用公钥分配</p>
+<p>320 DIffie-Hellman  ！</p>
+<p>321 中间人攻击！抵御它必须进行认证</p>
+<p>元根，莫素数p</p>
+<h4 id="密钥储存"><a href="#密钥储存" class="headerlink" title="密钥储存"></a>密钥储存</h4><ul>
+<li><strong>三种形态</strong></li>
+</ul>
+<ol>
+<li><p>明文形态，明文形式的秘钥</p>
+</li>
+<li><p>密文形态：被密钥加密过的密钥</p>
+</li>
+<li><p>分量形态：密钥分量不是密钥本身，而是用于产生密钥的部分参数。共同作用下才能产生真正密钥。</p>
+</li>
+</ol>
+<ul>
+<li><strong>如何储存</strong></li>
+</ul>
+<ol>
+<li>主密钥：明文形态</li>
+<li>中级密钥：可以明文形态，也可以密文形态。</li>
+<li>初级密钥：一般以密文形态存储。</li>
+</ol>
+<p>327 页 公钥密码体制的秘钥管理围绕下面</p>
+<h4 id="公开密钥密码体制的密钥管理"><a href="#公开密钥密码体制的密钥管理" class="headerlink" title="公开密钥密码体制的密钥管理"></a>公开密钥密码体制的密钥管理</h4><ul>
+<li><strong>公钥分配</strong> </li>
+</ul>
+<p>不需要确保其秘密性，然而，必须确保公钥真的真实性和完整性。</p>
+<ul>
+<li><strong>公钥证书包含几个部分</strong></li>
+</ul>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626152823267.png" alt="image-2021062615282367" style="zoom:50%;" /></p>
+<p>CA：签证机构。</p>
+<ul>
+<li><strong>公开密钥基础设施PKI</strong></li>
+</ul>
+<p>工作基础：</p>
+<ol>
+<li>签证机构CA，签发证书，管理和撤销证书</li>
+<li>注册机构RA，接受注册信息，认证，批准或拒绝证书申请，密钥恢复申请，撤销证书申请。</li>
+<li>证书签发。</li>
+<li>证书目录</li>
+<li>证书目录</li>
+<li>证书撤销，使用到期应当撤销证书。严重违反规章制度撤销。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210626153635227.png" alt="image-20210626153635227" style="zoom:50%;" /></p>
+<p>339页 信任模型 树结构森林结构</p>
+<p>填空题：</p>
+<ol>
+<li>hash函数的安全性有 <code>单向性</code>，抗弱碰撞，抗强碰撞，随机性。</li>
+<li>签名算法能够保证信息的<code>完整性</code>，真实性。</li>
+<li>公钥密码的安全性是建立在<code>数学函数</code>基础上的。</li>
+<li><em>__</em>适用于攻击任何类型的密码体制。</li>
+<li>认证可分成单项认证，双向认证</li>
+</ol>
+<p>简答题：</p>
+<ol>
+<li>公钥密码体制与对称密码体制相比有哪些优点和不足</li>
+</ol>
+<p>（1）密钥的分发相对容易；<br>（2）密钥管理简单；<br>（3）可以有效地实现数字签名。<br>缺点：<br>（1）与对称密码体制相比，费对称密码体制加解密速度比较慢；<br>（2）同等安全强度下，费对称密码体制要求的密钥位数要多一些；<br>（3）密文的长度往往大于明文长度。</p>
+<ol>
+<li>请描述一下基于RSA公钥密码的密钥交换协议</li>
+<li>密码协议的设计原则包括哪几种(至少答出四个)</li>
+</ol>
+<p>计算题：</p>
+<ol>
+<li>椭圆曲线</li>
+<li>设RSA算法中，两个大素数分别为p = 3,q = 11,公钥为7，明文m = ？详细讲述得到密文C的过程</li>
+</ol>
+<p>论述题：</p>
+<ol>
+<li>说明消息认证码的工作原理</li>
+</ol>
+<p>消息认证码是消息内容和密钥的公开函数，输出是固定长度的短数据块。</p>
+<p>若发送方A向接收方B发送报文M，则A计算报文M的MAC，并将M和MAC发送给接收方B。</p>
+<p>接收方B收到报文后用相同的密钥K重新计算得出新MAC，与收到的做比较，二者相等则接受方B可以相信。</p>
+<ol>
+<li>说明公开密钥基础设施PKI的工作基础</li>
+<li>移动支付成为一种重要的支付手段，请结合所学讨论如何保证网上支付的安全性。</li>
+</ol>
+<p>当您点击支付后，是在相应的银行网站输入银行卡账号和密码的，安全性由银行全面提供支持和保护，这个过程对第三方不透明，充分保证安全。银行与网站之间通过数字签名和加密验证，以保障在线支付的绝对安全。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>信息系统安全实训第三天</title>
+    <url>/2021/06/23/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E8%AE%AD%E7%AC%AC%E4%B8%89%E5%A4%A9/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="信息系统安全实训第三天"><a href="#信息系统安全实训第三天" class="headerlink" title="信息系统安全实训第三天"></a>信息系统安全实训第三天</h1><h2 id="一、-Crunch生成前三位是139的密码字典"><a href="#一、-Crunch生成前三位是139的密码字典" class="headerlink" title="一、 Crunch生成前三位是139的密码字典"></a>一、 Crunch生成前三位是139的密码字典</h2><p> 这里使用kali中crunch命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">crunch 11 11 -t 139%%%%%%%% -o telenumber.txt  </span><br></pre></td></tr></table></figure>
+<p>生成的字典为telenumber.txt</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623095618250.png" alt="image-20210623095618250"></p>
+<p>然后查看下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">vim telenumber.txt</span><br></pre></td></tr></table></figure>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623095731380.png" alt="image-20210623095731380" style="zoom:50%;" /></p>
+<h2 id="二、基础身份认证暴力破解"><a href="#二、基础身份认证暴力破解" class="headerlink" title="二、基础身份认证暴力破解"></a>二、基础身份认证暴力破解</h2><p>利用hydra进行破解</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hydra -l tomcat -P 10k-most-common.txt -u -e ns http-get://e992301a.yunyansec.com</span><br></pre></td></tr></table></figure>
+<p> 然后会爆出如下结果：</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623105911578.png" alt="image-20210623105911578"></p>
+<p>账户名输入tomcat，密码输入tomcat。登录成功</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623105925382.png" alt="image-20210623105925382" style="zoom:50%;" /> </p>
+<h2 id="三、-Hydra暴力破解SSH"><a href="#三、-Hydra暴力破解SSH" class="headerlink" title="三、 Hydra暴力破解SSH"></a>三、 Hydra暴力破解SSH</h2><p>事先准备好的Ubuntu靶机。已知其用户名为root，然后利用密码字典进行爆破</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hydra -l root -P 字典 ssh:// ip	</span><br></pre></td></tr></table></figure>
+<p>成功的话会有绿色的提示。</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623101512916.png" alt="image-20210623101512916"></p>
+<h2 id="四、SQL注入getshell"><a href="#四、SQL注入getshell" class="headerlink" title="四、SQL注入getshell"></a>四、SQL注入getshell</h2><ol>
+<li>打开hackbar，首先通过order by 进行数据库列数查询，这里一个一个试。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623165825527.png" alt="image-20210623165825527"></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623165754637.png" alt="image-20210623165754637" style="zoom:50%;" /></p>
+<p>会发现总共有15列</p>
+<ol>
+<li>然后进行union select 前十四个不变，最后一个注入一句话木马。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623165649077.png" alt="image-20210623165649077" style="zoom:50%;" /></p>
+<ol>
+<li>访问，会发现成功</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623165611139.png" alt="image-20210623165554976"></p>
+<ol>
+<li>打开蚁剑，测试是否连通。</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623170226148.png" alt="image-20210623170226148" style="zoom:50%;" /></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623170122847.png" alt="image-20210623170122847" style="zoom:50%;" /></p>
+<p>成功！</p>
+<h2 id="五、Victor-CMS-未授权sql注入"><a href="#五、Victor-CMS-未授权sql注入" class="headerlink" title="五、Victor CMS 未授权sql注入"></a>五、Victor CMS 未授权sql注入</h2><ol>
+<li>打开实验环境,然后直接sqlmap</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623173814977.png" alt="image-20210623173814977" style="zoom:50%;" /></p>
+<p>出来了一堆就不截图了。之后有这么一句话</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623185920246.png" alt="image-20210623185920246" style="zoom:50%;" /></p>
+<p>然后到该路径下，打开log发现了数据库</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623185952545.png" alt="image-20210623185952545" style="zoom:50%;" /></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190011983.png" alt="image-20210623190011983" style="zoom:50%;" /></p>
+<ol>
+<li>然后我们爆破<code>php_cms</code>这个数据库</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190102339.png" alt="image-20210623190102339" style="zoom:50%;" /></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190117523.png" alt="image-20210623190117523" style="zoom:50%;" /></p>
+<ol>
+<li>爆破里面的<code>users</code>表</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190151050.png" alt="image-20210623190151050" style="zoom:50%;" /></p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190208362.png" alt="image-20210623190208362" style="zoom:50%;" /></p>
+<ol>
+<li>查看<code>user_password</code>里的内容</li>
+</ol>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190242865.png" alt="image-20210623190242865" style="zoom:50%;" /></p>
+<p>如下显示：</p>
+<p><img src="https://gitee.com/yan_zilong/picgo/raw/master/img/Blog/post/密码学复习提纲/image-20210623190256474.png" alt="image-20210623190256474" style="zoom:50%;" /></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/06/22/%E7%AC%AC%E4%BA%8C%E5%A4%A9%E8%AF%BE%E4%B8%8A%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker import df7a.tar df7a<span class="comment">#导入镜像</span></span><br><span class="line">docker images <span class="comment">#查看镜像</span></span><br><span class="line">docker run -d -p 94:80 id /start.sh <span class="comment">#启动镜像</span></span><br><span class="line">docker ps <span class="comment">#查看容器</span></span><br><span class="line">docker -it <span class="built_in">exec</span> 169 /bin/bash <span class="comment">#或者 bash</span></span><br><span class="line">bash -i <span class="comment">#打开bash终端</span></span><br><span class="line">docker run -dit <span class="comment">#进入到容器内</span></span><br><span class="line">netstat -anpt<span class="comment"># 查看端口 </span></span><br><span class="line">var/www/html/<span class="comment"># 网页根目录</span></span><br><span class="line">tar cvf html.tar <span class="comment">#压缩打包 </span></span><br><span class="line">get-apt install lyb.php</span><br><span class="line">sz html.tar</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">docker ps -a<span class="comment"># 查看所有容器，启动与未启动的</span></span><br><span class="line">docker start 959 <span class="comment"># 启动容器</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#导入tar包</span></span><br><span class="line">docker load --input /Users/Yan/Desktop/2.tar</span><br><span class="line">docker run -dit -p 94:80  pte_xss:2 /bin/bash</span><br><span class="line">docker stop id</span><br><span class="line">docker rm cbb</span><br><span class="line">docker <span class="built_in">exec</span> -it 1f15 bash</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">set password fro root@localost=password(&#x27;123456&#x27;);</span><br><span class="line">show grant; </span><br><span class="line">grant select on cms to test@localhost;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>佛跳墙</p>
+<p>Google插件</p>
+<p>hackbar</p>
+<p>proxy</p>
+<p>foxyproxy</p>
+<p>114百事通</p>
+<p>Windows Linux</p>
+<p>Windows TTL = 128</p>
+<p>Linux 不是 </p>
+<p>Linux区分大小写</p>
+<p>Windows 不区分</p>
+]]></content>
+  </entry>
+  <entry>
     <title>ASP网站搭建</title>
     <url>/2021/06/22/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E8%AE%AD%E7%AC%AC%E4%BA%8C%E5%A4%A9/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="信息系统安全实训第二天"><a href="#信息系统安全实训第二天" class="headerlink" title="信息系统安全实训第二天"></a>信息系统安全实训第二天</h1><p>所用系统：Windows server 2003</p>
@@ -1063,8 +1640,8 @@ M = C^d\,mod \quad n</script><h4 id="示例（教材）："><a href="#示例（�
         <category>算法分析与设计</category>
       </categories>
       <tags>
-        <tag>算法</tag>
         <tag>上课笔记</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
